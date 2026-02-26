@@ -1,0 +1,14 @@
+timestamp=20260222_192254
+mode=recalibrate
+entropy_percentile=95
+model=Qwen/Qwen2.5-Math-1.5B
+tau_h=2.269690
+tau_p=0.70045115
+kappa=0.02
+spark_fraction=0.028785
+total_sparks=3020
+sparks_per_rollout=15.1
+reasoning_fraction=0.0000
+entropy_only_fp_rate=0.0000
+cure_precision=0.0000
+kill_criteria=none

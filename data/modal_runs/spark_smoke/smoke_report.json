@@ -1,0 +1,381 @@
+{
+  "overall": "PASS",
+  "passed": 5,
+  "failed": 0,
+  "warned": 0,
+  "elapsed_seconds": 630.7993359565735,
+  "checks": [
+    [
+      "PASS",
+      "Condition A: loss finite across 5 steps (mean=0.0187)"
+    ],
+    [
+      "PASS",
+      "Condition B: loss finite across 5 steps (mean=0.0095)"
+    ],
+    [
+      "PASS",
+      "Condition C: loss finite across 5 steps (mean=0.0022)"
+    ],
+    [
+      "PASS",
+      "Condition C: Lp-Reg loss fires (mean=0.062220, max=0.113072, n=5)"
+    ],
+    [
+      "PASS",
+      "Condition C: prefix stop-grad applied (6329 positions zeroed across 9214 prefix positions)"
+    ],
+    [
+      "INFO",
+      "Condition C: 3-gate filter (per-seq dynamic) ran 5 times (fallback: 0), mean spark fraction=2.8%"
+    ],
+    [
+      "INFO",
+      "Condition A: fixed |S_t| logged 5 steps (mean=727.4, range=[483, 1065])"
+    ],
+    [
+      "INFO",
+      "Condition B: fixed |S_t| logged 5 steps (mean=219.6, range=[103, 317])"
+    ],
+    [
+      "INFO",
+      "Condition C: fixed |S_t| logged 5 steps (mean=302.0, range=[143, 458])"
+    ],
+    [
+      "INFO",
+      "Condition A: mass balance \u03a3\u03c0_t logged 2 points (\u03a3\u03c0_0=137.1573, \u03a3\u03c0_final=136.9352, ratio=0.9984)"
+    ],
+    [
+      "INFO",
+      "Condition B: mass balance \u03a3\u03c0_t logged 2 points (\u03a3\u03c0_0=137.1573, \u03a3\u03c0_final=136.8245, ratio=0.9976)"
+    ],
+    [
+      "INFO",
+      "Condition C: mass balance \u03a3\u03c0_t logged 2 points (\u03a3\u03c0_0=137.1573, \u03a3\u03c0_final=137.2541, ratio=1.0007)"
+    ]
+  ],
+  "per_condition": {
+    "A": {
+      "condition": "A",
+      "steps": [
+        {
+          "step": 1,
+          "pg_loss": 0.015440173136691252,
+          "grad_norm": 0.9312769770622253,
+          "entropy": 0.8146160244941711,
+          "st_fixed_sparks": 613,
+          "st_fixed_fraction": 0.06704582740894674,
+          "lpreg_loss_magnitude": 0.015440173136691252
+        },
+        {
+          "step": 2,
+          "pg_loss": 0.027798387842873733,
+          "grad_norm": 0.5944250226020813,
+          "entropy": 0.6704718470573425,
+          "st_fixed_sparks": 483,
+          "st_fixed_fraction": 0.04883227176220807,
+          "lpreg_loss_magnitude": 0.027798387842873733
+        },
+        {
+          "step": 3,
+          "pg_loss": 0.07888404155770938,
+          "grad_norm": 0.6112502813339233,
+          "entropy": 0.7931546568870544,
+          "st_fixed_sparks": 559,
+          "st_fixed_fraction": 0.058192796169061006,
+          "lpreg_loss_magnitude": 0.07888404155770938
+        },
+        {
+          "step": 4,
+          "pg_loss": -0.04412877549313832,
+          "grad_norm": 0.6346023082733154,
+          "entropy": 1.240765929222107,
+          "st_fixed_sparks": 1065,
+          "st_fixed_fraction": 0.09898689469281531,
+          "lpreg_loss_magnitude": 0.04412877549313832
+        },
+        {
+          "step": 5,
+          "pg_loss": 0.015342660093059143,
+          "grad_norm": 0.8933903574943542,
+          "entropy": 1.1239534616470337,
+          "st_fixed_sparks": 917,
+          "st_fixed_fraction": 0.09181017220664797,
+          "lpreg_loss_magnitude": 0.015342660093059143
+        }
+      ],
+      "nan_detected": false,
+      "kl_magnitudes": [
+        0.015440173136691252,
+        0.027798387842873733,
+        0.07888404155770938,
+        0.04412877549313832,
+        0.015342660093059143
+      ],
+      "prefix_mask_checks": [],
+      "spark_diagnostics": [],
+      "mass_balance": [
+        {
+          "step": 0,
+          "sum_pi": 137.15726738609374,
+          "n_sparks": 715,
+          "n_sequences": 50,
+          "mean_pi": 0.1918283459945367,
+          "ratio": 1.0
+        },
+        {
+          "step": 5,
+          "sum_pi": 136.93518284149468,
+          "n_sparks": 715,
+          "mean_pi": 0.1915177382398527,
+          "ratio": 0.9983808036655185,
+          "mean_delta_pi": -0.00031060775468399473
+        }
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 190.47766304016113
+    },
+    "B": {
+      "condition": "B",
+      "steps": [
+        {
+          "step": 1,
+          "pg_loss": 0.03046795167028904,
+          "grad_norm": 1.066081166267395,
+          "entropy": 1.1931525468826294,
+          "st_fixed_sparks": 275,
+          "st_fixed_fraction": 0.07857142857142857,
+          "lpreg_loss_magnitude": 0.03046795167028904
+        },
+        {
+          "step": 2,
+          "pg_loss": -0.003816415245334307,
+          "grad_norm": 1.157973051071167,
+          "entropy": 1.4480291604995728,
+          "st_fixed_sparks": 144,
+          "st_fixed_fraction": 0.04673807205452775,
+          "lpreg_loss_magnitude": 0.003816415245334307
+        },
+        {
+          "step": 3,
+          "pg_loss": -0.010730086204906305,
+          "grad_norm": 0.7618962526321411,
+          "entropy": 0.9490558505058289,
+          "st_fixed_sparks": 103,
+          "st_fixed_fraction": 0.03505786249149081,
+          "lpreg_loss_magnitude": 0.010730086204906305
+        },
+        {
+          "step": 4,
+          "pg_loss": 0.009712375700473785,
+          "grad_norm": 0.5132510662078857,
+          "entropy": 1.1158723831176758,
+          "st_fixed_sparks": 259,
+          "st_fixed_fraction": 0.07018970189701897,
+          "lpreg_loss_magnitude": 0.009712375700473785
+        },
+        {
+          "step": 5,
+          "pg_loss": 0.022064329435427982,
+          "grad_norm": 0.39899957180023193,
+          "entropy": 1.4268302917480469,
+          "st_fixed_sparks": 317,
+          "st_fixed_fraction": 0.0783102766798419,
+          "lpreg_loss_magnitude": 0.022064329435427982
+        }
+      ],
+      "nan_detected": false,
+      "kl_magnitudes": [
+        0.03046795167028904,
+        0.003816415245334307,
+        0.010730086204906305,
+        0.009712375700473785,
+        0.022064329435427982
+      ],
+      "prefix_mask_checks": [],
+      "spark_diagnostics": [],
+      "mass_balance": [
+        {
+          "step": 0,
+          "sum_pi": 137.15726738609374,
+          "n_sparks": 715,
+          "n_sequences": 50,
+          "mean_pi": 0.1918283459945367,
+          "ratio": 1.0
+        },
+        {
+          "step": 5,
+          "sum_pi": 136.82449433766305,
+          "n_sparks": 715,
+          "mean_pi": 0.1913629291435847,
+          "ratio": 0.9975737847890047,
+          "mean_delta_pi": -0.0004654168509520017
+        }
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 210.17046856880188
+    },
+    "C": {
+      "condition": "C",
+      "steps": [
+        {
+          "step": 1,
+          "pg_loss": -0.09023403997222583,
+          "grad_norm": 23.900798797607422,
+          "entropy": 1.4228488206863403,
+          "st_fixed_sparks": 275,
+          "st_fixed_fraction": 0.07857142857142857,
+          "lpreg_loss_magnitude": 0.09023403997222583
+        },
+        {
+          "step": 2,
+          "pg_loss": -0.059742564956347145,
+          "grad_norm": 0.46984031796455383,
+          "entropy": 0.7131230235099792,
+          "st_fixed_sparks": 143,
+          "st_fixed_fraction": 0.057406663990365314,
+          "lpreg_loss_magnitude": 0.059742564956347145
+        },
+        {
+          "step": 3,
+          "pg_loss": 0.04615761246532202,
+          "grad_norm": 7.966836929321289,
+          "entropy": 1.6279966831207275,
+          "st_fixed_sparks": 281,
+          "st_fixed_fraction": 0.09360426382411725,
+          "lpreg_loss_magnitude": 0.04615761246532202
+        },
+        {
+          "step": 4,
+          "pg_loss": 0.0018933660661180813,
+          "grad_norm": 154.4026641845703,
+          "entropy": 1.2893328666687012,
+          "st_fixed_sparks": 353,
+          "st_fixed_fraction": 0.1178237650200267,
+          "lpreg_loss_magnitude": 0.0018933660661180813
+        },
+        {
+          "step": 5,
+          "pg_loss": 0.11307197498778503,
+          "grad_norm": 2.941627264022827,
+          "entropy": 2.118675470352173,
+          "st_fixed_sparks": 458,
+          "st_fixed_fraction": 0.1178286596346797,
+          "lpreg_loss_magnitude": 0.11307197498778503
+        }
+      ],
+      "nan_detected": false,
+      "kl_magnitudes": [
+        0.09023403997222583,
+        0.059742564956347145,
+        0.04615761246532202,
+        0.0018933660661180813,
+        0.11307197498778503
+      ],
+      "prefix_mask_checks": [
+        {
+          "prefix_zeros_applied": 1428,
+          "prefix_total_positions": 2242
+        },
+        {
+          "prefix_zeros_applied": 954,
+          "prefix_total_positions": 1274
+        },
+        {
+          "prefix_zeros_applied": 1451,
+          "prefix_total_positions": 2338
+        },
+        {
+          "prefix_zeros_applied": 1009,
+          "prefix_total_positions": 1516
+        },
+        {
+          "prefix_zeros_applied": 1487,
+          "prefix_total_positions": 1844
+        }
+      ],
+      "spark_diagnostics": [
+        {
+          "fallback": false,
+          "tau_h_mean": 3.188222512602806,
+          "tau_h_std": 2.1500779706550803,
+          "tau_p_mean": 0.5526740891000372,
+          "kappa": 0.02,
+          "total_valid": 3500,
+          "total_sparks": 116,
+          "spark_fraction": 0.03314285714285714,
+          "sequences_with_sparks": 13,
+          "batch_size": 16
+        },
+        {
+          "fallback": false,
+          "tau_h_mean": 3.204755751291911,
+          "tau_h_std": 2.3878755275190597,
+          "tau_p_mean": 0.6374481040521156,
+          "kappa": 0.02,
+          "total_valid": 2491,
+          "total_sparks": 89,
+          "spark_fraction": 0.035728623042954634,
+          "sequences_with_sparks": 12,
+          "batch_size": 16
+        },
+        {
+          "fallback": false,
+          "tau_h_mean": 3.5505934017045155,
+          "tau_h_std": 2.0980316217011077,
+          "tau_p_mean": 0.5650509579905442,
+          "kappa": 0.02,
+          "total_valid": 3002,
+          "total_sparks": 77,
+          "spark_fraction": 0.025649566955363093,
+          "sequences_with_sparks": 12,
+          "batch_size": 16
+        },
+        {
+          "fallback": false,
+          "tau_h_mean": 3.7296244725584984,
+          "tau_h_std": 2.4584085053138884,
+          "tau_p_mean": 0.5016421919990535,
+          "kappa": 0.02,
+          "total_valid": 2996,
+          "total_sparks": 78,
+          "spark_fraction": 0.0260347129506008,
+          "sequences_with_sparks": 10,
+          "batch_size": 16
+        },
+        {
+          "fallback": false,
+          "tau_h_mean": 4.173338055610657,
+          "tau_h_std": 3.0032391996051393,
+          "tau_p_mean": 0.48021382761771747,
+          "kappa": 0.02,
+          "total_valid": 3887,
+          "total_sparks": 84,
+          "spark_fraction": 0.021610496526884487,
+          "sequences_with_sparks": 10,
+          "batch_size": 16
+        }
+      ],
+      "mass_balance": [
+        {
+          "step": 0,
+          "sum_pi": 137.15726738609374,
+          "n_sparks": 715,
+          "n_sequences": 50,
+          "mean_pi": 0.1918283459945367,
+          "ratio": 1.0
+        },
+        {
+          "step": 5,
+          "sum_pi": 137.2540923487395,
+          "n_sparks": 715,
+          "mean_pi": 0.1919637655227126,
+          "ratio": 1.000705941176075,
+          "mean_delta_pi": 0.00013541952817590087
+        }
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 222.457172870636
+    }
+  }
+}

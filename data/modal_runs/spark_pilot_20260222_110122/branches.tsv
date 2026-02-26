@@ -1,0 +1,21 @@
+problem_idx	b_idx	spark_pos	spark_token	is_correct	n_tokens	text_preview
+0	0	109	First	True	860	First, let's analyze the inner sum \(\sum_{j = 1}^\infty \frac{1}{(j + k)^3}\) for a fixed \(k\). By
+0	1	109	First	True	1024	First, let's analyze the nested sum: \[ \sum_{j = 1}^\infty \sum_{k = 1}^\infty \frac{1}{(j + k)^3}.
+0	2	109	First	False	725	First, let's break down the problem:  1. We need to find a way to rewrite the double sum \(\sum_{j =
+1	0	8	 evaluate	False	1024	 consider all possible ways of inserting parentheses into the expression \(2 \cdot 3 \cdot 4 \cdot 5
+1	1	8	 evaluate	False	1024	 consider all possible ways to insert parentheses into the expression \(2 \cdot 3 \cdot 4 \cdot 5 + 
+1	2	8	 evaluate	False	581	 consider all possible ways to insert parentheses into the expression \(2 \cdot 3 \cdot 4 \cdot 5 + 
+2	0	67	To	False	1024	We need to find a polynomial \( p(x) \) of degree 5 such that the given conditions are satisfied. On
+2	1	67	To	False	799	First, let's rewrite \( \frac{n}{n^2 - 1} \) in a more convenient form. Notice that: \[ n^2 - 1 = (n
+2	2	67	To	False	816	We can use the method of Lagrange interpolation to find the polynomial \( p(x) \). The Lagrange inte
+3	0	65	 start	False	1024	 start by implementing these steps in Python. ```python # Function to find the proper divisors of a 
+3	1	65	 start	False	502	 break it down and solve each step using Python.  ### Step 1: Find the proper divisors of 284 The pr
+3	2	65	 start	False	1024	 start by finding the proper divisors of 284. The proper divisors of a number are all the divisors o
+4	0	49	 the	False	541	 the following steps:  1. Translate $z$ so that $c$ becomes the origin. This is done by subtracting 
+4	1	49	 the	False	1024	 following these steps:  1. Translate $z$ so that the rotation point $c$ is at the origin. This is d
+4	2	49	 the	False	517	 the following steps:  1. Translate $z$ so that the point $c$ becomes the origin. This is done by su
+5	0	7	 system	False	601	 ratio of the dogs Denali and Nate are assigned and the dog walking pay. If they are split equally b
+5	1	7	 system	True	717	 ratio for Denali's pay compared to Nate's pay at any given moment. Let's denote Denali's pay as $D$
+5	2	7	 system	False	487	 system of equations based on the information given. Let's denote the total number of dogs Denali an
+6	0	46	Square	False	150	square both sides of the equation: \[ (x - 4)^2 = (11 - 2x) \]  Expanding the left side and distribu
+6	1	46	Square	False	408	square both sides to eliminate the square root: \[ (x - 4)^2 = 11 - 2x \] Expand the squared term: \

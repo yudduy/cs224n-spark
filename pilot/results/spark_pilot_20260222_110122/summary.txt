@@ -1,0 +1,14 @@
+timestamp=20260222_110122
+model=Qwen/Qwen2.5-Math-1.5B
+tau_h=1.280032
+tau_p=0.62368811
+kappa=0.02
+spark_fraction=0.131345
+total_sparks=12417
+sparks_per_rollout=62.1
+reasoning_fraction=0.1343
+entropy_only_fp_rate=0.3385
+cure_precision=0.7979
+branch_accuracy=0.1000
+branch_diversity=0.2728
+kill_criteria=none

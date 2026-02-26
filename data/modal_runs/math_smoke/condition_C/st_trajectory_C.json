@@ -1,0 +1,93 @@
+{
+  "condition": "C",
+  "st_trajectory": [
+    {
+      "step": 1,
+      "st/mean_candidates": 9.125,
+      "st/std_candidates": 13.923339218736286,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 47.0,
+      "st/spark_fraction_fixed": 0.03338669105876972,
+      "st/total_sparks_fixed": 146,
+      "st/total_valid": 4373,
+      "st/mean_entropy": 0.592696989747763,
+      "st/spark_pos_frac_mean": 0.2822600064212329,
+      "st/spark_pos_frac_median": 0.24658203125,
+      "st/spark_pos_frac_std": 0.23531135459797162,
+      "st/spark_pos_frac_q25": 0.15771484375,
+      "st/spark_pos_frac_q75": 0.299560546875,
+      "st/spark_pos_late_frac": 0.0958904109589041
+    },
+    {
+      "step": 2,
+      "st/mean_candidates": 21.6875,
+      "st/std_candidates": 68.09067369140946,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 285.0,
+      "st/spark_fraction_fixed": 0.06271462136273269,
+      "st/total_sparks_fixed": 347,
+      "st/total_valid": 5533,
+      "st/mean_entropy": 0.564513180183308,
+      "st/spark_pos_frac_mean": 0.4600650666426513,
+      "st/spark_pos_frac_median": 0.505859375,
+      "st/spark_pos_frac_std": 0.26409502032158316,
+      "st/spark_pos_frac_q25": 0.21435546875,
+      "st/spark_pos_frac_q75": 0.6953125,
+      "st/spark_pos_late_frac": 0.2420749279538905
+    },
+    {
+      "step": 3,
+      "st/mean_candidates": 7.0625,
+      "st/std_candidates": 14.055553840030637,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 58.0,
+      "st/spark_fraction_fixed": 0.024618736383442266,
+      "st/total_sparks_fixed": 113,
+      "st/total_valid": 4590,
+      "st/mean_entropy": 0.7237107545430659,
+      "st/spark_pos_frac_mean": 0.43600490873893805,
+      "st/spark_pos_frac_median": 0.4375,
+      "st/spark_pos_frac_std": 0.2734543229875371,
+      "st/spark_pos_frac_q25": 0.25,
+      "st/spark_pos_frac_q75": 0.6904296875,
+      "st/spark_pos_late_frac": 0.23893805309734514
+    },
+    {
+      "step": 4,
+      "st/mean_candidates": 10.25,
+      "st/std_candidates": 16.61512864831326,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 57.0,
+      "st/spark_fraction_fixed": 0.029517638588912886,
+      "st/total_sparks_fixed": 164,
+      "st/total_valid": 5556,
+      "st/mean_entropy": 0.4525699968093363,
+      "st/spark_pos_frac_mean": 0.5111411490091463,
+      "st/spark_pos_frac_median": 0.46435546875,
+      "st/spark_pos_frac_std": 0.3100869556017579,
+      "st/spark_pos_frac_q25": 0.24658203125,
+      "st/spark_pos_frac_q75": 0.831787109375,
+      "st/spark_pos_late_frac": 0.34146341463414637
+    },
+    {
+      "step": 5,
+      "st/mean_candidates": 30.6875,
+      "st/std_candidates": 34.43965510498036,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 99.0,
+      "st/spark_fraction_fixed": 0.11181963106353905,
+      "st/total_sparks_fixed": 491,
+      "st/total_valid": 4391,
+      "st/mean_entropy": 1.143049588118551,
+      "st/spark_pos_frac_mean": 0.4050526667515275,
+      "st/spark_pos_frac_median": 0.38671875,
+      "st/spark_pos_frac_std": 0.26817709358055203,
+      "st/spark_pos_frac_q25": 0.17578125,
+      "st/spark_pos_frac_q75": 0.58251953125,
+      "st/spark_pos_late_frac": 0.18533604887983707
+    }
+  ],
+  "final_val_metrics": {
+    "val-core/HuggingFaceH4/MATH-500/reward/mean@1": 0.5217391304347826
+  }
+}

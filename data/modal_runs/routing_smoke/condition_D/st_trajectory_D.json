@@ -1,0 +1,93 @@
+{
+  "condition": "D",
+  "st_trajectory": [
+    {
+      "step": 1,
+      "st/mean_candidates": 13.71875,
+      "st/std_candidates": 17.915137410511257,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 85.0,
+      "st/spark_fraction_fixed": 0.0732276897414512,
+      "st/total_sparks_fixed": 1756,
+      "st/total_valid": 23980,
+      "st/mean_entropy": 1.1051695088316738,
+      "st/spark_pos_frac_mean": 0.354253052035877,
+      "st/spark_pos_frac_median": 0.29296875,
+      "st/spark_pos_frac_std": 0.2784636034240881,
+      "st/spark_pos_frac_q25": 0.11669921875,
+      "st/spark_pos_frac_q75": 0.55126953125,
+      "st/spark_pos_late_frac": 0.1600227790432802
+    },
+    {
+      "step": 2,
+      "st/mean_candidates": 9.28125,
+      "st/std_candidates": 17.244536045875517,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 117.0,
+      "st/spark_fraction_fixed": 0.045888215072038316,
+      "st/total_sparks_fixed": 1188,
+      "st/total_valid": 25889,
+      "st/mean_entropy": 0.8348448513152765,
+      "st/spark_pos_frac_mean": 0.3052053740530303,
+      "st/spark_pos_frac_median": 0.228515625,
+      "st/spark_pos_frac_std": 0.2621883137449294,
+      "st/spark_pos_frac_q25": 0.0859375,
+      "st/spark_pos_frac_q75": 0.48486328125,
+      "st/spark_pos_late_frac": 0.10858585858585859
+    },
+    {
+      "step": 3,
+      "st/mean_candidates": 9.9453125,
+      "st/std_candidates": 14.506630269547223,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 78.0,
+      "st/spark_fraction_fixed": 0.0513099556630391,
+      "st/total_sparks_fixed": 1273,
+      "st/total_valid": 24810,
+      "st/mean_entropy": 0.9689230120863133,
+      "st/spark_pos_frac_mean": 0.308652052238806,
+      "st/spark_pos_frac_median": 0.240234375,
+      "st/spark_pos_frac_std": 0.2548781250913475,
+      "st/spark_pos_frac_q25": 0.099609375,
+      "st/spark_pos_frac_q75": 0.46875,
+      "st/spark_pos_late_frac": 0.10290652003142184
+    },
+    {
+      "step": 4,
+      "st/mean_candidates": 13.5546875,
+      "st/std_candidates": 18.72365173456673,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 83.0,
+      "st/spark_fraction_fixed": 0.07108616380546565,
+      "st/total_sparks_fixed": 1735,
+      "st/total_valid": 24407,
+      "st/mean_entropy": 1.1198974100029462,
+      "st/spark_pos_frac_mean": 0.34682096541786744,
+      "st/spark_pos_frac_median": 0.298828125,
+      "st/spark_pos_frac_std": 0.26338391553130164,
+      "st/spark_pos_frac_q25": 0.103515625,
+      "st/spark_pos_frac_q75": 0.546875,
+      "st/spark_pos_late_frac": 0.11181556195965418
+    },
+    {
+      "step": 5,
+      "st/mean_candidates": 17.3984375,
+      "st/std_candidates": 22.075629890415218,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 99.0,
+      "st/spark_fraction_fixed": 0.08499026828989047,
+      "st/total_sparks_fixed": 2227,
+      "st/total_valid": 26203,
+      "st/mean_entropy": 1.2283717415790953,
+      "st/spark_pos_frac_mean": 0.360203784519533,
+      "st/spark_pos_frac_median": 0.33203125,
+      "st/spark_pos_frac_std": 0.2528864939337855,
+      "st/spark_pos_frac_q25": 0.140625,
+      "st/spark_pos_frac_q75": 0.5380859375,
+      "st/spark_pos_late_frac": 0.11809609339919173
+    }
+  ],
+  "final_val_metrics": {
+    "val-core/openai/gsm8k/reward/mean@1": 0.6641394996209249
+  }
+}

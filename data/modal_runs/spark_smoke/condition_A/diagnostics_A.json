@@ -1,0 +1,78 @@
+{
+  "condition": "A",
+  "steps": [
+    {
+      "step": 1,
+      "pg_loss": 0.015440173136691252,
+      "grad_norm": 0.9312769770622253,
+      "entropy": 0.8146160244941711,
+      "st_fixed_sparks": 613,
+      "st_fixed_fraction": 0.06704582740894674,
+      "lpreg_loss_magnitude": 0.015440173136691252
+    },
+    {
+      "step": 2,
+      "pg_loss": 0.027798387842873733,
+      "grad_norm": 0.5944250226020813,
+      "entropy": 0.6704718470573425,
+      "st_fixed_sparks": 483,
+      "st_fixed_fraction": 0.04883227176220807,
+      "lpreg_loss_magnitude": 0.027798387842873733
+    },
+    {
+      "step": 3,
+      "pg_loss": 0.07888404155770938,
+      "grad_norm": 0.6112502813339233,
+      "entropy": 0.7931546568870544,
+      "st_fixed_sparks": 559,
+      "st_fixed_fraction": 0.058192796169061006,
+      "lpreg_loss_magnitude": 0.07888404155770938
+    },
+    {
+      "step": 4,
+      "pg_loss": -0.04412877549313832,
+      "grad_norm": 0.6346023082733154,
+      "entropy": 1.240765929222107,
+      "st_fixed_sparks": 1065,
+      "st_fixed_fraction": 0.09898689469281531,
+      "lpreg_loss_magnitude": 0.04412877549313832
+    },
+    {
+      "step": 5,
+      "pg_loss": 0.015342660093059143,
+      "grad_norm": 0.8933903574943542,
+      "entropy": 1.1239534616470337,
+      "st_fixed_sparks": 917,
+      "st_fixed_fraction": 0.09181017220664797,
+      "lpreg_loss_magnitude": 0.015342660093059143
+    }
+  ],
+  "nan_detected": false,
+  "kl_magnitudes": [
+    0.015440173136691252,
+    0.027798387842873733,
+    0.07888404155770938,
+    0.04412877549313832,
+    0.015342660093059143
+  ],
+  "prefix_mask_checks": [],
+  "spark_diagnostics": [],
+  "mass_balance": [
+    {
+      "step": 0,
+      "sum_pi": 137.15726738609374,
+      "n_sparks": 715,
+      "n_sequences": 50,
+      "mean_pi": 0.1918283459945367,
+      "ratio": 1.0
+    },
+    {
+      "step": 5,
+      "sum_pi": 136.93518284149468,
+      "n_sparks": 715,
+      "mean_pi": 0.1915177382398527,
+      "ratio": 0.9983808036655185,
+      "mean_delta_pi": -0.00031060775468399473
+    }
+  ]
+}

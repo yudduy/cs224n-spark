@@ -1,0 +1,201 @@
+{
+  "condition": "D",
+  "steps": [
+    {
+      "step": 1,
+      "pg_loss": 0.2784419460222125,
+      "grad_norm": 2.528552770614624,
+      "entropy": 0.912980318069458,
+      "st_fixed_sparks": 1756,
+      "st_fixed_fraction": 0.0732276897414512,
+      "spark_pos_frac_mean": 0.354253052035877,
+      "spark_pos_frac_median": 0.29296875,
+      "spark_pos_late_frac": 0.1600227790432802,
+      "routing": {
+        "routing_zeroed": 18146,
+        "routing_valid_before": 41673,
+        "routing_valid_after": 23527,
+        "routing_frac_zeroed": 0.4354378134523552,
+        "routing_high_ent_frac": 0.21200777481822763,
+        "routing_tau_h": 1.28
+      },
+      "nll_protect_mean": 1.6666427534073591,
+      "grpo_only_loss": 0.2784419460222125,
+      "lpreg_loss_magnitude": 1.6666427534073591
+    },
+    {
+      "step": 2,
+      "pg_loss": 0.33699259709828766,
+      "grad_norm": 1.6660000085830688,
+      "entropy": 0.6214542388916016,
+      "st_fixed_sparks": 1188,
+      "st_fixed_fraction": 0.045888215072038316,
+      "spark_pos_frac_mean": 0.3052053740530303,
+      "spark_pos_frac_median": 0.228515625,
+      "spark_pos_late_frac": 0.10858585858585859,
+      "routing": {
+        "routing_zeroed": 17249,
+        "routing_valid_before": 44597,
+        "routing_valid_after": 27348,
+        "routing_frac_zeroed": 0.386774895172321,
+        "routing_high_ent_frac": 0.14364194901002308,
+        "routing_tau_h": 1.28
+      },
+      "nll_protect_mean": 1.6040738048031926,
+      "grpo_only_loss": 0.33699259709828766,
+      "lpreg_loss_magnitude": 1.6040738048031926
+    },
+    {
+      "step": 3,
+      "pg_loss": 0.41150501277297735,
+      "grad_norm": 2.1519124507904053,
+      "entropy": 0.7561538815498352,
+      "st_fixed_sparks": 1273,
+      "st_fixed_fraction": 0.0513099556630391,
+      "spark_pos_frac_mean": 0.308652052238806,
+      "spark_pos_frac_median": 0.240234375,
+      "spark_pos_late_frac": 0.10290652003142184,
+      "routing": {
+        "routing_zeroed": 22281,
+        "routing_valid_before": 43249,
+        "routing_valid_after": 20968,
+        "routing_frac_zeroed": 0.5151795417235081,
+        "routing_high_ent_frac": 0.16603852112187564,
+        "routing_tau_h": 1.28
+      },
+      "nll_protect_mean": 2.1442508390173316,
+      "grpo_only_loss": 0.41150501277297735,
+      "lpreg_loss_magnitude": 2.1442508390173316
+    },
+    {
+      "step": 4,
+      "pg_loss": 0.2474187163170427,
+      "grad_norm": 2.1212964057922363,
+      "entropy": 0.9099323153495789,
+      "st_fixed_sparks": 1735,
+      "st_fixed_fraction": 0.07108616380546565,
+      "spark_pos_frac_mean": 0.34682096541786744,
+      "spark_pos_frac_median": 0.298828125,
+      "spark_pos_late_frac": 0.11181556195965418,
+      "routing": {
+        "routing_zeroed": 12678,
+        "routing_valid_before": 40818,
+        "routing_valid_after": 28140,
+        "routing_frac_zeroed": 0.3105982654711157,
+        "routing_high_ent_frac": 0.21149982850703122,
+        "routing_tau_h": 1.28
+      },
+      "nll_protect_mean": 1.2068123081699014,
+      "grpo_only_loss": 0.2474187163170427,
+      "lpreg_loss_magnitude": 1.2068123081699014
+    },
+    {
+      "step": 5,
+      "pg_loss": 0.32172810251358896,
+      "grad_norm": 1.5818369388580322,
+      "entropy": 1.0288482904434204,
+      "st_fixed_sparks": 2227,
+      "st_fixed_fraction": 0.08499026828989047,
+      "spark_pos_frac_mean": 0.360203784519533,
+      "spark_pos_frac_median": 0.33203125,
+      "spark_pos_late_frac": 0.11809609339919173,
+      "routing": {
+        "routing_zeroed": 15171,
+        "routing_valid_before": 46343,
+        "routing_valid_after": 31172,
+        "routing_frac_zeroed": 0.3273633558466219,
+        "routing_high_ent_frac": 0.23367067302505232,
+        "routing_tau_h": 1.28
+      },
+      "nll_protect_mean": 1.5987156797200441,
+      "grpo_only_loss": 0.32172810251358896,
+      "lpreg_loss_magnitude": 1.5987156797200441,
+      "pass_at_1": 0.6641394996209249
+    }
+  ],
+  "nan_detected": false,
+  "kl_magnitudes": [
+    1.6666427534073591,
+    1.6040738048031926,
+    2.1442508390173316,
+    1.2068123081699014,
+    1.5987156797200441
+  ],
+  "prefix_mask_checks": [],
+  "spark_diagnostics": [],
+  "routing_trajectory": [
+    {
+      "step": 1,
+      "routing_zeroed": 18146,
+      "routing_valid_before": 41673,
+      "routing_valid_after": 23527,
+      "routing_frac_zeroed": 0.4354378134523552,
+      "routing_high_ent_frac": 0.21200777481822763,
+      "routing_tau_h": 1.28
+    },
+    {
+      "step": 2,
+      "routing_zeroed": 17249,
+      "routing_valid_before": 44597,
+      "routing_valid_after": 27348,
+      "routing_frac_zeroed": 0.386774895172321,
+      "routing_high_ent_frac": 0.14364194901002308,
+      "routing_tau_h": 1.28
+    },
+    {
+      "step": 3,
+      "routing_zeroed": 22281,
+      "routing_valid_before": 43249,
+      "routing_valid_after": 20968,
+      "routing_frac_zeroed": 0.5151795417235081,
+      "routing_high_ent_frac": 0.16603852112187564,
+      "routing_tau_h": 1.28
+    },
+    {
+      "step": 4,
+      "routing_zeroed": 12678,
+      "routing_valid_before": 40818,
+      "routing_valid_after": 28140,
+      "routing_frac_zeroed": 0.3105982654711157,
+      "routing_high_ent_frac": 0.21149982850703122,
+      "routing_tau_h": 1.28
+    },
+    {
+      "step": 5,
+      "routing_zeroed": 15171,
+      "routing_valid_before": 46343,
+      "routing_valid_after": 31172,
+      "routing_frac_zeroed": 0.3273633558466219,
+      "routing_high_ent_frac": 0.23367067302505232,
+      "routing_tau_h": 1.28
+    }
+  ],
+  "pass_at_1_trajectory": [
+    {
+      "step": 5,
+      "value": 0.6641394996209249,
+      "key": "val-core/openai/gsm8k/reward/mean@1"
+    }
+  ],
+  "mass_balance": [
+    {
+      "step": 0,
+      "sum_pi": 137.15726738609374,
+      "n_sparks": 715,
+      "n_sequences": 50,
+      "mean_pi": 0.1918283459945367,
+      "ratio": 1.0
+    },
+    {
+      "step": 5,
+      "sum_pi": 137.10183552652597,
+      "n_sparks": 715,
+      "mean_pi": 0.19175081891821816,
+      "ratio": 0.9995958518230629,
+      "mean_delta_pi": -7.752707631854745e-05
+    }
+  ],
+  "final_val_metrics": {
+    "val-core/openai/gsm8k/reward/mean@1": 0.6641394996209249
+  }
+}

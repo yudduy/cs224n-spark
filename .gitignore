@@ -1,0 +1,13 @@
+# Local tooling
+.claude/
+
+# Local docs not for repo
+docs/
+
+# OS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/

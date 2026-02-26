@@ -1,0 +1,78 @@
+{
+  "condition": "B",
+  "steps": [
+    {
+      "step": 1,
+      "pg_loss": 0.03046795167028904,
+      "grad_norm": 1.066081166267395,
+      "entropy": 1.1931525468826294,
+      "st_fixed_sparks": 275,
+      "st_fixed_fraction": 0.07857142857142857,
+      "lpreg_loss_magnitude": 0.03046795167028904
+    },
+    {
+      "step": 2,
+      "pg_loss": -0.003816415245334307,
+      "grad_norm": 1.157973051071167,
+      "entropy": 1.4480291604995728,
+      "st_fixed_sparks": 144,
+      "st_fixed_fraction": 0.04673807205452775,
+      "lpreg_loss_magnitude": 0.003816415245334307
+    },
+    {
+      "step": 3,
+      "pg_loss": -0.010730086204906305,
+      "grad_norm": 0.7618962526321411,
+      "entropy": 0.9490558505058289,
+      "st_fixed_sparks": 103,
+      "st_fixed_fraction": 0.03505786249149081,
+      "lpreg_loss_magnitude": 0.010730086204906305
+    },
+    {
+      "step": 4,
+      "pg_loss": 0.009712375700473785,
+      "grad_norm": 0.5132510662078857,
+      "entropy": 1.1158723831176758,
+      "st_fixed_sparks": 259,
+      "st_fixed_fraction": 0.07018970189701897,
+      "lpreg_loss_magnitude": 0.009712375700473785
+    },
+    {
+      "step": 5,
+      "pg_loss": 0.022064329435427982,
+      "grad_norm": 0.39899957180023193,
+      "entropy": 1.4268302917480469,
+      "st_fixed_sparks": 317,
+      "st_fixed_fraction": 0.0783102766798419,
+      "lpreg_loss_magnitude": 0.022064329435427982
+    }
+  ],
+  "nan_detected": false,
+  "kl_magnitudes": [
+    0.03046795167028904,
+    0.003816415245334307,
+    0.010730086204906305,
+    0.009712375700473785,
+    0.022064329435427982
+  ],
+  "prefix_mask_checks": [],
+  "spark_diagnostics": [],
+  "mass_balance": [
+    {
+      "step": 0,
+      "sum_pi": 137.15726738609374,
+      "n_sparks": 715,
+      "n_sequences": 50,
+      "mean_pi": 0.1918283459945367,
+      "ratio": 1.0
+    },
+    {
+      "step": 5,
+      "sum_pi": 136.82449433766305,
+      "n_sparks": 715,
+      "mean_pi": 0.1913629291435847,
+      "ratio": 0.9975737847890047,
+      "mean_delta_pi": -0.0004654168509520017
+    }
+  ]
+}

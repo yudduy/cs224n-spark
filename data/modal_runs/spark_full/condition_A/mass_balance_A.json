@@ -1,0 +1,5312 @@
+{
+  "condition": "A",
+  "n_sparks": 657,
+  "spark_refs": [
+    {
+      "seq_idx": 0,
+      "position": 167,
+      "token_id": 20517,
+      "token_text": " Calculate",
+      "pi_0": 0.14638592302799225,
+      "entropy_0": 2.5311946868896484
+    },
+    {
+      "seq_idx": 1,
+      "position": 2,
+      "token_id": 3161,
+      "token_text": " begin",
+      "pi_0": 0.03200265392661095,
+      "entropy_0": 2.6905441284179688
+    },
+    {
+      "seq_idx": 1,
+      "position": 4,
+      "token_id": 26312,
+      "token_text": " defining",
+      "pi_0": 0.3644850552082062,
+      "entropy_0": 2.448383331298828
+    },
+    {
+      "seq_idx": 1,
+      "position": 6,
+      "token_id": 1372,
+      "token_text": " number",
+      "pi_0": 0.05163653567433357,
+      "entropy_0": 2.644857406616211
+    },
+    {
+      "seq_idx": 1,
+      "position": 23,
+      "token_id": 2750,
+      "token_text": " values",
+      "pi_0": 0.35182464122772217,
+      "entropy_0": 2.9244651794433594
+    },
+    {
+      "seq_idx": 1,
+      "position": 24,
+      "token_id": 3118,
+      "token_text": " based",
+      "pi_0": 0.02468647062778473,
+      "entropy_0": 3.2734756469726562
+    },
+    {
+      "seq_idx": 1,
+      "position": 27,
+      "token_id": 2661,
+      "token_text": " given",
+      "pi_0": 0.3190259635448456,
+      "entropy_0": 2.961771011352539
+    },
+    {
+      "seq_idx": 1,
+      "position": 28,
+      "token_id": 3491,
+      "token_text": " problem",
+      "pi_0": 0.16651731729507446,
+      "entropy_0": 3.180492401123047
+    },
+    {
+      "seq_idx": 1,
+      "position": 29,
+      "token_id": 323,
+      "token_text": " and",
+      "pi_0": 0.08819747716188431,
+      "entropy_0": 2.6209259033203125
+    },
+    {
+      "seq_idx": 1,
+      "position": 30,
+      "token_id": 11047,
+      "token_text": " calculate",
+      "pi_0": 0.216481015086174,
+      "entropy_0": 3.5205249786376953
+    },
+    {
+      "seq_idx": 1,
+      "position": 38,
+      "token_id": 10061,
+      "token_text": "Let",
+      "pi_0": 0.08629138022661209,
+      "entropy_0": 2.997224807739258
+    },
+    {
+      "seq_idx": 1,
+      "position": 44,
+      "token_id": 1372,
+      "token_text": " number",
+      "pi_0": 0.3115198612213135,
+      "entropy_0": 2.916006088256836
+    },
+    {
+      "seq_idx": 1,
+      "position": 53,
+      "token_id": 323,
+      "token_text": " and",
+      "pi_0": 0.1759192794561386,
+      "entropy_0": 2.6042728424072266
+    },
+    {
+      "seq_idx": 1,
+      "position": 56,
+      "token_id": 1590,
+      "token_text": " final",
+      "pi_0": 0.23325619101524353,
+      "entropy_0": 2.3265342712402344
+    },
+    {
+      "seq_idx": 1,
+      "position": 57,
+      "token_id": 1102,
+      "token_text": " result",
+      "pi_0": 0.1305103749036789,
+      "entropy_0": 2.3254547119140625
+    },
+    {
+      "seq_idx": 1,
+      "position": 58,
+      "token_id": 27079,
+      "token_text": " accordingly",
+      "pi_0": 0.04648558422923088,
+      "entropy_0": 2.937196731567383
+    },
+    {
+      "seq_idx": 1,
+      "position": 64,
+      "token_id": 18614,
+      "token_text": " Define",
+      "pi_0": 0.4115820825099945,
+      "entropy_0": 2.584479331970215
+    },
+    {
+      "seq_idx": 1,
+      "position": 71,
+      "token_id": 4362,
+      "token_text": " needed",
+      "pi_0": 0.2989846169948578,
+      "entropy_0": 2.2888355255126953
+    },
+    {
+      "seq_idx": 1,
+      "position": 82,
+      "token_id": 5807,
+      "token_text": " White",
+      "pi_0": 0.3464110493659973,
+      "entropy_0": 3.1008434295654297
+    },
+    {
+      "seq_idx": 1,
+      "position": 113,
+      "token_id": 1372,
+      "token_text": " number",
+      "pi_0": 0.18532714247703552,
+      "entropy_0": 2.3588647842407227
+    },
+    {
+      "seq_idx": 1,
+      "position": 116,
+      "token_id": 4362,
+      "token_text": " needed",
+      "pi_0": 0.3918626606464386,
+      "entropy_0": 2.318338394165039
+    },
+    {
+      "seq_idx": 1,
+      "position": 121,
+      "token_id": 7842,
+      "token_text": " adding",
+      "pi_0": 0.40954604744911194,
+      "entropy_0": 2.655241012573242
+    },
+    {
+      "seq_idx": 1,
+      "position": 122,
+      "token_id": 2176,
+      "token_text": " both",
+      "pi_0": 0.19800537824630737,
+      "entropy_0": 2.718921661376953
+    },
+    {
+      "seq_idx": 1,
+      "position": 123,
+      "token_id": 2750,
+      "token_text": " values",
+      "pi_0": 0.11509989202022552,
+      "entropy_0": 3.692429542541504
+    },
+    {
+      "seq_idx": 1,
+      "position": 168,
+      "token_id": 92982,
+      "token_text": " textiles",
+      "pi_0": 0.25276342034339905,
+      "entropy_0": 2.4118614196777344
+    },
+    {
+      "seq_idx": 1,
+      "position": 172,
+      "token_id": 1283,
+      "token_text": " after",
+      "pi_0": 0.023839620873332024,
+      "entropy_0": 3.6651744842529297
+    },
+    {
+      "seq_idx": 1,
+      "position": 174,
+      "token_id": 1105,
+      "token_text": " them",
+      "pi_0": 0.06651441007852554,
+      "entropy_0": 2.9258460998535156
+    },
+    {
+      "seq_idx": 1,
+      "position": 175,
+      "token_id": 10277,
+      "token_text": " properly",
+      "pi_0": 0.08300697803497314,
+      "entropy_0": 3.3700456619262695
+    },
+    {
+      "seq_idx": 1,
+      "position": 183,
+      "token_id": 54815,
+      "token_text": "Therefore",
+      "pi_0": 0.06313031911849976,
+      "entropy_0": 3.1934547424316406
+    },
+    {
+      "seq_idx": 1,
+      "position": 190,
+      "token_id": 525,
+      "token_text": " are",
+      "pi_0": 0.04342256858944893,
+      "entropy_0": 5.641620635986328
+    },
+    {
+      "seq_idx": 1,
+      "position": 191,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.03479650989174843,
+      "entropy_0": 5.346480369567871
+    },
+    {
+      "seq_idx": 1,
+      "position": 192,
+      "token_id": 2790,
+      "token_text": " total",
+      "pi_0": 0.06179624795913696,
+      "entropy_0": 5.037137031555176
+    },
+    {
+      "seq_idx": 1,
+      "position": 201,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.21461574733257294,
+      "entropy_0": 6.312948226928711
+    },
+    {
+      "seq_idx": 1,
+      "position": 204,
+      "token_id": 323,
+      "token_text": " and",
+      "pi_0": 0.021096235141158104,
+      "entropy_0": 7.665610313415527
+    },
+    {
+      "seq_idx": 1,
+      "position": 209,
+      "token_id": 1753,
+      "token_text": " much",
+      "pi_0": 0.1151110902428627,
+      "entropy_0": 6.600429534912109
+    },
+    {
+      "seq_idx": 1,
+      "position": 217,
+      "token_id": 79075,
+      "token_text": "boxed",
+      "pi_0": 0.08619893342256546,
+      "entropy_0": 6.546230316162109
+    },
+    {
+      "seq_idx": 1,
+      "position": 219,
+      "token_id": 73594,
+      "token_text": "```",
+      "pi_0": 0.09630594402551651,
+      "entropy_0": 6.992077350616455
+    },
+    {
+      "seq_idx": 2,
+      "position": 124,
+      "token_id": 11833,
+      "token_text": " buying",
+      "pi_0": 0.3586590886116028,
+      "entropy_0": 2.6734046936035156
+    },
+    {
+      "seq_idx": 3,
+      "position": 3,
+      "token_id": 17767,
+      "token_text": " \\(",
+      "pi_0": 0.08583667874336243,
+      "entropy_0": 4.284914016723633
+    },
+    {
+      "seq_idx": 3,
+      "position": 21,
+      "token_id": 17767,
+      "token_text": " \\(",
+      "pi_0": 0.09224647283554077,
+      "entropy_0": 3.5779666900634766
+    },
+    {
+      "seq_idx": 3,
+      "position": 37,
+      "token_id": 817,
+      "token_text": " per",
+      "pi_0": 0.1955515444278717,
+      "entropy_0": 3.0782642364501953
+    },
+    {
+      "seq_idx": 3,
+      "position": 40,
+      "token_id": 78045,
+      "token_text": "\\[",
+      "pi_0": 0.04068442061543465,
+      "entropy_0": 5.391244888305664
+    },
+    {
+      "seq_idx": 3,
+      "position": 53,
+      "token_id": 10061,
+      "token_text": "Let",
+      "pi_0": 0.13889524340629578,
+      "entropy_0": 4.547381401062012
+    },
+    {
+      "seq_idx": 3,
+      "position": 57,
+      "token_id": 311,
+      "token_text": " to",
+      "pi_0": 0.20420192182064056,
+      "entropy_0": 5.714557647705078
+    },
+    {
+      "seq_idx": 3,
+      "position": 59,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.17385882139205933,
+      "entropy_0": 4.578392028808594
+    },
+    {
+      "seq_idx": 3,
+      "position": 79,
+      "token_id": 73594,
+      "token_text": "```",
+      "pi_0": 0.08005261421203613,
+      "entropy_0": 6.18656063079834
+    },
+    {
+      "seq_idx": 3,
+      "position": 83,
+      "token_id": 16246,
+      "token_text": " Given",
+      "pi_0": 0.10165902972221375,
+      "entropy_0": 4.004742622375488
+    },
+    {
+      "seq_idx": 4,
+      "position": 26,
+      "token_id": 5258,
+      "token_text": " receive",
+      "pi_0": 0.19724886119365692,
+      "entropy_0": 2.8033618927001953
+    },
+    {
+      "seq_idx": 4,
+      "position": 32,
+      "token_id": 1817,
+      "token_text": " each",
+      "pi_0": 0.29464587569236755,
+      "entropy_0": 2.4484024047851562
+    },
+    {
+      "seq_idx": 4,
+      "position": 35,
+      "token_id": 2326,
+      "token_text": " three",
+      "pi_0": 0.059529270976781845,
+      "entropy_0": 3.8469533920288086
+    },
+    {
+      "seq_idx": 4,
+      "position": 39,
+      "token_id": 525,
+      "token_text": " are",
+      "pi_0": 0.0789162814617157,
+      "entropy_0": 4.925925254821777
+    },
+    {
+      "seq_idx": 4,
+      "position": 40,
+      "token_id": 17779,
+      "token_text": " divided",
+      "pi_0": 0.07394349575042725,
+      "entropy_0": 4.818513870239258
+    },
+    {
+      "seq_idx": 4,
+      "position": 46,
+      "token_id": 15145,
+      "token_text": " meal",
+      "pi_0": 0.5307132005691528,
+      "entropy_0": 3.801454544067383
+    },
+    {
+      "seq_idx": 4,
+      "position": 51,
+      "token_id": 369,
+      "token_text": " for",
+      "pi_0": 0.06591765582561493,
+      "entropy_0": 3.501863479614258
+    },
+    {
+      "seq_idx": 4,
+      "position": 56,
+      "token_id": 773,
+      "token_text": " so",
+      "pi_0": 0.03951551392674446,
+      "entropy_0": 6.059293746948242
+    },
+    {
+      "seq_idx": 4,
+      "position": 57,
+      "token_id": 582,
+      "token_text": " we",
+      "pi_0": 0.1323145180940628,
+      "entropy_0": 4.078826904296875
+    },
+    {
+      "seq_idx": 4,
+      "position": 59,
+      "token_id": 35597,
+      "token_text": "calculate",
+      "pi_0": 0.024111252278089523,
+      "entropy_0": 6.806207180023193
+    },
+    {
+      "seq_idx": 4,
+      "position": 64,
+      "token_id": 419,
+      "token_text": " this",
+      "pi_0": 0.029451819136738777,
+      "entropy_0": 3.6678848266601562
+    },
+    {
+      "seq_idx": 4,
+      "position": 67,
+      "token_id": 5293,
+      "token_text": " notice",
+      "pi_0": 0.26996639370918274,
+      "entropy_0": 5.169429779052734
+    },
+    {
+      "seq_idx": 4,
+      "position": 75,
+      "token_id": 5395,
+      "token_text": " feed",
+      "pi_0": 0.5526223182678223,
+      "entropy_0": 2.4447784423828125
+    },
+    {
+      "seq_idx": 4,
+      "position": 76,
+      "token_id": 817,
+      "token_text": " per",
+      "pi_0": 0.2749682664871216,
+      "entropy_0": 2.4555139541625977
+    },
+    {
+      "seq_idx": 4,
+      "position": 103,
+      "token_id": 7595,
+      "token_text": "Total",
+      "pi_0": 0.1546425223350525,
+      "entropy_0": 3.6346492767333984
+    },
+    {
+      "seq_idx": 4,
+      "position": 131,
+      "token_id": 54745,
+      "token_text": "Remaining",
+      "pi_0": 0.35195350646972656,
+      "entropy_0": 2.775838851928711
+    },
+    {
+      "seq_idx": 4,
+      "position": 156,
+      "token_id": 34396,
+      "token_text": " feeds",
+      "pi_0": 0.09189542382955551,
+      "entropy_0": 4.025350570678711
+    },
+    {
+      "seq_idx": 4,
+      "position": 168,
+      "token_id": 701,
+      "token_text": "),",
+      "pi_0": 0.39796602725982666,
+      "entropy_0": 3.2092628479003906
+    },
+    {
+      "seq_idx": 4,
+      "position": 169,
+      "token_id": 1340,
+      "token_text": " she",
+      "pi_0": 0.48498624563217163,
+      "entropy_0": 2.3526344299316406
+    },
+    {
+      "seq_idx": 4,
+      "position": 170,
+      "token_id": 1969,
+      "token_text": " must",
+      "pi_0": 0.05196307227015495,
+      "entropy_0": 2.6090259552001953
+    },
+    {
+      "seq_idx": 4,
+      "position": 196,
+      "token_id": 646,
+      "token_text": " can",
+      "pi_0": 0.18426339328289032,
+      "entropy_0": 4.186526298522949
+    },
+    {
+      "seq_idx": 4,
+      "position": 197,
+      "token_id": 3270,
+      "token_text": " write",
+      "pi_0": 0.05095704272389412,
+      "entropy_0": 4.605134010314941
+    },
+    {
+      "seq_idx": 4,
+      "position": 202,
+      "token_id": 10146,
+      "token_text": " verify",
+      "pi_0": 0.3958818018436432,
+      "entropy_0": 2.3191680908203125
+    },
+    {
+      "seq_idx": 4,
+      "position": 209,
+      "token_id": 10657,
+      "token_text": " Total",
+      "pi_0": 0.13542410731315613,
+      "entropy_0": 2.7670774459838867
+    },
+    {
+      "seq_idx": 4,
+      "position": 211,
+      "token_id": 2567,
+      "token_text": " required",
+      "pi_0": 0.24578000605106354,
+      "entropy_0": 2.294017791748047
+    },
+    {
+      "seq_idx": 4,
+      "position": 262,
+      "token_id": 18029,
+      "token_text": "_del",
+      "pi_0": 0.4631868600845337,
+      "entropy_0": 2.650228500366211
+    },
+    {
+      "seq_idx": 4,
+      "position": 309,
+      "token_id": 16688,
+      "token_text": " conclusion",
+      "pi_0": 0.4567544162273407,
+      "entropy_0": 2.4590606689453125
+    },
+    {
+      "seq_idx": 4,
+      "position": 330,
+      "token_id": 2506,
+      "token_text": " keep",
+      "pi_0": 0.0326935313642025,
+      "entropy_0": 2.6889610290527344
+    },
+    {
+      "seq_idx": 4,
+      "position": 335,
+      "token_id": 3367,
+      "token_text": " meet",
+      "pi_0": 0.06337776780128479,
+      "entropy_0": 4.155839920043945
+    },
+    {
+      "seq_idx": 4,
+      "position": 339,
+      "token_id": 3311,
+      "token_text": " amount",
+      "pi_0": 0.5142965912818909,
+      "entropy_0": 2.4632740020751953
+    },
+    {
+      "seq_idx": 5,
+      "position": 1,
+      "token_id": 37614,
+      "token_text": " calculating",
+      "pi_0": 0.056485481560230255,
+      "entropy_0": 4.9331817626953125
+    },
+    {
+      "seq_idx": 5,
+      "position": 3,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.22766341269016266,
+      "entropy_0": 2.5495166778564453
+    },
+    {
+      "seq_idx": 5,
+      "position": 16,
+      "token_id": 785,
+      "token_text": "The",
+      "pi_0": 0.04442611336708069,
+      "entropy_0": 8.55166244506836
+    },
+    {
+      "seq_idx": 5,
+      "position": 18,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.05643615871667862,
+      "entropy_0": 4.598980903625488
+    },
+    {
+      "seq_idx": 5,
+      "position": 23,
+      "token_id": 806,
+      "token_text": " his",
+      "pi_0": 0.04892878979444504,
+      "entropy_0": 2.387674331665039
+    },
+    {
+      "seq_idx": 5,
+      "position": 25,
+      "token_id": 686,
+      "token_text": " will",
+      "pi_0": 0.03672819212079048,
+      "entropy_0": 3.011993408203125
+    },
+    {
+      "seq_idx": 5,
+      "position": 60,
+      "token_id": 785,
+      "token_text": "The",
+      "pi_0": 0.07487522065639496,
+      "entropy_0": 8.448512077331543
+    },
+    {
+      "seq_idx": 5,
+      "position": 63,
+      "token_id": 374,
+      "token_text": " is",
+      "pi_0": 0.184625044465065,
+      "entropy_0": 4.007722854614258
+    },
+    {
+      "seq_idx": 5,
+      "position": 70,
+      "token_id": 3799,
+      "token_text": "uggest",
+      "pi_0": 0.1756828874349594,
+      "entropy_0": 6.439438819885254
+    },
+    {
+      "seq_idx": 5,
+      "position": 75,
+      "token_id": 785,
+      "token_text": "The",
+      "pi_0": 0.13101543486118317,
+      "entropy_0": 7.195921897888184
+    },
+    {
+      "seq_idx": 5,
+      "position": 76,
+      "token_id": 1590,
+      "token_text": " final",
+      "pi_0": 0.05600059777498245,
+      "entropy_0": 4.884701728820801
+    },
+    {
+      "seq_idx": 5,
+      "position": 78,
+      "token_id": 374,
+      "token_text": " is",
+      "pi_0": 0.31801867485046387,
+      "entropy_0": 2.479951858520508
+    },
+    {
+      "seq_idx": 6,
+      "position": 47,
+      "token_id": 565,
+      "token_text": "##",
+      "pi_0": 0.13668112456798553,
+      "entropy_0": 2.554035186767578
+    },
+    {
+      "seq_idx": 6,
+      "position": 48,
+      "token_id": 13027,
+      "token_text": " Python",
+      "pi_0": 0.04174076020717621,
+      "entropy_0": 3.9059362411499023
+    },
+    {
+      "seq_idx": 6,
+      "position": 200,
+      "token_id": 52293,
+      "token_text": " Charleston",
+      "pi_0": 0.13717812299728394,
+      "entropy_0": 3.7508649826049805
+    },
+    {
+      "seq_idx": 6,
+      "position": 269,
+      "token_id": 8213,
+      "token_text": " Print",
+      "pi_0": 0.21237124502658844,
+      "entropy_0": 2.9262046813964844
+    },
+    {
+      "seq_idx": 6,
+      "position": 307,
+      "token_id": 3263,
+      "token_text": "\".",
+      "pi_0": 0.06273821741342545,
+      "entropy_0": 2.4243040084838867
+    },
+    {
+      "seq_idx": 6,
+      "position": 308,
+      "token_id": 6771,
+      "token_text": " Let",
+      "pi_0": 0.5048149824142456,
+      "entropy_0": 2.466780662536621
+    },
+    {
+      "seq_idx": 6,
+      "position": 330,
+      "token_id": 5046,
+      "token_text": " fix",
+      "pi_0": 0.10756129771471024,
+      "entropy_0": 3.2112808227539062
+    },
+    {
+      "seq_idx": 6,
+      "position": 335,
+      "token_id": 1598,
+      "token_text": " run",
+      "pi_0": 0.11138897389173508,
+      "entropy_0": 2.7046546936035156
+    },
+    {
+      "seq_idx": 6,
+      "position": 340,
+      "token_id": 1205,
+      "token_text": " We",
+      "pi_0": 0.11177162826061249,
+      "entropy_0": 2.8865861892700195
+    },
+    {
+      "seq_idx": 6,
+      "position": 348,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.2060765027999878,
+      "entropy_0": 3.2032413482666016
+    },
+    {
+      "seq_idx": 6,
+      "position": 352,
+      "token_id": 323,
+      "token_text": " and",
+      "pi_0": 0.42070966958999634,
+      "entropy_0": 2.9461593627929688
+    },
+    {
+      "seq_idx": 6,
+      "position": 355,
+      "token_id": 2038,
+      "token_text": " code",
+      "pi_0": 0.28673824667930603,
+      "entropy_0": 2.9909934997558594
+    },
+    {
+      "seq_idx": 6,
+      "position": 356,
+      "token_id": 1549,
+      "token_text": " again",
+      "pi_0": 0.29742559790611267,
+      "entropy_0": 2.5529232025146484
+    },
+    {
+      "seq_idx": 6,
+      "position": 358,
+      "token_id": 13403,
+      "token_text": " accuracy",
+      "pi_0": 0.28165438771247864,
+      "entropy_0": 2.610189437866211
+    },
+    {
+      "seq_idx": 6,
+      "position": 362,
+      "token_id": 2445,
+      "token_text": "ework",
+      "pi_0": 0.12461453676223755,
+      "entropy_0": 3.798337936401367
+    },
+    {
+      "seq_idx": 6,
+      "position": 398,
+      "token_id": 52293,
+      "token_text": " Charleston",
+      "pi_0": 0.16139842569828033,
+      "entropy_0": 4.725975036621094
+    },
+    {
+      "seq_idx": 6,
+      "position": 402,
+      "token_id": 643,
+      "token_text": "_s",
+      "pi_0": 0.17693452537059784,
+      "entropy_0": 3.456775665283203
+    },
+    {
+      "seq_idx": 6,
+      "position": 496,
+      "token_id": 14064,
+      "token_text": " representing",
+      "pi_0": 0.05199618637561798,
+      "entropy_0": 3.0792770385742188
+    },
+    {
+      "seq_idx": 7,
+      "position": 59,
+      "token_id": 17024,
+      "token_text": " restart",
+      "pi_0": 0.32068783044815063,
+      "entropy_0": 2.8635921478271484
+    },
+    {
+      "seq_idx": 7,
+      "position": 117,
+      "token_id": 4211,
+      "token_text": " implement",
+      "pi_0": 0.10649163275957108,
+      "entropy_0": 2.759380340576172
+    },
+    {
+      "seq_idx": 7,
+      "position": 171,
+      "token_id": 3969,
+      "token_text": "fort",
+      "pi_0": 0.45776525139808655,
+      "entropy_0": 2.618941307067871
+    },
+    {
+      "seq_idx": 7,
+      "position": 214,
+      "token_id": 4120,
+      "token_text": " Time",
+      "pi_0": 0.4221476912498474,
+      "entropy_0": 2.313945770263672
+    },
+    {
+      "seq_idx": 7,
+      "position": 313,
+      "token_id": 9258,
+      "token_text": " Output",
+      "pi_0": 0.212350994348526,
+      "entropy_0": 2.4827651977539062
+    },
+    {
+      "seq_idx": 7,
+      "position": 319,
+      "token_id": 5035,
+      "token_text": "total",
+      "pi_0": 0.16241642832756042,
+      "entropy_0": 4.532876014709473
+    },
+    {
+      "seq_idx": 7,
+      "position": 355,
+      "token_id": 2038,
+      "token_text": " code",
+      "pi_0": 0.3258727788925171,
+      "entropy_0": 2.372220993041992
+    },
+    {
+      "seq_idx": 9,
+      "position": 2,
+      "token_id": 525,
+      "token_text": " are",
+      "pi_0": 0.12944410741329193,
+      "entropy_0": 2.9642372131347656
+    },
+    {
+      "seq_idx": 9,
+      "position": 3,
+      "token_id": 5020,
+      "token_text": " pretty",
+      "pi_0": 0.022108769044280052,
+      "entropy_0": 4.305197715759277
+    },
+    {
+      "seq_idx": 9,
+      "position": 6,
+      "token_id": 3984,
+      "token_text": " El",
+      "pi_0": 0.18379899859428406,
+      "entropy_0": 3.1562423706054688
+    },
+    {
+      "seq_idx": 9,
+      "position": 39,
+      "token_id": 1096,
+      "token_text": " This",
+      "pi_0": 0.021360529586672783,
+      "entropy_0": 2.7428741455078125
+    },
+    {
+      "seq_idx": 9,
+      "position": 40,
+      "token_id": 6696,
+      "token_text": " gives",
+      "pi_0": 0.1989692598581314,
+      "entropy_0": 3.1310768127441406
+    },
+    {
+      "seq_idx": 9,
+      "position": 63,
+      "token_id": 69950,
+      "token_text": "####\n",
+      "pi_0": 0.13056066632270813,
+      "entropy_0": 4.009128570556641
+    },
+    {
+      "seq_idx": 9,
+      "position": 64,
+      "token_id": 785,
+      "token_text": "The",
+      "pi_0": 0.47425514459609985,
+      "entropy_0": 3.018320083618164
+    },
+    {
+      "seq_idx": 9,
+      "position": 124,
+      "token_id": 582,
+      "token_text": " we",
+      "pi_0": 0.3576057553291321,
+      "entropy_0": 2.880927085876465
+    },
+    {
+      "seq_idx": 9,
+      "position": 125,
+      "token_id": 633,
+      "token_text": " get",
+      "pi_0": 0.11078532040119171,
+      "entropy_0": 3.244126319885254
+    },
+    {
+      "seq_idx": 10,
+      "position": 2,
+      "token_id": 785,
+      "token_text": "The",
+      "pi_0": 0.057347096502780914,
+      "entropy_0": 5.496912002563477
+    },
+    {
+      "seq_idx": 10,
+      "position": 3,
+      "token_id": 3491,
+      "token_text": " problem",
+      "pi_0": 0.04587623476982117,
+      "entropy_0": 2.5983219146728516
+    },
+    {
+      "seq_idx": 11,
+      "position": 9,
+      "token_id": 369,
+      "token_text": " for",
+      "pi_0": 0.3703039586544037,
+      "entropy_0": 2.5594406127929688
+    },
+    {
+      "seq_idx": 11,
+      "position": 17,
+      "token_id": 2790,
+      "token_text": " total",
+      "pi_0": 0.2999516427516937,
+      "entropy_0": 2.425405502319336
+    },
+    {
+      "seq_idx": 11,
+      "position": 25,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.29192054271698,
+      "entropy_0": 2.316598892211914
+    },
+    {
+      "seq_idx": 11,
+      "position": 26,
+      "token_id": 2783,
+      "token_text": " cost",
+      "pi_0": 0.11258790642023087,
+      "entropy_0": 2.840526580810547
+    },
+    {
+      "seq_idx": 11,
+      "position": 41,
+      "token_id": 701,
+      "token_text": "),",
+      "pi_0": 0.3326602280139923,
+      "entropy_0": 3.021895408630371
+    },
+    {
+      "seq_idx": 11,
+      "position": 65,
+      "token_id": 4739,
+      "token_text": "\\/",
+      "pi_0": 0.20069719851016998,
+      "entropy_0": 5.997597694396973
+    },
+    {
+      "seq_idx": 12,
+      "position": 11,
+      "token_id": 10061,
+      "token_text": "Let",
+      "pi_0": 0.04979946091771126,
+      "entropy_0": 7.896367073059082
+    },
+    {
+      "seq_idx": 13,
+      "position": 5,
+      "token_id": 84250,
+      "token_text": " Melanie",
+      "pi_0": 0.16849303245544434,
+      "entropy_0": 2.699892044067383
+    },
+    {
+      "seq_idx": 13,
+      "position": 11,
+      "token_id": 1091,
+      "token_text": " than",
+      "pi_0": 0.31804659962654114,
+      "entropy_0": 2.8416824340820312
+    },
+    {
+      "seq_idx": 13,
+      "position": 16,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.16438408195972443,
+      "entropy_0": 4.605897903442383
+    },
+    {
+      "seq_idx": 13,
+      "position": 25,
+      "token_id": 374,
+      "token_text": " is",
+      "pi_0": 0.25158020853996277,
+      "entropy_0": 3.7327423095703125
+    },
+    {
+      "seq_idx": 13,
+      "position": 26,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.511444091796875,
+      "entropy_0": 3.1620826721191406
+    },
+    {
+      "seq_idx": 13,
+      "position": 50,
+      "token_id": 12381,
+      "token_text": " ->\n",
+      "pi_0": 0.2894623875617981,
+      "entropy_0": 3.341440200805664
+    },
+    {
+      "seq_idx": 13,
+      "position": 52,
+      "token_id": 12381,
+      "token_text": " ->\n",
+      "pi_0": 0.2373340129852295,
+      "entropy_0": 2.8274669647216797
+    },
+    {
+      "seq_idx": 13,
+      "position": 76,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.29694491624832153,
+      "entropy_0": 4.167447090148926
+    },
+    {
+      "seq_idx": 13,
+      "position": 79,
+      "token_id": 12381,
+      "token_text": " ->\n",
+      "pi_0": 0.049110736697912216,
+      "entropy_0": 4.876226425170898
+    },
+    {
+      "seq_idx": 13,
+      "position": 84,
+      "token_id": 572,
+      "token_text": " was",
+      "pi_0": 0.039214957505464554,
+      "entropy_0": 3.875864028930664
+    },
+    {
+      "seq_idx": 13,
+      "position": 94,
+      "token_id": 1091,
+      "token_text": " than",
+      "pi_0": 0.44377100467681885,
+      "entropy_0": 3.4752931594848633
+    },
+    {
+      "seq_idx": 13,
+      "position": 95,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.08577792346477509,
+      "entropy_0": 3.8248558044433594
+    },
+    {
+      "seq_idx": 13,
+      "position": 106,
+      "token_id": 4340,
+      "token_text": "How",
+      "pi_0": 0.04034760594367981,
+      "entropy_0": 5.624314308166504
+    },
+    {
+      "seq_idx": 13,
+      "position": 108,
+      "token_id": 374,
+      "token_text": " is",
+      "pi_0": 0.09093054383993149,
+      "entropy_0": 3.8897323608398438
+    },
+    {
+      "seq_idx": 13,
+      "position": 114,
+      "token_id": 4340,
+      "token_text": "How",
+      "pi_0": 0.023801593109965324,
+      "entropy_0": 4.53562068939209
+    },
+    {
+      "seq_idx": 13,
+      "position": 116,
+      "token_id": 572,
+      "token_text": " was",
+      "pi_0": 0.21759706735610962,
+      "entropy_0": 3.8987159729003906
+    },
+    {
+      "seq_idx": 13,
+      "position": 117,
+      "token_id": 1483,
+      "token_text": " used",
+      "pi_0": 0.2590780258178711,
+      "entropy_0": 4.293285369873047
+    },
+    {
+      "seq_idx": 13,
+      "position": 118,
+      "token_id": 1421,
+      "token_text": " +=",
+      "pi_0": 0.18320085108280182,
+      "entropy_0": 4.261270523071289
+    },
+    {
+      "seq_idx": 13,
+      "position": 125,
+      "token_id": 27451,
+      "token_text": "Less",
+      "pi_0": 0.5527065992355347,
+      "entropy_0": 2.872804641723633
+    },
+    {
+      "seq_idx": 13,
+      "position": 128,
+      "token_id": 51705,
+      "token_text": " ideals",
+      "pi_0": 0.6866498589515686,
+      "entropy_0": 2.3266000747680664
+    },
+    {
+      "seq_idx": 13,
+      "position": 141,
+      "token_id": 1191,
+      "token_text": " start",
+      "pi_0": 0.02813546173274517,
+      "entropy_0": 4.870309829711914
+    },
+    {
+      "seq_idx": 13,
+      "position": 145,
+      "token_id": 582,
+      "token_text": " we",
+      "pi_0": 0.36639419198036194,
+      "entropy_0": 3.3394460678100586
+    },
+    {
+      "seq_idx": 13,
+      "position": 146,
+      "token_id": 1191,
+      "token_text": " start",
+      "pi_0": 0.48884692788124084,
+      "entropy_0": 2.732672691345215
+    },
+    {
+      "seq_idx": 13,
+      "position": 151,
+      "token_id": 504,
+      "token_text": " from",
+      "pi_0": 0.041031911969184875,
+      "entropy_0": 4.712502479553223
+    },
+    {
+      "seq_idx": 13,
+      "position": 165,
+      "token_id": 3019,
+      "token_text": " step",
+      "pi_0": 0.15301194787025452,
+      "entropy_0": 3.804983139038086
+    },
+    {
+      "seq_idx": 13,
+      "position": 169,
+      "token_id": 582,
+      "token_text": " we",
+      "pi_0": 0.5345177054405212,
+      "entropy_0": 2.548555374145508
+    },
+    {
+      "seq_idx": 13,
+      "position": 170,
+      "token_id": 1414,
+      "token_text": " know",
+      "pi_0": 0.3973630368709564,
+      "entropy_0": 3.002727508544922
+    },
+    {
+      "seq_idx": 13,
+      "position": 172,
+      "token_id": 702,
+      "token_text": " has",
+      "pi_0": 0.33603179454803467,
+      "entropy_0": 2.590808868408203
+    },
+    {
+      "seq_idx": 13,
+      "position": 183,
+      "token_id": 4843,
+      "token_text": " third",
+      "pi_0": 0.07333588600158691,
+      "entropy_0": 3.761293411254883
+    },
+    {
+      "seq_idx": 13,
+      "position": 199,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.1376173496246338,
+      "entropy_0": 3.841404914855957
+    },
+    {
+      "seq_idx": 13,
+      "position": 200,
+      "token_id": 6176,
+      "token_text": " green",
+      "pi_0": 0.0747222825884819,
+      "entropy_0": 4.263214111328125
+    },
+    {
+      "seq_idx": 13,
+      "position": 203,
+      "token_id": 6088,
+      "token_text": " sold",
+      "pi_0": 0.15817801654338837,
+      "entropy_0": 3.8767127990722656
+    },
+    {
+      "seq_idx": 13,
+      "position": 204,
+      "token_id": 862,
+      "token_text": " their",
+      "pi_0": 0.06761110574007034,
+      "entropy_0": 3.9692516326904297
+    },
+    {
+      "seq_idx": 13,
+      "position": 210,
+      "token_id": 9520,
+      "token_text": "step",
+      "pi_0": 0.665841281414032,
+      "entropy_0": 2.355532646179199
+    },
+    {
+      "seq_idx": 13,
+      "position": 222,
+      "token_id": 1372,
+      "token_text": " number",
+      "pi_0": 0.5739231705665588,
+      "entropy_0": 2.5584564208984375
+    },
+    {
+      "seq_idx": 13,
+      "position": 224,
+      "token_id": 28202,
+      "token_text": " vacuum",
+      "pi_0": 0.42733243107795715,
+      "entropy_0": 3.450606346130371
+    },
+    {
+      "seq_idx": 13,
+      "position": 229,
+      "token_id": 2661,
+      "token_text": " given",
+      "pi_0": 0.07012911140918732,
+      "entropy_0": 4.955757141113281
+    },
+    {
+      "seq_idx": 13,
+      "position": 237,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.1413637399673462,
+      "entropy_0": 2.9656105041503906
+    },
+    {
+      "seq_idx": 13,
+      "position": 238,
+      "token_id": 1102,
+      "token_text": " result",
+      "pi_0": 0.08602467179298401,
+      "entropy_0": 4.346668243408203
+    },
+    {
+      "seq_idx": 13,
+      "position": 240,
+      "token_id": 448,
+      "token_text": " with",
+      "pi_0": 0.04406105354428291,
+      "entropy_0": 2.5652523040771484
+    },
+    {
+      "seq_idx": 13,
+      "position": 248,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.17445673048496246,
+      "entropy_0": 5.357076644897461
+    },
+    {
+      "seq_idx": 13,
+      "position": 250,
+      "token_id": 448,
+      "token_text": " with",
+      "pi_0": 0.025662720203399658,
+      "entropy_0": 5.600454330444336
+    },
+    {
+      "seq_idx": 13,
+      "position": 257,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.2156020700931549,
+      "entropy_0": 5.436908721923828
+    },
+    {
+      "seq_idx": 13,
+      "position": 268,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.3893972337245941,
+      "entropy_0": 3.685029983520508
+    },
+    {
+      "seq_idx": 13,
+      "position": 270,
+      "token_id": 304,
+      "token_text": " in",
+      "pi_0": 0.08540651947259903,
+      "entropy_0": 4.684394836425781
+    },
+    {
+      "seq_idx": 13,
+      "position": 271,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.31591179966926575,
+      "entropy_0": 3.9847373962402344
+    },
+    {
+      "seq_idx": 13,
+      "position": 273,
+      "token_id": 1973,
+      "token_text": " order",
+      "pi_0": 0.2533058822154999,
+      "entropy_0": 4.08837890625
+    },
+    {
+      "seq_idx": 13,
+      "position": 274,
+      "token_id": 438,
+      "token_text": " as",
+      "pi_0": 0.3081631362438202,
+      "entropy_0": 3.4903087615966797
+    },
+    {
+      "seq_idx": 13,
+      "position": 277,
+      "token_id": 323,
+      "token_text": " and",
+      "pi_0": 0.022393671795725822,
+      "entropy_0": 3.618178367614746
+    },
+    {
+      "seq_idx": 13,
+      "position": 279,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.3818036913871765,
+      "entropy_0": 4.172431945800781
+    },
+    {
+      "seq_idx": 13,
+      "position": 281,
+      "token_id": 5109,
+      "token_text": " numbers",
+      "pi_0": 0.06894290447235107,
+      "entropy_0": 5.6002302169799805
+    },
+    {
+      "seq_idx": 13,
+      "position": 284,
+      "token_id": 311,
+      "token_text": " to",
+      "pi_0": 0.1893858015537262,
+      "entropy_0": 3.7224349975585938
+    },
+    {
+      "seq_idx": 13,
+      "position": 285,
+      "token_id": 633,
+      "token_text": " get",
+      "pi_0": 0.12394972890615463,
+      "entropy_0": 4.391587257385254
+    },
+    {
+      "seq_idx": 13,
+      "position": 288,
+      "token_id": 1102,
+      "token_text": " result",
+      "pi_0": 0.3300689458847046,
+      "entropy_0": 2.935779571533203
+    },
+    {
+      "seq_idx": 13,
+      "position": 290,
+      "token_id": 69950,
+      "token_text": "####\n",
+      "pi_0": 0.20631089806556702,
+      "entropy_0": 3.626021385192871
+    },
+    {
+      "seq_idx": 13,
+      "position": 313,
+      "token_id": 110911,
+      "token_text": "\u53f0\u9636",
+      "pi_0": 0.19784927368164062,
+      "entropy_0": 2.326626777648926
+    },
+    {
+      "seq_idx": 13,
+      "position": 324,
+      "token_id": 109922,
+      "token_text": "\u697c\u68af",
+      "pi_0": 0.12773829698562622,
+      "entropy_0": 5.413542747497559
+    },
+    {
+      "seq_idx": 13,
+      "position": 351,
+      "token_id": 11491,
+      "token_text": "igma",
+      "pi_0": 0.5372359752655029,
+      "entropy_0": 3.654120445251465
+    },
+    {
+      "seq_idx": 13,
+      "position": 352,
+      "token_id": 29742,
+      "token_text": "\\S",
+      "pi_0": 0.07162271440029144,
+      "entropy_0": 4.652626991271973
+    },
+    {
+      "seq_idx": 13,
+      "position": 356,
+      "token_id": 29742,
+      "token_text": "\\S",
+      "pi_0": 0.4170182943344116,
+      "entropy_0": 2.9707536697387695
+    },
+    {
+      "seq_idx": 13,
+      "position": 375,
+      "token_id": 29742,
+      "token_text": "\\S",
+      "pi_0": 0.3997481167316437,
+      "entropy_0": 4.282171249389648
+    },
+    {
+      "seq_idx": 13,
+      "position": 438,
+      "token_id": 29742,
+      "token_text": "\\S",
+      "pi_0": 0.20059329271316528,
+      "entropy_0": 4.687074661254883
+    },
+    {
+      "seq_idx": 14,
+      "position": 2,
+      "token_id": 374,
+      "token_text": " is",
+      "pi_0": 0.09747109562158585,
+      "entropy_0": 4.025995254516602
+    },
+    {
+      "seq_idx": 14,
+      "position": 4,
+      "token_id": 311,
+      "token_text": " to",
+      "pi_0": 0.3596372902393341,
+      "entropy_0": 2.6744613647460938
+    },
+    {
+      "seq_idx": 14,
+      "position": 7,
+      "token_id": 1059,
+      "token_text": " her",
+      "pi_0": 0.02182949148118496,
+      "entropy_0": 5.5456953048706055
+    },
+    {
+      "seq_idx": 14,
+      "position": 13,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.19314542412757874,
+      "entropy_0": 4.205066680908203
+    },
+    {
+      "seq_idx": 14,
+      "position": 15,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.31785738468170166,
+      "entropy_0": 2.896116256713867
+    },
+    {
+      "seq_idx": 14,
+      "position": 16,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.19464728236198425,
+      "entropy_0": 4.588147163391113
+    },
+    {
+      "seq_idx": 14,
+      "position": 18,
+      "token_id": 27746,
+      "token_text": "-making",
+      "pi_0": 0.555187463760376,
+      "entropy_0": 2.276479721069336
+    },
+    {
+      "seq_idx": 14,
+      "position": 21,
+      "token_id": 15920,
+      "token_text": " Which",
+      "pi_0": 0.18859457969665527,
+      "entropy_0": 3.5557632446289062
+    },
+    {
+      "seq_idx": 14,
+      "position": 22,
+      "token_id": 3019,
+      "token_text": " step",
+      "pi_0": 0.2536046504974365,
+      "entropy_0": 2.377420425415039
+    },
+    {
+      "seq_idx": 14,
+      "position": 25,
+      "token_id": 387,
+      "token_text": " be",
+      "pi_0": 0.05408480390906334,
+      "entropy_0": 4.425806045532227
+    },
+    {
+      "seq_idx": 14,
+      "position": 29,
+      "token_id": 323,
+      "token_text": " and",
+      "pi_0": 0.5108610987663269,
+      "entropy_0": 2.566059112548828
+    },
+    {
+      "seq_idx": 14,
+      "position": 37,
+      "token_id": 641,
+      "token_text": "In",
+      "pi_0": 0.09608577191829681,
+      "entropy_0": 8.54483413696289
+    },
+    {
+      "seq_idx": 14,
+      "position": 39,
+      "token_id": 96555,
+      "token_text": "\u6b63\u5728",
+      "pi_0": 0.27574530243873596,
+      "entropy_0": 4.66200590133667
+    },
+    {
+      "seq_idx": 14,
+      "position": 40,
+      "token_id": 104136,
+      "token_text": "\u89e3\u91ca",
+      "pi_0": 0.33087480068206787,
+      "entropy_0": 3.381106376647949
+    },
+    {
+      "seq_idx": 14,
+      "position": 47,
+      "token_id": 41298,
+      "token_text": "Harry",
+      "pi_0": 0.34748807549476624,
+      "entropy_0": 6.761658668518066
+    },
+    {
+      "seq_idx": 14,
+      "position": 53,
+      "token_id": 104136,
+      "token_text": "\u89e3\u91ca",
+      "pi_0": 0.025502720847725868,
+      "entropy_0": 3.6138696670532227
+    },
+    {
+      "seq_idx": 14,
+      "position": 55,
+      "token_id": 87752,
+      "token_text": "\u4ee5\u4e0b",
+      "pi_0": 0.10535832494497299,
+      "entropy_0": 3.8433942794799805
+    },
+    {
+      "seq_idx": 14,
+      "position": 59,
+      "token_id": 101034,
+      "token_text": "\u4ee5\u53ca",
+      "pi_0": 0.583297073841095,
+      "entropy_0": 2.5824546813964844
+    },
+    {
+      "seq_idx": 14,
+      "position": 61,
+      "token_id": 102298,
+      "token_text": "\u5305\u542b",
+      "pi_0": 0.35185515880584717,
+      "entropy_0": 3.048405647277832
+    },
+    {
+      "seq_idx": 14,
+      "position": 68,
+      "token_id": 73670,
+      "token_text": "\u53ef\u4ee5",
+      "pi_0": 0.029011087492108345,
+      "entropy_0": 5.519264221191406
+    },
+    {
+      "seq_idx": 14,
+      "position": 70,
+      "token_id": 13874,
+      "token_text": "``",
+      "pi_0": 0.15593865513801575,
+      "entropy_0": 5.840301513671875
+    },
+    {
+      "seq_idx": 14,
+      "position": 89,
+      "token_id": 99998,
+      "token_text": "\u8fd8\u662f",
+      "pi_0": 0.11022845655679703,
+      "entropy_0": 5.749487400054932
+    },
+    {
+      "seq_idx": 14,
+      "position": 111,
+      "token_id": 1355,
+      "token_text": "input",
+      "pi_0": 0.42125287652015686,
+      "entropy_0": 3.2493362426757812
+    },
+    {
+      "seq_idx": 14,
+      "position": 117,
+      "token_id": 13874,
+      "token_text": "``",
+      "pi_0": 0.10615013539791107,
+      "entropy_0": 7.7268595695495605
+    },
+    {
+      "seq_idx": 14,
+      "position": 133,
+      "token_id": 13874,
+      "token_text": "``",
+      "pi_0": 0.42506280541419983,
+      "entropy_0": 5.160428524017334
+    },
+    {
+      "seq_idx": 14,
+      "position": 136,
+      "token_id": 13874,
+      "token_text": "``",
+      "pi_0": 0.4314890205860138,
+      "entropy_0": 3.282505989074707
+    },
+    {
+      "seq_idx": 15,
+      "position": 117,
+      "token_id": 4650,
+      "token_text": " potential",
+      "pi_0": 0.11073969304561615,
+      "entropy_0": 2.288177490234375
+    },
+    {
+      "seq_idx": 15,
+      "position": 439,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.5661289095878601,
+      "entropy_0": 2.689210891723633
+    },
+    {
+      "seq_idx": 15,
+      "position": 441,
+      "token_id": 28117,
+      "token_text": " calculations",
+      "pi_0": 0.47752097249031067,
+      "entropy_0": 3.0363082885742188
+    },
+    {
+      "seq_idx": 15,
+      "position": 445,
+      "token_id": 312,
+      "token_text": " re",
+      "pi_0": 0.0287945456802845,
+      "entropy_0": 3.3618698120117188
+    },
+    {
+      "seq_idx": 15,
+      "position": 451,
+      "token_id": 11372,
+      "token_text": " profit",
+      "pi_0": 0.380022257566452,
+      "entropy_0": 2.8058853149414062
+    },
+    {
+      "seq_idx": 15,
+      "position": 511,
+      "token_id": 374,
+      "token_text": " is",
+      "pi_0": 0.1785993129014969,
+      "entropy_0": 3.1351146697998047
+    },
+    {
+      "seq_idx": 16,
+      "position": 20,
+      "token_id": 35702,
+      "token_text": "{\\",
+      "pi_0": 0.12804454565048218,
+      "entropy_0": 3.374453544616699
+    },
+    {
+      "seq_idx": 16,
+      "position": 24,
+      "token_id": 21806,
+      "token_text": " Answer",
+      "pi_0": 0.03366994857788086,
+      "entropy_0": 3.9804954528808594
+    },
+    {
+      "seq_idx": 16,
+      "position": 25,
+      "token_id": 3417,
+      "token_text": "}}",
+      "pi_0": 0.16419042646884918,
+      "entropy_0": 3.819917678833008
+    },
+    {
+      "seq_idx": 16,
+      "position": 27,
+      "token_id": 1249,
+      "token_text": "To",
+      "pi_0": 0.03935012221336365,
+      "entropy_0": 9.064765930175781
+    },
+    {
+      "seq_idx": 16,
+      "position": 52,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.1090758666396141,
+      "entropy_0": 2.5224876403808594
+    },
+    {
+      "seq_idx": 16,
+      "position": 83,
+      "token_id": 1654,
+      "token_text": "We",
+      "pi_0": 0.1391906887292862,
+      "entropy_0": 2.2830753326416016
+    },
+    {
+      "seq_idx": 16,
+      "position": 85,
+      "token_id": 11047,
+      "token_text": " calculate",
+      "pi_0": 0.10343693941831589,
+      "entropy_0": 3.0946121215820312
+    },
+    {
+      "seq_idx": 16,
+      "position": 91,
+      "token_id": 1221,
+      "token_text": " then",
+      "pi_0": 0.34696850180625916,
+      "entropy_0": 2.461742401123047
+    },
+    {
+      "seq_idx": 16,
+      "position": 92,
+      "token_id": 2550,
+      "token_text": " output",
+      "pi_0": 0.31280413269996643,
+      "entropy_0": 2.595245361328125
+    },
+    {
+      "seq_idx": 16,
+      "position": 119,
+      "token_id": 1817,
+      "token_text": " each",
+      "pi_0": 0.1511024534702301,
+      "entropy_0": 2.4549789428710938
+    },
+    {
+      "seq_idx": 16,
+      "position": 151,
+      "token_id": 2736,
+      "token_text": " perform",
+      "pi_0": 0.04215022176504135,
+      "entropy_0": 2.415353775024414
+    },
+    {
+      "seq_idx": 17,
+      "position": 1,
+      "token_id": 23054,
+      "token_text": "NY",
+      "pi_0": 0.1018923670053482,
+      "entropy_0": 5.9867963790893555
+    },
+    {
+      "seq_idx": 17,
+      "position": 11,
+      "token_id": 33651,
+      "token_text": " deposits",
+      "pi_0": 0.020231228321790695,
+      "entropy_0": 3.311892509460449
+    },
+    {
+      "seq_idx": 17,
+      "position": 24,
+      "token_id": 4990,
+      "token_text": " takes",
+      "pi_0": 0.08646734058856964,
+      "entropy_0": 3.021329879760742
+    },
+    {
+      "seq_idx": 17,
+      "position": 26,
+      "token_id": 11679,
+      "token_text": " loan",
+      "pi_0": 0.492900013923645,
+      "entropy_0": 2.624720573425293
+    },
+    {
+      "seq_idx": 17,
+      "position": 31,
+      "token_id": 12515,
+      "token_text": " paying",
+      "pi_0": 0.19441001117229462,
+      "entropy_0": 4.1800537109375
+    },
+    {
+      "seq_idx": 17,
+      "position": 40,
+      "token_id": 2411,
+      "token_text": " At",
+      "pi_0": 0.058656007051467896,
+      "entropy_0": 2.8121471405029297
+    },
+    {
+      "seq_idx": 17,
+      "position": 42,
+      "token_id": 882,
+      "token_text": " time",
+      "pi_0": 0.2815421223640442,
+      "entropy_0": 2.3278255462646484
+    },
+    {
+      "seq_idx": 17,
+      "position": 52,
+      "token_id": 6771,
+      "token_text": " Let",
+      "pi_0": 0.4934145212173462,
+      "entropy_0": 3.1621742248535156
+    },
+    {
+      "seq_idx": 17,
+      "position": 54,
+      "token_id": 1744,
+      "token_text": " think",
+      "pi_0": 0.4039979875087738,
+      "entropy_0": 2.4182510375976562
+    },
+    {
+      "seq_idx": 17,
+      "position": 70,
+      "token_id": 54275,
+      "token_text": " ```",
+      "pi_0": 0.39130473136901855,
+      "entropy_0": 2.396913528442383
+    },
+    {
+      "seq_idx": 17,
+      "position": 74,
+      "token_id": 3660,
+      "token_text": " Part",
+      "pi_0": 0.28499019145965576,
+      "entropy_0": 2.829437255859375
+    },
+    {
+      "seq_idx": 17,
+      "position": 80,
+      "token_id": 7911,
+      "token_text": " income",
+      "pi_0": 0.11001778393983841,
+      "entropy_0": 2.818727493286133
+    },
+    {
+      "seq_idx": 17,
+      "position": 82,
+      "token_id": 11079,
+      "token_text": " teacher",
+      "pi_0": 0.1483467072248459,
+      "entropy_0": 2.6150455474853516
+    },
+    {
+      "seq_idx": 17,
+      "position": 134,
+      "token_id": 2790,
+      "token_text": " total",
+      "pi_0": 0.05820165202021599,
+      "entropy_0": 2.559999465942383
+    },
+    {
+      "seq_idx": 17,
+      "position": 153,
+      "token_id": 24947,
+      "token_text": " Annual",
+      "pi_0": 0.3524532914161682,
+      "entropy_0": 2.817838668823242
+    },
+    {
+      "seq_idx": 17,
+      "position": 276,
+      "token_id": 33975,
+      "token_text": "Human",
+      "pi_0": 0.22959959506988525,
+      "entropy_0": 2.573641777038574
+    },
+    {
+      "seq_idx": 17,
+      "position": 278,
+      "token_id": 7379,
+      "token_text": " Find",
+      "pi_0": 0.0466211698949337,
+      "entropy_0": 4.4233198165893555
+    },
+    {
+      "seq_idx": 17,
+      "position": 280,
+      "token_id": 7772,
+      "token_text": " largest",
+      "pi_0": 0.03967168554663658,
+      "entropy_0": 4.003889083862305
+    },
+    {
+      "seq_idx": 18,
+      "position": 14,
+      "token_id": 2932,
+      "token_text": " She",
+      "pi_0": 0.15579193830490112,
+      "entropy_0": 3.329113006591797
+    },
+    {
+      "seq_idx": 18,
+      "position": 19,
+      "token_id": 817,
+      "token_text": " per",
+      "pi_0": 0.29706501960754395,
+      "entropy_0": 2.44561767578125
+    },
+    {
+      "seq_idx": 18,
+      "position": 21,
+      "token_id": 1576,
+      "token_text": " because",
+      "pi_0": 0.04234886169433594,
+      "entropy_0": 2.695699691772461
+    },
+    {
+      "seq_idx": 18,
+      "position": 37,
+      "token_id": 1221,
+      "token_text": " then",
+      "pi_0": 0.2737322747707367,
+      "entropy_0": 2.853586196899414
+    },
+    {
+      "seq_idx": 18,
+      "position": 42,
+      "token_id": 825,
+      "token_text": " one",
+      "pi_0": 0.4474870562553406,
+      "entropy_0": 2.5071144104003906
+    },
+    {
+      "seq_idx": 19,
+      "position": 4,
+      "token_id": 1951,
+      "token_text": "ground",
+      "pi_0": 0.1055416539311409,
+      "entropy_0": 3.107440948486328
+    },
+    {
+      "seq_idx": 19,
+      "position": 10,
+      "token_id": 3019,
+      "token_text": " step",
+      "pi_0": 0.5066284537315369,
+      "entropy_0": 3.112664222717285
+    },
+    {
+      "seq_idx": 19,
+      "position": 12,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.06086638942360878,
+      "entropy_0": 3.379240036010742
+    },
+    {
+      "seq_idx": 19,
+      "position": 19,
+      "token_id": 1102,
+      "token_text": " result",
+      "pi_0": 0.07956163585186005,
+      "entropy_0": 2.9756240844726562
+    },
+    {
+      "seq_idx": 19,
+      "position": 21,
+      "token_id": 6771,
+      "token_text": " Let",
+      "pi_0": 0.16028542816638947,
+      "entropy_0": 3.964268684387207
+    },
+    {
+      "seq_idx": 19,
+      "position": 23,
+      "token_id": 23643,
+      "token_text": " analyze",
+      "pi_0": 0.11068394035100937,
+      "entropy_0": 4.421014785766602
+    },
+    {
+      "seq_idx": 19,
+      "position": 25,
+      "token_id": 4265,
+      "token_text": " issue",
+      "pi_0": 0.131998673081398,
+      "entropy_0": 3.8593978881835938
+    },
+    {
+      "seq_idx": 19,
+      "position": 26,
+      "token_id": 323,
+      "token_text": " and",
+      "pi_0": 0.41354697942733765,
+      "entropy_0": 2.4715709686279297
+    },
+    {
+      "seq_idx": 19,
+      "position": 27,
+      "token_id": 4396,
+      "token_text": " correct",
+      "pi_0": 0.20713654160499573,
+      "entropy_0": 3.690450668334961
+    },
+    {
+      "seq_idx": 19,
+      "position": 30,
+      "token_id": 14374,
+      "token_text": "###",
+      "pi_0": 0.059486594051122665,
+      "entropy_0": 3.230776786804199
+    },
+    {
+      "seq_idx": 19,
+      "position": 43,
+      "token_id": 4362,
+      "token_text": " needed",
+      "pi_0": 0.19429749250411987,
+      "entropy_0": 4.0055084228515625
+    },
+    {
+      "seq_idx": 19,
+      "position": 45,
+      "token_id": 785,
+      "token_text": "The",
+      "pi_0": 0.18036195635795593,
+      "entropy_0": 3.468515396118164
+    },
+    {
+      "seq_idx": 19,
+      "position": 46,
+      "token_id": 2025,
+      "token_text": " program",
+      "pi_0": 0.1979113668203354,
+      "entropy_0": 3.916828155517578
+    },
+    {
+      "seq_idx": 19,
+      "position": 47,
+      "token_id": 15102,
+      "token_text": " initially",
+      "pi_0": 0.1548238843679428,
+      "entropy_0": 4.658111572265625
+    },
+    {
+      "seq_idx": 19,
+      "position": 52,
+      "token_id": 3880,
+      "token_text": " needs",
+      "pi_0": 0.31581297516822815,
+      "entropy_0": 2.681882858276367
+    },
+    {
+      "seq_idx": 19,
+      "position": 54,
+      "token_id": 4227,
+      "token_text": " walk",
+      "pi_0": 0.3827362656593323,
+      "entropy_0": 2.2833595275878906
+    },
+    {
+      "seq_idx": 19,
+      "position": 169,
+      "token_id": 311,
+      "token_text": " to",
+      "pi_0": 0.045242585241794586,
+      "entropy_0": 2.390718460083008
+    },
+    {
+      "seq_idx": 19,
+      "position": 170,
+      "token_id": 1477,
+      "token_text": " find",
+      "pi_0": 0.09308228641748428,
+      "entropy_0": 2.406187057495117
+    },
+    {
+      "seq_idx": 19,
+      "position": 187,
+      "token_id": 39075,
+      "token_text": " reconsider",
+      "pi_0": 0.021275386214256287,
+      "entropy_0": 3.0402755737304688
+    },
+    {
+      "seq_idx": 19,
+      "position": 200,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.23694932460784912,
+      "entropy_0": 3.9188060760498047
+    },
+    {
+      "seq_idx": 19,
+      "position": 201,
+      "token_id": 1008,
+      "token_text": " other",
+      "pi_0": 0.021931111812591553,
+      "entropy_0": 6.293203353881836
+    },
+    {
+      "seq_idx": 19,
+      "position": 204,
+      "token_id": 582,
+      "token_text": " we",
+      "pi_0": 0.043266233056783676,
+      "entropy_0": 4.536863327026367
+    },
+    {
+      "seq_idx": 19,
+      "position": 205,
+      "token_id": 1184,
+      "token_text": " need",
+      "pi_0": 0.51811283826828,
+      "entropy_0": 2.637685775756836
+    },
+    {
+      "seq_idx": 19,
+      "position": 208,
+      "token_id": 1246,
+      "token_text": " how",
+      "pi_0": 0.23474735021591187,
+      "entropy_0": 3.4739370346069336
+    },
+    {
+      "seq_idx": 19,
+      "position": 221,
+      "token_id": 785,
+      "token_text": "The",
+      "pi_0": 0.14064162969589233,
+      "entropy_0": 3.0647506713867188
+    },
+    {
+      "seq_idx": 19,
+      "position": 222,
+      "token_id": 2856,
+      "token_text": " initial",
+      "pi_0": 0.038068514317274094,
+      "entropy_0": 3.2048091888427734
+    },
+    {
+      "seq_idx": 19,
+      "position": 223,
+      "token_id": 21937,
+      "token_text": " calculation",
+      "pi_0": 0.10212428867816925,
+      "entropy_0": 3.904714584350586
+    },
+    {
+      "seq_idx": 19,
+      "position": 224,
+      "token_id": 4977,
+      "token_text": " seems",
+      "pi_0": 0.03471629321575165,
+      "entropy_0": 3.69244384765625
+    },
+    {
+      "seq_idx": 19,
+      "position": 227,
+      "token_id": 1988,
+      "token_text": " But",
+      "pi_0": 0.12395824491977692,
+      "entropy_0": 2.695392608642578
+    },
+    {
+      "seq_idx": 19,
+      "position": 231,
+      "token_id": 1477,
+      "token_text": " find",
+      "pi_0": 0.23114363849163055,
+      "entropy_0": 3.0935535430908203
+    },
+    {
+      "seq_idx": 19,
+      "position": 280,
+      "token_id": 1096,
+      "token_text": " This",
+      "pi_0": 0.12350182980298996,
+      "entropy_0": 2.6746959686279297
+    },
+    {
+      "seq_idx": 19,
+      "position": 294,
+      "token_id": 1249,
+      "token_text": "To",
+      "pi_0": 0.3147966265678406,
+      "entropy_0": 2.7052745819091797
+    },
+    {
+      "seq_idx": 19,
+      "position": 299,
+      "token_id": 369,
+      "token_text": " for",
+      "pi_0": 0.2943319082260132,
+      "entropy_0": 2.434722900390625
+    },
+    {
+      "seq_idx": 19,
+      "position": 306,
+      "token_id": 738,
+      "token_text": " set",
+      "pi_0": 0.03453784063458443,
+      "entropy_0": 3.1645755767822266
+    },
+    {
+      "seq_idx": 19,
+      "position": 387,
+      "token_id": 7039,
+      "token_text": "Now",
+      "pi_0": 0.031321413815021515,
+      "entropy_0": 2.6831817626953125
+    },
+    {
+      "seq_idx": 19,
+      "position": 462,
+      "token_id": 76353,
+      "token_text": "icipation",
+      "pi_0": 0.2175070196390152,
+      "entropy_0": 4.05750846862793
+    },
+    {
+      "seq_idx": 19,
+      "position": 467,
+      "token_id": 2441,
+      "token_text": " another",
+      "pi_0": 0.0631750077009201,
+      "entropy_0": 2.428812026977539
+    },
+    {
+      "seq_idx": 19,
+      "position": 471,
+      "token_id": 6460,
+      "token_text": " hour",
+      "pi_0": 0.04994295537471771,
+      "entropy_0": 2.4240589141845703
+    },
+    {
+      "seq_idx": 19,
+      "position": 472,
+      "token_id": 1340,
+      "token_text": " she",
+      "pi_0": 0.1893673837184906,
+      "entropy_0": 3.5137481689453125
+    },
+    {
+      "seq_idx": 19,
+      "position": 473,
+      "token_id": 14858,
+      "token_text": " walked",
+      "pi_0": 0.15938791632652283,
+      "entropy_0": 3.615999221801758
+    },
+    {
+      "seq_idx": 19,
+      "position": 475,
+      "token_id": 2679,
+      "token_text": "If",
+      "pi_0": 0.04741807281970978,
+      "entropy_0": 3.0942420959472656
+    },
+    {
+      "seq_idx": 19,
+      "position": 480,
+      "token_id": 3118,
+      "token_text": " based",
+      "pi_0": 0.05065238103270531,
+      "entropy_0": 2.335968017578125
+    },
+    {
+      "seq_idx": 19,
+      "position": 484,
+      "token_id": 15048,
+      "token_text": " scenario",
+      "pi_0": 0.03670662268996239,
+      "entropy_0": 4.470758438110352
+    },
+    {
+      "seq_idx": 19,
+      "position": 486,
+      "token_id": 1340,
+      "token_text": " she",
+      "pi_0": 0.07598661631345749,
+      "entropy_0": 2.4000587463378906
+    },
+    {
+      "seq_idx": 19,
+      "position": 487,
+      "token_id": 702,
+      "token_text": " has",
+      "pi_0": 0.057311996817588806,
+      "entropy_0": 3.120534896850586
+    },
+    {
+      "seq_idx": 19,
+      "position": 501,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.5197776556015015,
+      "entropy_0": 3.2515010833740234
+    },
+    {
+      "seq_idx": 19,
+      "position": 504,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.4213135242462158,
+      "entropy_0": 2.3892745971679688
+    },
+    {
+      "seq_idx": 19,
+      "position": 506,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.12479423731565475,
+      "entropy_0": 3.927326202392578
+    },
+    {
+      "seq_idx": 19,
+      "position": 508,
+      "token_id": 565,
+      "token_text": "##",
+      "pi_0": 0.08407727628946304,
+      "entropy_0": 6.948958396911621
+    },
+    {
+      "seq_idx": 20,
+      "position": 1,
+      "token_id": 1052,
+      "token_text": " there",
+      "pi_0": 0.05286640673875809,
+      "entropy_0": 2.533876419067383
+    },
+    {
+      "seq_idx": 20,
+      "position": 11,
+      "token_id": 323,
+      "token_text": " and",
+      "pi_0": 0.32685068249702454,
+      "entropy_0": 2.470846176147461
+    },
+    {
+      "seq_idx": 20,
+      "position": 29,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.16551639139652252,
+      "entropy_0": 2.834136962890625
+    },
+    {
+      "seq_idx": 20,
+      "position": 33,
+      "token_id": 2055,
+      "token_text": " So",
+      "pi_0": 0.48268836736679077,
+      "entropy_0": 2.3649234771728516
+    },
+    {
+      "seq_idx": 20,
+      "position": 61,
+      "token_id": 2679,
+      "token_text": "If",
+      "pi_0": 0.09971863031387329,
+      "entropy_0": 2.5296897888183594
+    },
+    {
+      "seq_idx": 20,
+      "position": 117,
+      "token_id": 12549,
+      "token_text": "Since",
+      "pi_0": 0.14178985357284546,
+      "entropy_0": 2.5459842681884766
+    },
+    {
+      "seq_idx": 21,
+      "position": 169,
+      "token_id": 9160,
+      "token_text": "bert",
+      "pi_0": 0.18892905116081238,
+      "entropy_0": 3.390962600708008
+    },
+    {
+      "seq_idx": 22,
+      "position": 4,
+      "token_id": 20517,
+      "token_text": " Calculate",
+      "pi_0": 0.0830310508608818,
+      "entropy_0": 2.799619674682617
+    },
+    {
+      "seq_idx": 22,
+      "position": 63,
+      "token_id": 10061,
+      "token_text": "Let",
+      "pi_0": 0.05972397327423096,
+      "entropy_0": 4.375923156738281
+    },
+    {
+      "seq_idx": 22,
+      "position": 65,
+      "token_id": 729,
+      "token_text": " function",
+      "pi_0": 0.2543618083000183,
+      "entropy_0": 3.586740493774414
+    },
+    {
+      "seq_idx": 22,
+      "position": 121,
+      "token_id": 2870,
+      "token_text": "where",
+      "pi_0": 0.25241267681121826,
+      "entropy_0": 2.9241600036621094
+    },
+    {
+      "seq_idx": 22,
+      "position": 136,
+      "token_id": 1752,
+      "token_text": " For",
+      "pi_0": 0.04093310981988907,
+      "entropy_0": 2.555295944213867
+    },
+    {
+      "seq_idx": 22,
+      "position": 345,
+      "token_id": 12564,
+      "token_text": " compute",
+      "pi_0": 0.208940789103508,
+      "entropy_0": 2.3253536224365234
+    },
+    {
+      "seq_idx": 24,
+      "position": 26,
+      "token_id": 1205,
+      "token_text": " We",
+      "pi_0": 0.25053343176841736,
+      "entropy_0": 2.3161277770996094
+    },
+    {
+      "seq_idx": 26,
+      "position": 4,
+      "token_id": 3892,
+      "token_text": " Def",
+      "pi_0": 0.06631426513195038,
+      "entropy_0": 2.4897804260253906
+    },
+    {
+      "seq_idx": 27,
+      "position": 1,
+      "token_id": 3491,
+      "token_text": " problem",
+      "pi_0": 0.365316778421402,
+      "entropy_0": 2.750089645385742
+    },
+    {
+      "seq_idx": 27,
+      "position": 58,
+      "token_id": 4211,
+      "token_text": " implement",
+      "pi_0": 0.09681777656078339,
+      "entropy_0": 2.616067886352539
+    },
+    {
+      "seq_idx": 27,
+      "position": 166,
+      "token_id": 5035,
+      "token_text": "total",
+      "pi_0": 0.5175360441207886,
+      "entropy_0": 2.8686819076538086
+    },
+    {
+      "seq_idx": 30,
+      "position": 332,
+      "token_id": 44500,
+      "token_text": "Thus",
+      "pi_0": 0.10831604152917862,
+      "entropy_0": 2.761341094970703
+    },
+    {
+      "seq_idx": 30,
+      "position": 358,
+      "token_id": 10061,
+      "token_text": "Let",
+      "pi_0": 0.25923869013786316,
+      "entropy_0": 2.755512237548828
+    },
+    {
+      "seq_idx": 31,
+      "position": 2,
+      "token_id": 374,
+      "token_text": " is",
+      "pi_0": 0.3047809898853302,
+      "entropy_0": 2.5386123657226562
+    },
+    {
+      "seq_idx": 31,
+      "position": 4,
+      "token_id": 3491,
+      "token_text": " problem",
+      "pi_0": 0.07474295049905777,
+      "entropy_0": 3.345953941345215
+    },
+    {
+      "seq_idx": 31,
+      "position": 5,
+      "token_id": 582,
+      "token_text": " we",
+      "pi_0": 0.13731005787849426,
+      "entropy_0": 3.491130828857422
+    },
+    {
+      "seq_idx": 31,
+      "position": 11,
+      "token_id": 1205,
+      "token_text": " We",
+      "pi_0": 0.37476441264152527,
+      "entropy_0": 2.6789140701293945
+    },
+    {
+      "seq_idx": 31,
+      "position": 474,
+      "token_id": 1191,
+      "token_text": " start",
+      "pi_0": 0.3065749704837799,
+      "entropy_0": 2.4029159545898438
+    },
+    {
+      "seq_idx": 32,
+      "position": 12,
+      "token_id": 5086,
+      "token_text": " itself",
+      "pi_0": 0.1036231517791748,
+      "entropy_0": 2.9367752075195312
+    },
+    {
+      "seq_idx": 32,
+      "position": 13,
+      "token_id": 1817,
+      "token_text": " each",
+      "pi_0": 0.1638847440481186,
+      "entropy_0": 2.3870410919189453
+    },
+    {
+      "seq_idx": 32,
+      "position": 24,
+      "token_id": 1654,
+      "token_text": "We",
+      "pi_0": 0.020483611151576042,
+      "entropy_0": 2.7116336822509766
+    },
+    {
+      "seq_idx": 32,
+      "position": 82,
+      "token_id": 1654,
+      "token_text": "We",
+      "pi_0": 0.142869770526886,
+      "entropy_0": 2.3605756759643555
+    },
+    {
+      "seq_idx": 32,
+      "position": 84,
+      "token_id": 2182,
+      "token_text": " put",
+      "pi_0": 0.034048911184072495,
+      "entropy_0": 2.7313365936279297
+    },
+    {
+      "seq_idx": 32,
+      "position": 93,
+      "token_id": 73594,
+      "token_text": "```",
+      "pi_0": 0.30059540271759033,
+      "entropy_0": 7.10009765625
+    },
+    {
+      "seq_idx": 32,
+      "position": 97,
+      "token_id": 16605,
+      "token_text": " Constants",
+      "pi_0": 0.26947304606437683,
+      "entropy_0": 2.4994945526123047
+    },
+    {
+      "seq_idx": 33,
+      "position": 2,
+      "token_id": 6979,
+      "token_text": " define",
+      "pi_0": 0.02077818289399147,
+      "entropy_0": 3.201732635498047
+    },
+    {
+      "seq_idx": 33,
+      "position": 3,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.3957595229148865,
+      "entropy_0": 2.6166553497314453
+    },
+    {
+      "seq_idx": 33,
+      "position": 4,
+      "token_id": 2790,
+      "token_text": " total",
+      "pi_0": 0.08074413239955902,
+      "entropy_0": 2.6952571868896484
+    },
+    {
+      "seq_idx": 33,
+      "position": 8,
+      "token_id": 438,
+      "token_text": " as",
+      "pi_0": 0.09605415910482407,
+      "entropy_0": 2.482630729675293
+    },
+    {
+      "seq_idx": 33,
+      "position": 13,
+      "token_id": 990,
+      "token_text": " use",
+      "pi_0": 0.02231832593679428,
+      "entropy_0": 2.681638717651367
+    },
+    {
+      "seq_idx": 33,
+      "position": 33,
+      "token_id": 19648,
+      "token_text": "olving",
+      "pi_0": 0.06829524785280228,
+      "entropy_0": 4.783059120178223
+    },
+    {
+      "seq_idx": 33,
+      "position": 37,
+      "token_id": 1555,
+      "token_text": " line",
+      "pi_0": 0.030353354290127754,
+      "entropy_0": 3.5651512145996094
+    },
+    {
+      "seq_idx": 33,
+      "position": 42,
+      "token_id": 686,
+      "token_text": " will",
+      "pi_0": 0.06188754364848137,
+      "entropy_0": 3.0761280059814453
+    },
+    {
+      "seq_idx": 33,
+      "position": 46,
+      "token_id": 1849,
+      "token_text": " system",
+      "pi_0": 0.08019328862428665,
+      "entropy_0": 4.622636795043945
+    },
+    {
+      "seq_idx": 33,
+      "position": 54,
+      "token_id": 582,
+      "token_text": " we",
+      "pi_0": 0.34604784846305847,
+      "entropy_0": 3.348844528198242
+    },
+    {
+      "seq_idx": 33,
+      "position": 55,
+      "token_id": 1172,
+      "token_text": " only",
+      "pi_0": 0.17373086512088776,
+      "entropy_0": 2.9648303985595703
+    },
+    {
+      "seq_idx": 33,
+      "position": 99,
+      "token_id": 2542,
+      "token_text": "riter",
+      "pi_0": 0.06103076413273811,
+      "entropy_0": 3.273228645324707
+    },
+    {
+      "seq_idx": 33,
+      "position": 154,
+      "token_id": 69102,
+      "token_text": ".solve",
+      "pi_0": 0.41615259647369385,
+      "entropy_0": 3.260045051574707
+    },
+    {
+      "seq_idx": 33,
+      "position": 173,
+      "token_id": 9139,
+      "token_text": ")}",
+      "pi_0": 0.1973971426486969,
+      "entropy_0": 2.2786922454833984
+    },
+    {
+      "seq_idx": 33,
+      "position": 177,
+      "token_id": 1281,
+      "token_text": " make",
+      "pi_0": 0.020998463034629822,
+      "entropy_0": 2.7033214569091797
+    },
+    {
+      "seq_idx": 33,
+      "position": 178,
+      "token_id": 419,
+      "token_text": " this",
+      "pi_0": 0.15352500975131989,
+      "entropy_0": 2.428529739379883
+    },
+    {
+      "seq_idx": 33,
+      "position": 179,
+      "token_id": 2797,
+      "token_text": " clear",
+      "pi_0": 0.020716212689876556,
+      "entropy_0": 4.119519233703613
+    },
+    {
+      "seq_idx": 33,
+      "position": 181,
+      "token_id": 1184,
+      "token_text": " need",
+      "pi_0": 0.09777329862117767,
+      "entropy_0": 2.462057113647461
+    },
+    {
+      "seq_idx": 33,
+      "position": 184,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.48211514949798584,
+      "entropy_0": 2.659269332885742
+    },
+    {
+      "seq_idx": 33,
+      "position": 186,
+      "token_id": 448,
+      "token_text": " with",
+      "pi_0": 0.04526623710989952,
+      "entropy_0": 4.149447441101074
+    },
+    {
+      "seq_idx": 33,
+      "position": 188,
+      "token_id": 4185,
+      "token_text": " common",
+      "pi_0": 0.048112187534570694,
+      "entropy_0": 4.327605247497559
+    },
+    {
+      "seq_idx": 33,
+      "position": 189,
+      "token_id": 46912,
+      "token_text": " denominator",
+      "pi_0": 0.5150358080863953,
+      "entropy_0": 2.4423694610595703
+    },
+    {
+      "seq_idx": 33,
+      "position": 244,
+      "token_id": 1318,
+      "token_text": "text",
+      "pi_0": 0.13387572765350342,
+      "entropy_0": 3.5450077056884766
+    },
+    {
+      "seq_idx": 33,
+      "position": 332,
+      "token_id": 3276,
+      "token_text": "*/\n",
+      "pi_0": 0.039156921207904816,
+      "entropy_0": 7.967015266418457
+    },
+    {
+      "seq_idx": 33,
+      "position": 337,
+      "token_id": 107898,
+      "token_text": "\u968f\u673a",
+      "pi_0": 0.2657657563686371,
+      "entropy_0": 6.341207504272461
+    },
+    {
+      "seq_idx": 33,
+      "position": 358,
+      "token_id": 50404,
+      "token_text": "\u9009\u62e9",
+      "pi_0": 0.16207711398601532,
+      "entropy_0": 6.43308687210083
+    },
+    {
+      "seq_idx": 33,
+      "position": 366,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.3465415835380554,
+      "entropy_0": 3.9842309951782227
+    },
+    {
+      "seq_idx": 33,
+      "position": 369,
+      "token_id": 525,
+      "token_text": " are",
+      "pi_0": 0.023353207856416702,
+      "entropy_0": 5.511034965515137
+    },
+    {
+      "seq_idx": 33,
+      "position": 373,
+      "token_id": 894,
+      "token_text": " any",
+      "pi_0": 0.042832858860492706,
+      "entropy_0": 6.031877517700195
+    },
+    {
+      "seq_idx": 33,
+      "position": 374,
+      "token_id": 5754,
+      "token_text": " choice",
+      "pi_0": 0.04676928371191025,
+      "entropy_0": 6.877984046936035
+    },
+    {
+      "seq_idx": 33,
+      "position": 376,
+      "token_id": 323,
+      "token_text": " and",
+      "pi_0": 0.06813351809978485,
+      "entropy_0": 6.203351020812988
+    },
+    {
+      "seq_idx": 33,
+      "position": 377,
+      "token_id": 1429,
+      "token_text": " most",
+      "pi_0": 0.024618525058031082,
+      "entropy_0": 4.963528633117676
+    },
+    {
+      "seq_idx": 33,
+      "position": 378,
+      "token_id": 1251,
+      "token_text": " people",
+      "pi_0": 0.17554990947246552,
+      "entropy_0": 3.9155044555664062
+    },
+    {
+      "seq_idx": 33,
+      "position": 379,
+      "token_id": 525,
+      "token_text": " are",
+      "pi_0": 0.09478212147951126,
+      "entropy_0": 3.894564628601074
+    },
+    {
+      "seq_idx": 33,
+      "position": 381,
+      "token_id": 5754,
+      "token_text": " choice",
+      "pi_0": 0.053083039820194244,
+      "entropy_0": 4.987118721008301
+    },
+    {
+      "seq_idx": 33,
+      "position": 390,
+      "token_id": 388,
+      "token_text": "ers",
+      "pi_0": 0.4853369891643524,
+      "entropy_0": 4.824278831481934
+    },
+    {
+      "seq_idx": 33,
+      "position": 393,
+      "token_id": 7255,
+      "token_text": "aver",
+      "pi_0": 0.1632733792066574,
+      "entropy_0": 3.5581655502319336
+    },
+    {
+      "seq_idx": 33,
+      "position": 412,
+      "token_id": 3132,
+      "token_text": "ively",
+      "pi_0": 0.2562341094017029,
+      "entropy_0": 3.9861574172973633
+    },
+    {
+      "seq_idx": 33,
+      "position": 448,
+      "token_id": 4909,
+      "token_text": "ises",
+      "pi_0": 0.03537195548415184,
+      "entropy_0": 4.498690605163574
+    },
+    {
+      "seq_idx": 33,
+      "position": 500,
+      "token_id": 102406,
+      "token_text": "\u8868\u660e",
+      "pi_0": 0.10587584227323532,
+      "entropy_0": 6.812151908874512
+    },
+    {
+      "seq_idx": 33,
+      "position": 503,
+      "token_id": 30364,
+      "token_text": "achi",
+      "pi_0": 0.3876679539680481,
+      "entropy_0": 3.4114131927490234
+    },
+    {
+      "seq_idx": 34,
+      "position": 1,
+      "token_id": 1205,
+      "token_text": " We",
+      "pi_0": 0.027357034385204315,
+      "entropy_0": 5.491949081420898
+    },
+    {
+      "seq_idx": 34,
+      "position": 25,
+      "token_id": 11832,
+      "token_text": " Si",
+      "pi_0": 0.32890504598617554,
+      "entropy_0": 2.271925926208496
+    },
+    {
+      "seq_idx": 34,
+      "position": 36,
+      "token_id": 1205,
+      "token_text": " We",
+      "pi_0": 0.05849160999059677,
+      "entropy_0": 3.315995216369629
+    },
+    {
+      "seq_idx": 34,
+      "position": 39,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.29409900307655334,
+      "entropy_0": 2.3229122161865234
+    },
+    {
+      "seq_idx": 34,
+      "position": 298,
+      "token_id": 3830,
+      "token_text": "From",
+      "pi_0": 0.20544347167015076,
+      "entropy_0": 2.442188262939453
+    },
+    {
+      "seq_idx": 35,
+      "position": 2,
+      "token_id": 5501,
+      "token_text": "Please",
+      "pi_0": 0.2096741646528244,
+      "entropy_0": 4.719276428222656
+    },
+    {
+      "seq_idx": 35,
+      "position": 4,
+      "token_id": 697,
+      "token_text": " your",
+      "pi_0": 0.32351261377334595,
+      "entropy_0": 2.6052722930908203
+    },
+    {
+      "seq_idx": 35,
+      "position": 7,
+      "token_id": 2878,
+      "token_text": " within",
+      "pi_0": 0.5760486125946045,
+      "entropy_0": 2.2802352905273438
+    },
+    {
+      "seq_idx": 36,
+      "position": 13,
+      "token_id": 374,
+      "token_text": " is",
+      "pi_0": 0.11120238155126572,
+      "entropy_0": 3.265176773071289
+    },
+    {
+      "seq_idx": 36,
+      "position": 48,
+      "token_id": 7595,
+      "token_text": "Total",
+      "pi_0": 0.0448627732694149,
+      "entropy_0": 2.7223634719848633
+    },
+    {
+      "seq_idx": 36,
+      "position": 97,
+      "token_id": 1249,
+      "token_text": "To",
+      "pi_0": 0.18070457875728607,
+      "entropy_0": 2.4047088623046875
+    },
+    {
+      "seq_idx": 36,
+      "position": 144,
+      "token_id": 3270,
+      "token_text": " write",
+      "pi_0": 0.11983708292245865,
+      "entropy_0": 2.4846763610839844
+    },
+    {
+      "seq_idx": 36,
+      "position": 155,
+      "token_id": 11047,
+      "token_text": " calculate",
+      "pi_0": 0.48448699712753296,
+      "entropy_0": 2.6067371368408203
+    },
+    {
+      "seq_idx": 36,
+      "position": 161,
+      "token_id": 2038,
+      "token_text": " code",
+      "pi_0": 0.19994887709617615,
+      "entropy_0": 3.560445785522461
+    },
+    {
+      "seq_idx": 36,
+      "position": 171,
+      "token_id": 7683,
+      "token_text": " confirm",
+      "pi_0": 0.021159159019589424,
+      "entropy_0": 4.854805946350098
+    },
+    {
+      "seq_idx": 36,
+      "position": 182,
+      "token_id": 1654,
+      "token_text": "We",
+      "pi_0": 0.05359496921300888,
+      "entropy_0": 4.332468032836914
+    },
+    {
+      "seq_idx": 36,
+      "position": 183,
+      "token_id": 3278,
+      "token_text": "'ll",
+      "pi_0": 0.460435152053833,
+      "entropy_0": 2.375101089477539
+    },
+    {
+      "seq_idx": 36,
+      "position": 184,
+      "token_id": 990,
+      "token_text": " use",
+      "pi_0": 0.1498456597328186,
+      "entropy_0": 4.129795074462891
+    },
+    {
+      "seq_idx": 36,
+      "position": 191,
+      "token_id": 10061,
+      "token_text": "Let",
+      "pi_0": 0.23330557346343994,
+      "entropy_0": 4.589008331298828
+    },
+    {
+      "seq_idx": 36,
+      "position": 203,
+      "token_id": 563,
+      "token_text": "__",
+      "pi_0": 0.09667153656482697,
+      "entropy_0": 6.180069923400879
+    },
+    {
+      "seq_idx": 36,
+      "position": 218,
+      "token_id": 73594,
+      "token_text": "```",
+      "pi_0": 0.19814233481884003,
+      "entropy_0": 5.267803192138672
+    },
+    {
+      "seq_idx": 36,
+      "position": 222,
+      "token_id": 74216,
+      "token_text": " Calculation",
+      "pi_0": 0.043221116065979004,
+      "entropy_0": 3.5795345306396484
+    },
+    {
+      "seq_idx": 36,
+      "position": 223,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.21042616665363312,
+      "entropy_0": 3.2345542907714844
+    },
+    {
+      "seq_idx": 36,
+      "position": 232,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.0697120875120163,
+      "entropy_0": 6.888059616088867
+    },
+    {
+      "seq_idx": 36,
+      "position": 233,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.08849016577005386,
+      "entropy_0": 7.859482765197754
+    },
+    {
+      "seq_idx": 36,
+      "position": 240,
+      "token_id": 2554,
+      "token_text": "ination",
+      "pi_0": 0.4798034131526947,
+      "entropy_0": 2.4527788162231445
+    },
+    {
+      "seq_idx": 36,
+      "position": 257,
+      "token_id": 3695,
+      "token_text": " buy",
+      "pi_0": 0.35445892810821533,
+      "entropy_0": 4.752941131591797
+    },
+    {
+      "seq_idx": 36,
+      "position": 260,
+      "token_id": 54475,
+      "token_text": " yogurt",
+      "pi_0": 0.12517865002155304,
+      "entropy_0": 2.377552032470703
+    },
+    {
+      "seq_idx": 36,
+      "position": 270,
+      "token_id": 11192,
+      "token_text": " dollars",
+      "pi_0": 0.48650383949279785,
+      "entropy_0": 2.7597122192382812
+    },
+    {
+      "seq_idx": 36,
+      "position": 272,
+      "token_id": 4082,
+      "token_text": "number",
+      "pi_0": 0.19551387429237366,
+      "entropy_0": 2.7066516876220703
+    },
+    {
+      "seq_idx": 36,
+      "position": 284,
+      "token_id": 10657,
+      "token_text": " Total",
+      "pi_0": 0.06165637820959091,
+      "entropy_0": 2.9634227752685547
+    },
+    {
+      "seq_idx": 36,
+      "position": 285,
+      "token_id": 41353,
+      "token_text": " yog",
+      "pi_0": 0.11102816462516785,
+      "entropy_0": 2.6816205978393555
+    },
+    {
+      "seq_idx": 36,
+      "position": 288,
+      "token_id": 817,
+      "token_text": " per",
+      "pi_0": 0.023404443636536598,
+      "entropy_0": 3.7584075927734375
+    },
+    {
+      "seq_idx": 36,
+      "position": 289,
+      "token_id": 1899,
+      "token_text": " day",
+      "pi_0": 0.43522921204566956,
+      "entropy_0": 3.098883628845215
+    },
+    {
+      "seq_idx": 36,
+      "position": 291,
+      "token_id": 2849,
+      "token_text": " days",
+      "pi_0": 0.17266976833343506,
+      "entropy_0": 3.0837173461914062
+    },
+    {
+      "seq_idx": 36,
+      "position": 294,
+      "token_id": 20517,
+      "token_text": " Calculate",
+      "pi_0": 0.1926744431257248,
+      "entropy_0": 4.651102066040039
+    },
+    {
+      "seq_idx": 36,
+      "position": 299,
+      "token_id": 7289,
+      "token_text": " sets",
+      "pi_0": 0.550561249256134,
+      "entropy_0": 2.3825149536132812
+    },
+    {
+      "seq_idx": 36,
+      "position": 300,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.2700204849243164,
+      "entropy_0": 2.9787864685058594
+    },
+    {
+      "seq_idx": 36,
+      "position": 304,
+      "token_id": 7289,
+      "token_text": " sets",
+      "pi_0": 0.06614776700735092,
+      "entropy_0": 3.2803258895874023
+    },
+    {
+      "seq_idx": 36,
+      "position": 305,
+      "token_id": 4362,
+      "token_text": " needed",
+      "pi_0": 0.04747074097394943,
+      "entropy_0": 3.490370750427246
+    },
+    {
+      "seq_idx": 36,
+      "position": 307,
+      "token_id": 4082,
+      "token_text": "number",
+      "pi_0": 0.20104680955410004,
+      "entropy_0": 2.2795467376708984
+    },
+    {
+      "seq_idx": 36,
+      "position": 328,
+      "token_id": 678,
+      "token_text": " all",
+      "pi_0": 0.050491683185100555,
+      "entropy_0": 2.595672607421875
+    },
+    {
+      "seq_idx": 36,
+      "position": 329,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.1918976604938507,
+      "entropy_0": 2.3059730529785156
+    },
+    {
+      "seq_idx": 36,
+      "position": 375,
+      "token_id": 15277,
+      "token_text": " Therefore",
+      "pi_0": 0.16336886584758759,
+      "entropy_0": 2.5186967849731445
+    },
+    {
+      "seq_idx": 36,
+      "position": 380,
+      "token_id": 1590,
+      "token_text": " final",
+      "pi_0": 0.5747480988502502,
+      "entropy_0": 3.202350616455078
+    },
+    {
+      "seq_idx": 37,
+      "position": 90,
+      "token_id": 1667,
+      "token_text": " using",
+      "pi_0": 0.037668801844120026,
+      "entropy_0": 3.4107742309570312
+    },
+    {
+      "seq_idx": 37,
+      "position": 98,
+      "token_id": 29901,
+      "token_text": " Determine",
+      "pi_0": 0.22014397382736206,
+      "entropy_0": 2.2950077056884766
+    },
+    {
+      "seq_idx": 37,
+      "position": 204,
+      "token_id": 10335,
+      "token_text": " ends",
+      "pi_0": 0.24621495604515076,
+      "entropy_0": 2.471385955810547
+    },
+    {
+      "seq_idx": 37,
+      "position": 257,
+      "token_id": 1205,
+      "token_text": " We",
+      "pi_0": 0.18587088584899902,
+      "entropy_0": 2.343648910522461
+    },
+    {
+      "seq_idx": 37,
+      "position": 425,
+      "token_id": 9664,
+      "token_text": " remaining",
+      "pi_0": 0.15686476230621338,
+      "entropy_0": 2.2767467498779297
+    },
+    {
+      "seq_idx": 37,
+      "position": 440,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.4326823651790619,
+      "entropy_0": 2.478963851928711
+    },
+    {
+      "seq_idx": 38,
+      "position": 2,
+      "token_id": 10061,
+      "token_text": "Let",
+      "pi_0": 0.18265272676944733,
+      "entropy_0": 3.7501602172851562
+    },
+    {
+      "seq_idx": 38,
+      "position": 151,
+      "token_id": 6010,
+      "token_text": " distance",
+      "pi_0": 0.16523975133895874,
+      "entropy_0": 2.52142333984375
+    },
+    {
+      "seq_idx": 38,
+      "position": 194,
+      "token_id": 22043,
+      "token_text": "Given",
+      "pi_0": 0.12009977549314499,
+      "entropy_0": 2.7960872650146484
+    },
+    {
+      "seq_idx": 38,
+      "position": 223,
+      "token_id": 4416,
+      "token_text": "So",
+      "pi_0": 0.10367336869239807,
+      "entropy_0": 2.5964908599853516
+    },
+    {
+      "seq_idx": 38,
+      "position": 258,
+      "token_id": 10061,
+      "token_text": "Let",
+      "pi_0": 0.13715170323848724,
+      "entropy_0": 3.003183364868164
+    },
+    {
+      "seq_idx": 38,
+      "position": 260,
+      "token_id": 78064,
+      "token_text": " denote",
+      "pi_0": 0.12620075047016144,
+      "entropy_0": 2.405975341796875
+    },
+    {
+      "seq_idx": 38,
+      "position": 291,
+      "token_id": 1654,
+      "token_text": "We",
+      "pi_0": 0.19413450360298157,
+      "entropy_0": 2.5543270111083984
+    },
+    {
+      "seq_idx": 38,
+      "position": 349,
+      "token_id": 1667,
+      "token_text": " using",
+      "pi_0": 0.12041952461004257,
+      "entropy_0": 2.3843021392822266
+    },
+    {
+      "seq_idx": 38,
+      "position": 377,
+      "token_id": 7595,
+      "token_text": "Total",
+      "pi_0": 0.36567509174346924,
+      "entropy_0": 2.561399459838867
+    },
+    {
+      "seq_idx": 39,
+      "position": 1,
+      "token_id": 14822,
+      "token_text": " Step",
+      "pi_0": 0.6195052266120911,
+      "entropy_0": 2.6531124114990234
+    },
+    {
+      "seq_idx": 39,
+      "position": 130,
+      "token_id": 4416,
+      "token_text": "So",
+      "pi_0": 0.04460067301988602,
+      "entropy_0": 2.4565048217773438
+    },
+    {
+      "seq_idx": 39,
+      "position": 309,
+      "token_id": 10146,
+      "token_text": " verify",
+      "pi_0": 0.02858000248670578,
+      "entropy_0": 2.4730167388916016
+    },
+    {
+      "seq_idx": 40,
+      "position": 5,
+      "token_id": 3491,
+      "token_text": " problem",
+      "pi_0": 0.2726500332355499,
+      "entropy_0": 2.581972122192383
+    },
+    {
+      "seq_idx": 40,
+      "position": 9,
+      "token_id": 2679,
+      "token_text": "If",
+      "pi_0": 0.023412948474287987,
+      "entropy_0": 6.619885444641113
+    },
+    {
+      "seq_idx": 40,
+      "position": 10,
+      "token_id": 31766,
+      "token_text": " Brandon",
+      "pi_0": 0.04161182418465614,
+      "entropy_0": 4.512872695922852
+    },
+    {
+      "seq_idx": 40,
+      "position": 19,
+      "token_id": 1221,
+      "token_text": " then",
+      "pi_0": 0.022564271464943886,
+      "entropy_0": 2.956380844116211
+    },
+    {
+      "seq_idx": 40,
+      "position": 20,
+      "token_id": 566,
+      "token_text": " he",
+      "pi_0": 0.21491846442222595,
+      "entropy_0": 3.767549514770508
+    },
+    {
+      "seq_idx": 40,
+      "position": 21,
+      "token_id": 7391,
+      "token_text": " spent",
+      "pi_0": 0.37129834294319153,
+      "entropy_0": 2.7034988403320312
+    },
+    {
+      "seq_idx": 40,
+      "position": 24,
+      "token_id": 56014,
+      "token_text": "_\\",
+      "pi_0": 0.11855100840330124,
+      "entropy_0": 3.9486513137817383
+    },
+    {
+      "seq_idx": 40,
+      "position": 29,
+      "token_id": 2686,
+      "token_text": " less",
+      "pi_0": 0.08186032623052597,
+      "entropy_0": 2.363955497741699
+    },
+    {
+      "seq_idx": 40,
+      "position": 31,
+      "token_id": 4627,
+      "token_text": " music",
+      "pi_0": 0.031723883002996445,
+      "entropy_0": 2.835094451904297
+    },
+    {
+      "seq_idx": 40,
+      "position": 35,
+      "token_id": 1532,
+      "token_text": " New",
+      "pi_0": 0.05521557852625847,
+      "entropy_0": 5.492942810058594
+    },
+    {
+      "seq_idx": 40,
+      "position": 38,
+      "token_id": 7014,
+      "token_text": " Monday",
+      "pi_0": 0.07783385366201401,
+      "entropy_0": 3.952157974243164
+    },
+    {
+      "seq_idx": 40,
+      "position": 41,
+      "token_id": 1030,
+      "token_text": " had",
+      "pi_0": 0.033913709223270416,
+      "entropy_0": 4.046451568603516
+    },
+    {
+      "seq_idx": 40,
+      "position": 49,
+      "token_id": 22502,
+      "token_text": " pizza",
+      "pi_0": 0.04423105716705322,
+      "entropy_0": 3.497760772705078
+    },
+    {
+      "seq_idx": 40,
+      "position": 51,
+      "token_id": 1913,
+      "token_text": " On",
+      "pi_0": 0.5076503753662109,
+      "entropy_0": 2.6353864669799805
+    },
+    {
+      "seq_idx": 40,
+      "position": 55,
+      "token_id": 1030,
+      "token_text": " had",
+      "pi_0": 0.5072733759880066,
+      "entropy_0": 2.363936424255371
+    },
+    {
+      "seq_idx": 40,
+      "position": 68,
+      "token_id": 576,
+      "token_text": " The",
+      "pi_0": 0.10183680057525635,
+      "entropy_0": 2.546476364135742
+    },
+    {
+      "seq_idx": 40,
+      "position": 78,
+      "token_id": 576,
+      "token_text": " The",
+      "pi_0": 0.10257817059755325,
+      "entropy_0": 2.5541038513183594
+    },
+    {
+      "seq_idx": 40,
+      "position": 79,
+      "token_id": 2790,
+      "token_text": " total",
+      "pi_0": 0.04092631861567497,
+      "entropy_0": 3.0850257873535156
+    },
+    {
+      "seq_idx": 40,
+      "position": 80,
+      "token_id": 1372,
+      "token_text": " number",
+      "pi_0": 0.3091374635696411,
+      "entropy_0": 2.294614791870117
+    },
+    {
+      "seq_idx": 40,
+      "position": 88,
+      "token_id": 374,
+      "token_text": " is",
+      "pi_0": 0.07781174033880234,
+      "entropy_0": 2.3401260375976562
+    },
+    {
+      "seq_idx": 40,
+      "position": 104,
+      "token_id": 1532,
+      "token_text": " New",
+      "pi_0": 0.28912830352783203,
+      "entropy_0": 4.875249862670898
+    },
+    {
+      "seq_idx": 40,
+      "position": 106,
+      "token_id": 820,
+      "token_text": "####",
+      "pi_0": 0.02227201499044895,
+      "entropy_0": 5.175865173339844
+    },
+    {
+      "seq_idx": 40,
+      "position": 113,
+      "token_id": 10061,
+      "token_text": "Let",
+      "pi_0": 0.09597605466842651,
+      "entropy_0": 6.739411354064941
+    },
+    {
+      "seq_idx": 40,
+      "position": 118,
+      "token_id": 7354,
+      "token_text": " steps",
+      "pi_0": 0.15808361768722534,
+      "entropy_0": 2.5811538696289062
+    },
+    {
+      "seq_idx": 40,
+      "position": 122,
+      "token_id": 2014,
+      "token_text": " To",
+      "pi_0": 0.025892870500683784,
+      "entropy_0": 3.148294448852539
+    },
+    {
+      "seq_idx": 40,
+      "position": 123,
+      "token_id": 11625,
+      "token_text": " solve",
+      "pi_0": 0.440231055021286,
+      "entropy_0": 2.8340206146240234
+    },
+    {
+      "seq_idx": 40,
+      "position": 130,
+      "token_id": 990,
+      "token_text": " use",
+      "pi_0": 0.28834572434425354,
+      "entropy_0": 2.868925094604492
+    },
+    {
+      "seq_idx": 40,
+      "position": 138,
+      "token_id": 29901,
+      "token_text": " Determine",
+      "pi_0": 0.021959450095891953,
+      "entropy_0": 2.7660369873046875
+    },
+    {
+      "seq_idx": 40,
+      "position": 200,
+      "token_id": 1654,
+      "token_text": "We",
+      "pi_0": 0.19821585714817047,
+      "entropy_0": 2.475055694580078
+    },
+    {
+      "seq_idx": 40,
+      "position": 202,
+      "token_id": 1221,
+      "token_text": " then",
+      "pi_0": 0.2950018346309662,
+      "entropy_0": 2.284208297729492
+    },
+    {
+      "seq_idx": 40,
+      "position": 205,
+      "token_id": 28117,
+      "token_text": " calculations",
+      "pi_0": 0.03916091471910477,
+      "entropy_0": 2.6613731384277344
+    },
+    {
+      "seq_idx": 40,
+      "position": 213,
+      "token_id": 8420,
+      "token_text": "Here",
+      "pi_0": 0.08249465376138687,
+      "entropy_0": 3.138185501098633
+    },
+    {
+      "seq_idx": 40,
+      "position": 218,
+      "token_id": 7354,
+      "token_text": " steps",
+      "pi_0": 0.09809215366840363,
+      "entropy_0": 3.381376266479492
+    },
+    {
+      "seq_idx": 40,
+      "position": 219,
+      "token_id": 311,
+      "token_text": " to",
+      "pi_0": 0.073517806828022,
+      "entropy_0": 3.620756149291992
+    },
+    {
+      "seq_idx": 40,
+      "position": 220,
+      "token_id": 11625,
+      "token_text": " solve",
+      "pi_0": 0.24553215503692627,
+      "entropy_0": 4.4136505126953125
+    },
+    {
+      "seq_idx": 40,
+      "position": 226,
+      "token_id": 20517,
+      "token_text": " Calculate",
+      "pi_0": 0.22518278658390045,
+      "entropy_0": 3.8909530639648438
+    },
+    {
+      "seq_idx": 40,
+      "position": 256,
+      "token_id": 8116,
+      "token_text": " Sum",
+      "pi_0": 0.06768064945936203,
+      "entropy_0": 3.8840293884277344
+    },
+    {
+      "seq_idx": 40,
+      "position": 260,
+      "token_id": 7354,
+      "token_text": " steps",
+      "pi_0": 0.03594430163502693,
+      "entropy_0": 3.036802291870117
+    },
+    {
+      "seq_idx": 40,
+      "position": 262,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.42649537324905396,
+      "entropy_0": 3.1760406494140625
+    },
+    {
+      "seq_idx": 40,
+      "position": 263,
+      "token_id": 3403,
+      "token_text": " above",
+      "pi_0": 0.028426475822925568,
+      "entropy_0": 3.8888072967529297
+    },
+    {
+      "seq_idx": 40,
+      "position": 264,
+      "token_id": 28117,
+      "token_text": " calculations",
+      "pi_0": 0.2545020580291748,
+      "entropy_0": 3.9229984283447266
+    },
+    {
+      "seq_idx": 40,
+      "position": 266,
+      "token_id": 10061,
+      "token_text": "Let",
+      "pi_0": 0.2453949749469757,
+      "entropy_0": 3.6660327911376953
+    },
+    {
+      "seq_idx": 40,
+      "position": 268,
+      "token_id": 11625,
+      "token_text": " solve",
+      "pi_0": 0.047860126942396164,
+      "entropy_0": 4.158092498779297
+    },
+    {
+      "seq_idx": 40,
+      "position": 270,
+      "token_id": 3019,
+      "token_text": " step",
+      "pi_0": 0.1754431277513504,
+      "entropy_0": 2.9642486572265625
+    },
+    {
+      "seq_idx": 40,
+      "position": 278,
+      "token_id": 14822,
+      "token_text": " Step",
+      "pi_0": 0.03669514134526253,
+      "entropy_0": 2.5149145126342773
+    },
+    {
+      "seq_idx": 40,
+      "position": 285,
+      "token_id": 32053,
+      "token_text": "_age",
+      "pi_0": 0.34131669998168945,
+      "entropy_0": 2.6815710067749023
+    },
+    {
+      "seq_idx": 40,
+      "position": 290,
+      "token_id": 24566,
+      "token_text": "Ben",
+      "pi_0": 0.10387962311506271,
+      "entropy_0": 2.7104949951171875
+    },
+    {
+      "seq_idx": 40,
+      "position": 308,
+      "token_id": 20517,
+      "token_text": " Calculate",
+      "pi_0": 0.3134963810443878,
+      "entropy_0": 3.449591636657715
+    },
+    {
+      "seq_idx": 40,
+      "position": 321,
+      "token_id": 1958,
+      "token_text": "for",
+      "pi_0": 0.1241830587387085,
+      "entropy_0": 2.580526351928711
+    },
+    {
+      "seq_idx": 40,
+      "position": 373,
+      "token_id": 14822,
+      "token_text": " Step",
+      "pi_0": 0.4469453990459442,
+      "entropy_0": 2.8665122985839844
+    },
+    {
+      "seq_idx": 40,
+      "position": 378,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.5796902179718018,
+      "entropy_0": 2.747364044189453
+    },
+    {
+      "seq_idx": 40,
+      "position": 379,
+      "token_id": 1590,
+      "token_text": " final",
+      "pi_0": 0.24280588328838348,
+      "entropy_0": 4.651585578918457
+    },
+    {
+      "seq_idx": 40,
+      "position": 383,
+      "token_id": 1350,
+      "token_text": "print",
+      "pi_0": 0.21945412456989288,
+      "entropy_0": 4.223118782043457
+    },
+    {
+      "seq_idx": 40,
+      "position": 387,
+      "token_id": 16069,
+      "token_text": "people",
+      "pi_0": 0.663837730884552,
+      "entropy_0": 2.6345510482788086
+    },
+    {
+      "seq_idx": 40,
+      "position": 392,
+      "token_id": 32741,
+      "token_text": "']}",
+      "pi_0": 0.3925325274467468,
+      "entropy_0": 2.802088737487793
+    },
+    {
+      "seq_idx": 40,
+      "position": 398,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.36085209250450134,
+      "entropy_0": 4.042130470275879
+    },
+    {
+      "seq_idx": 40,
+      "position": 401,
+      "token_id": 16069,
+      "token_text": "people",
+      "pi_0": 0.6712363362312317,
+      "entropy_0": 2.5293521881103516
+    },
+    {
+      "seq_idx": 40,
+      "position": 419,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.0683174580335617,
+      "entropy_0": 6.732837677001953
+    },
+    {
+      "seq_idx": 40,
+      "position": 442,
+      "token_id": 287,
+      "token_text": "ing",
+      "pi_0": 0.02179737202823162,
+      "entropy_0": 6.7492170333862305
+    },
+    {
+      "seq_idx": 40,
+      "position": 445,
+      "token_id": 311,
+      "token_text": " to",
+      "pi_0": 0.0216558538377285,
+      "entropy_0": 7.230678558349609
+    },
+    {
+      "seq_idx": 40,
+      "position": 457,
+      "token_id": 565,
+      "token_text": "##",
+      "pi_0": 0.03287402540445328,
+      "entropy_0": 7.931911468505859
+    },
+    {
+      "seq_idx": 40,
+      "position": 459,
+      "token_id": 419,
+      "token_text": " this",
+      "pi_0": 0.09636327624320984,
+      "entropy_0": 6.931936264038086
+    },
+    {
+      "seq_idx": 40,
+      "position": 484,
+      "token_id": 79075,
+      "token_text": "boxed",
+      "pi_0": 0.09999098628759384,
+      "entropy_0": 6.341811180114746
+    },
+    {
+      "seq_idx": 40,
+      "position": 489,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.03603189066052437,
+      "entropy_0": 7.226406097412109
+    },
+    {
+      "seq_idx": 41,
+      "position": 25,
+      "token_id": 6771,
+      "token_text": " Let",
+      "pi_0": 0.036326199769973755,
+      "entropy_0": 3.2870426177978516
+    },
+    {
+      "seq_idx": 41,
+      "position": 31,
+      "token_id": 20517,
+      "token_text": " Calculate",
+      "pi_0": 0.0285651795566082,
+      "entropy_0": 2.7199573516845703
+    },
+    {
+      "seq_idx": 41,
+      "position": 70,
+      "token_id": 4248,
+      "token_text": " Check",
+      "pi_0": 0.08955392986536026,
+      "entropy_0": 3.102381706237793
+    },
+    {
+      "seq_idx": 41,
+      "position": 79,
+      "token_id": 2041,
+      "token_text": " without",
+      "pi_0": 0.20195960998535156,
+      "entropy_0": 2.5070018768310547
+    },
+    {
+      "seq_idx": 41,
+      "position": 80,
+      "token_id": 19558,
+      "token_text": " hitting",
+      "pi_0": 0.05613299086689949,
+      "entropy_0": 3.141094207763672
+    },
+    {
+      "seq_idx": 41,
+      "position": 86,
+      "token_id": 1654,
+      "token_text": "We",
+      "pi_0": 0.1557895690202713,
+      "entropy_0": 2.7207489013671875
+    },
+    {
+      "seq_idx": 41,
+      "position": 89,
+      "token_id": 990,
+      "token_text": " use",
+      "pi_0": 0.16509735584259033,
+      "entropy_0": 2.619426727294922
+    },
+    {
+      "seq_idx": 41,
+      "position": 103,
+      "token_id": 19348,
+      "token_text": "distance",
+      "pi_0": 0.3397769629955292,
+      "entropy_0": 2.9394350051879883
+    },
+    {
+      "seq_idx": 41,
+      "position": 105,
+      "token_id": 880,
+      "token_text": "_b",
+      "pi_0": 0.0414976142346859,
+      "entropy_0": 3.5243234634399414
+    },
+    {
+      "seq_idx": 41,
+      "position": 138,
+      "token_id": 979,
+      "token_text": " when",
+      "pi_0": 0.05341760069131851,
+      "entropy_0": 4.15885066986084
+    },
+    {
+      "seq_idx": 41,
+      "position": 139,
+      "token_id": 9963,
+      "token_text": " holding",
+      "pi_0": 0.09770581126213074,
+      "entropy_0": 2.7579116821289062
+    },
+    {
+      "seq_idx": 41,
+      "position": 145,
+      "token_id": 5351,
+      "token_text": " Base",
+      "pi_0": 0.0719761773943901,
+      "entropy_0": 4.273036956787109
+    },
+    {
+      "seq_idx": 41,
+      "position": 147,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.07431705296039581,
+      "entropy_0": 3.56265926361084
+    },
+    {
+      "seq_idx": 41,
+      "position": 152,
+      "token_id": 67082,
+      "token_text": "spect",
+      "pi_0": 0.2518389821052551,
+      "entropy_0": 2.3823413848876953
+    },
+    {
+      "seq_idx": 41,
+      "position": 166,
+      "token_id": 5351,
+      "token_text": " Base",
+      "pi_0": 0.08854149281978607,
+      "entropy_0": 3.117642402648926
+    },
+    {
+      "seq_idx": 41,
+      "position": 170,
+      "token_id": 6623,
+      "token_text": " gold",
+      "pi_0": 0.47335776686668396,
+      "entropy_0": 3.149317741394043
+    },
+    {
+      "seq_idx": 41,
+      "position": 193,
+      "token_id": 31135,
+      "token_text": " Distance",
+      "pi_0": 0.3544744849205017,
+      "entropy_0": 2.981874465942383
+    },
+    {
+      "seq_idx": 41,
+      "position": 194,
+      "token_id": 979,
+      "token_text": " when",
+      "pi_0": 0.21380798518657684,
+      "entropy_0": 3.2447738647460938
+    },
+    {
+      "seq_idx": 41,
+      "position": 214,
+      "token_id": 19464,
+      "token_text": "_distance",
+      "pi_0": 0.10228950530290604,
+      "entropy_0": 2.8902359008789062
+    },
+    {
+      "seq_idx": 41,
+      "position": 215,
+      "token_id": 44153,
+      "token_text": "_adjust",
+      "pi_0": 0.06783023476600647,
+      "entropy_0": 3.0074071884155273
+    },
+    {
+      "seq_idx": 41,
+      "position": 248,
+      "token_id": 291,
+      "token_text": "ed",
+      "pi_0": 0.06949575245380402,
+      "entropy_0": 3.890077590942383
+    },
+    {
+      "seq_idx": 41,
+      "position": 249,
+      "token_id": 19464,
+      "token_text": "_distance",
+      "pi_0": 0.38372084498405457,
+      "entropy_0": 3.170363426208496
+    },
+    {
+      "seq_idx": 41,
+      "position": 297,
+      "token_id": 312,
+      "token_text": " re",
+      "pi_0": 0.382233589887619,
+      "entropy_0": 2.4686031341552734
+    },
+    {
+      "seq_idx": 41,
+      "position": 306,
+      "token_id": 5978,
+      "token_text": " ensure",
+      "pi_0": 0.027888942509889603,
+      "entropy_0": 2.6458740234375
+    },
+    {
+      "seq_idx": 41,
+      "position": 309,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.4236156642436981,
+      "entropy_0": 2.593414306640625
+    },
+    {
+      "seq_idx": 41,
+      "position": 318,
+      "token_id": 22973,
+      "token_text": "-run",
+      "pi_0": 0.15813879668712616,
+      "entropy_0": 6.842741012573242
+    },
+    {
+      "seq_idx": 41,
+      "position": 319,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.6198822855949402,
+      "entropy_0": 2.6126699447631836
+    },
+    {
+      "seq_idx": 41,
+      "position": 320,
+      "token_id": 2038,
+      "token_text": " code",
+      "pi_0": 0.5616729259490967,
+      "entropy_0": 2.3072147369384766
+    },
+    {
+      "seq_idx": 41,
+      "position": 356,
+      "token_id": 31135,
+      "token_text": " Distance",
+      "pi_0": 0.5172231793403625,
+      "entropy_0": 2.850998878479004
+    },
+    {
+      "seq_idx": 41,
+      "position": 389,
+      "token_id": 785,
+      "token_text": "The",
+      "pi_0": 0.2818249762058258,
+      "entropy_0": 3.486814498901367
+    },
+    {
+      "seq_idx": 41,
+      "position": 390,
+      "token_id": 7192,
+      "token_text": " maximum",
+      "pi_0": 0.0938715860247612,
+      "entropy_0": 3.036393165588379
+    },
+    {
+      "seq_idx": 41,
+      "position": 395,
+      "token_id": 7797,
+      "token_text": " beyond",
+      "pi_0": 0.18033994734287262,
+      "entropy_0": 2.952177047729492
+    },
+    {
+      "seq_idx": 41,
+      "position": 402,
+      "token_id": 1393,
+      "token_text": " while",
+      "pi_0": 0.05852492153644562,
+      "entropy_0": 3.2668142318725586
+    },
+    {
+      "seq_idx": 41,
+      "position": 407,
+      "token_id": 374,
+      "token_text": " is",
+      "pi_0": 0.36629846692085266,
+      "entropy_0": 2.3639907836914062
+    },
+    {
+      "seq_idx": 41,
+      "position": 414,
+      "token_id": 3263,
+      "token_text": "\".",
+      "pi_0": 0.11258189380168915,
+      "entropy_0": 3.759450912475586
+    },
+    {
+      "seq_idx": 41,
+      "position": 423,
+      "token_id": 39970,
+      "token_text": " Correct",
+      "pi_0": 0.10886178910732269,
+      "entropy_0": 4.65863037109375
+    },
+    {
+      "seq_idx": 41,
+      "position": 424,
+      "token_id": 287,
+      "token_text": "ing",
+      "pi_0": 0.29154717922210693,
+      "entropy_0": 2.9166088104248047
+    },
+    {
+      "seq_idx": 41,
+      "position": 425,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.5239772796630859,
+      "entropy_0": 2.387624740600586
+    },
+    {
+      "seq_idx": 41,
+      "position": 426,
+      "token_id": 3890,
+      "token_text": " variable",
+      "pi_0": 0.3906022906303406,
+      "entropy_0": 3.4130353927612305
+    },
+    {
+      "seq_idx": 41,
+      "position": 428,
+      "token_id": 311,
+      "token_text": " to",
+      "pi_0": 0.04816277697682381,
+      "entropy_0": 3.156097412109375
+    },
+    {
+      "seq_idx": 41,
+      "position": 433,
+      "token_id": 19348,
+      "token_text": "distance",
+      "pi_0": 0.2705772817134857,
+      "entropy_0": 2.600749969482422
+    },
+    {
+      "seq_idx": 41,
+      "position": 442,
+      "token_id": 54696,
+      "token_text": "_gold",
+      "pi_0": 0.18157505989074707,
+      "entropy_0": 3.978872299194336
+    },
+    {
+      "seq_idx": 41,
+      "position": 451,
+      "token_id": 20748,
+      "token_text": " golden",
+      "pi_0": 0.2556760907173157,
+      "entropy_0": 3.3126211166381836
+    },
+    {
+      "seq_idx": 41,
+      "position": 470,
+      "token_id": 19464,
+      "token_text": "_distance",
+      "pi_0": 0.060669176280498505,
+      "entropy_0": 6.158552646636963
+    },
+    {
+      "seq_idx": 41,
+      "position": 475,
+      "token_id": 51800,
+      "token_text": "_multiplier",
+      "pi_0": 0.11764459311962128,
+      "entropy_0": 3.5178470611572266
+    },
+    {
+      "seq_idx": 41,
+      "position": 477,
+      "token_id": 20748,
+      "token_text": " golden",
+      "pi_0": 0.26431339979171753,
+      "entropy_0": 4.691415786743164
+    },
+    {
+      "seq_idx": 41,
+      "position": 486,
+      "token_id": 1350,
+      "token_text": "print",
+      "pi_0": 0.59770268201828,
+      "entropy_0": 2.5194787979125977
+    },
+    {
+      "seq_idx": 42,
+      "position": 1,
+      "token_id": 553,
+      "token_text": " by",
+      "pi_0": 0.1642627865076065,
+      "entropy_0": 4.976905822753906
+    },
+    {
+      "seq_idx": 42,
+      "position": 10,
+      "token_id": 1249,
+      "token_text": "To",
+      "pi_0": 0.05451398715376854,
+      "entropy_0": 3.2133827209472656
+    },
+    {
+      "seq_idx": 42,
+      "position": 111,
+      "token_id": 1438,
+      "token_text": " break",
+      "pi_0": 0.2597782015800476,
+      "entropy_0": 2.7273387908935547
+    },
+    {
+      "seq_idx": 42,
+      "position": 149,
+      "token_id": 374,
+      "token_text": " is",
+      "pi_0": 0.36811739206314087,
+      "entropy_0": 2.436450958251953
+    },
+    {
+      "seq_idx": 42,
+      "position": 212,
+      "token_id": 11047,
+      "token_text": " calculate",
+      "pi_0": 0.13178661465644836,
+      "entropy_0": 2.344816207885742
+    },
+    {
+      "seq_idx": 42,
+      "position": 312,
+      "token_id": 37614,
+      "token_text": " calculating",
+      "pi_0": 0.36209243535995483,
+      "entropy_0": 2.4943437576293945
+    },
+    {
+      "seq_idx": 43,
+      "position": 61,
+      "token_id": 1654,
+      "token_text": "We",
+      "pi_0": 0.022272886708378792,
+      "entropy_0": 2.882425308227539
+    },
+    {
+      "seq_idx": 43,
+      "position": 182,
+      "token_id": 10061,
+      "token_text": "Let",
+      "pi_0": 0.11993151903152466,
+      "entropy_0": 2.325897216796875
+    },
+    {
+      "seq_idx": 43,
+      "position": 184,
+      "token_id": 4211,
+      "token_text": " implement",
+      "pi_0": 0.03386697545647621,
+      "entropy_0": 2.665719985961914
+    },
+    {
+      "seq_idx": 43,
+      "position": 429,
+      "token_id": 37614,
+      "token_text": " calculating",
+      "pi_0": 0.2004028558731079,
+      "entropy_0": 2.4848899841308594
+    },
+    {
+      "seq_idx": 44,
+      "position": 70,
+      "token_id": 39458,
+      "token_text": " bees",
+      "pi_0": 0.39105477929115295,
+      "entropy_0": 2.621976852416992
+    },
+    {
+      "seq_idx": 44,
+      "position": 162,
+      "token_id": 37799,
+      "token_text": " candle",
+      "pi_0": 0.47707125544548035,
+      "entropy_0": 2.456562042236328
+    },
+    {
+      "seq_idx": 44,
+      "position": 169,
+      "token_id": 2790,
+      "token_text": " total",
+      "pi_0": 0.20861147344112396,
+      "entropy_0": 2.2812671661376953
+    },
+    {
+      "seq_idx": 44,
+      "position": 190,
+      "token_id": 12564,
+      "token_text": " compute",
+      "pi_0": 0.06092074513435364,
+      "entropy_0": 2.93927001953125
+    },
+    {
+      "seq_idx": 44,
+      "position": 199,
+      "token_id": 16605,
+      "token_text": " Constants",
+      "pi_0": 0.24780550599098206,
+      "entropy_0": 2.5099058151245117
+    },
+    {
+      "seq_idx": 44,
+      "position": 287,
+      "token_id": 10657,
+      "token_text": " Total",
+      "pi_0": 0.3488430976867676,
+      "entropy_0": 3.040699005126953
+    },
+    {
+      "seq_idx": 46,
+      "position": 8,
+      "token_id": 2701,
+      "token_text": " following",
+      "pi_0": 0.027796486392617226,
+      "entropy_0": 6.060600280761719
+    },
+    {
+      "seq_idx": 46,
+      "position": 12,
+      "token_id": 11625,
+      "token_text": " solve",
+      "pi_0": 0.31308886408805847,
+      "entropy_0": 4.006213188171387
+    },
+    {
+      "seq_idx": 46,
+      "position": 76,
+      "token_id": 429,
+      "token_text": " that",
+      "pi_0": 0.05150797218084335,
+      "entropy_0": 2.9518680572509766
+    },
+    {
+      "seq_idx": 46,
+      "position": 79,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.07510707527399063,
+      "entropy_0": 2.67718505859375
+    },
+    {
+      "seq_idx": 46,
+      "position": 84,
+      "token_id": 17767,
+      "token_text": " \\(",
+      "pi_0": 0.2185220569372177,
+      "entropy_0": 3.713324546813965
+    },
+    {
+      "seq_idx": 46,
+      "position": 92,
+      "token_id": 2932,
+      "token_text": " She",
+      "pi_0": 0.08282779157161713,
+      "entropy_0": 3.612375259399414
+    },
+    {
+      "seq_idx": 46,
+      "position": 93,
+      "token_id": 3694,
+      "token_text": " added",
+      "pi_0": 0.10198666900396347,
+      "entropy_0": 3.4793529510498047
+    },
+    {
+      "seq_idx": 46,
+      "position": 94,
+      "token_id": 17767,
+      "token_text": " \\(",
+      "pi_0": 0.18678387999534607,
+      "entropy_0": 2.3715648651123047
+    },
+    {
+      "seq_idx": 46,
+      "position": 103,
+      "token_id": 311,
+      "token_text": " to",
+      "pi_0": 0.20885711908340454,
+      "entropy_0": 3.5607614517211914
+    },
+    {
+      "seq_idx": 46,
+      "position": 116,
+      "token_id": 389,
+      "token_text": " on",
+      "pi_0": 0.5116050839424133,
+      "entropy_0": 3.012022018432617
+    },
+    {
+      "seq_idx": 46,
+      "position": 117,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.5416845679283142,
+      "entropy_0": 2.8210105895996094
+    },
+    {
+      "seq_idx": 46,
+      "position": 119,
+      "token_id": 2661,
+      "token_text": " given",
+      "pi_0": 0.06417206674814224,
+      "entropy_0": 2.8137054443359375
+    },
+    {
+      "seq_idx": 46,
+      "position": 120,
+      "token_id": 3403,
+      "token_text": " above",
+      "pi_0": 0.0752672627568245,
+      "entropy_0": 2.5539093017578125
+    },
+    {
+      "seq_idx": 46,
+      "position": 140,
+      "token_id": 12549,
+      "token_text": "Since",
+      "pi_0": 0.07561995834112167,
+      "entropy_0": 3.5613956451416016
+    },
+    {
+      "seq_idx": 46,
+      "position": 141,
+      "token_id": 518,
+      "token_text": " at",
+      "pi_0": 0.02722357213497162,
+      "entropy_0": 2.7098827362060547
+    },
+    {
+      "seq_idx": 46,
+      "position": 145,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.042237620800733566,
+      "entropy_0": 6.214445114135742
+    },
+    {
+      "seq_idx": 46,
+      "position": 146,
+      "token_id": 9664,
+      "token_text": " remaining",
+      "pi_0": 0.039244212210178375,
+      "entropy_0": 4.598793983459473
+    },
+    {
+      "seq_idx": 46,
+      "position": 149,
+      "token_id": 601,
+      "token_text": " us",
+      "pi_0": 0.25157731771469116,
+      "entropy_0": 2.6845006942749023
+    },
+    {
+      "seq_idx": 46,
+      "position": 151,
+      "token_id": 2790,
+      "token_text": " total",
+      "pi_0": 0.3514818847179413,
+      "entropy_0": 4.079126358032227
+    },
+    {
+      "seq_idx": 46,
+      "position": 152,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.5004100203514099,
+      "entropy_0": 2.666055679321289
+    },
+    {
+      "seq_idx": 46,
+      "position": 156,
+      "token_id": 1736,
+      "token_text": " post",
+      "pi_0": 0.4454653859138489,
+      "entropy_0": 2.8071060180664062
+    },
+    {
+      "seq_idx": 46,
+      "position": 161,
+      "token_id": 448,
+      "token_text": " with",
+      "pi_0": 0.07582765072584152,
+      "entropy_0": 4.263618469238281
+    },
+    {
+      "seq_idx": 46,
+      "position": 166,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.18296584486961365,
+      "entropy_0": 4.696163177490234
+    },
+    {
+      "seq_idx": 46,
+      "position": 167,
+      "token_id": 2856,
+      "token_text": " initial",
+      "pi_0": 0.04540121182799339,
+      "entropy_0": 5.455148696899414
+    },
+    {
+      "seq_idx": 46,
+      "position": 168,
+      "token_id": 1372,
+      "token_text": " number",
+      "pi_0": 0.08281199634075165,
+      "entropy_0": 3.893636703491211
+    },
+    {
+      "seq_idx": 46,
+      "position": 171,
+      "token_id": 23606,
+      "token_text": " equation",
+      "pi_0": 0.191650390625,
+      "entropy_0": 4.961400985717773
+    },
+    {
+      "seq_idx": 46,
+      "position": 172,
+      "token_id": 438,
+      "token_text": " as",
+      "pi_0": 0.02043491043150425,
+      "entropy_0": 4.59935188293457
+    },
+    {
+      "seq_idx": 46,
+      "position": 176,
+      "token_id": 1736,
+      "token_text": " post",
+      "pi_0": 0.0899006575345993,
+      "entropy_0": 4.294851303100586
+    },
+    {
+      "seq_idx": 46,
+      "position": 180,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.29227542877197266,
+      "entropy_0": 3.8144168853759766
+    },
+    {
+      "seq_idx": 46,
+      "position": 181,
+      "token_id": 6328,
+      "token_text": " package",
+      "pi_0": 0.47625118494033813,
+      "entropy_0": 3.4970455169677734
+    },
+    {
+      "seq_idx": 46,
+      "position": 183,
+      "token_id": 572,
+      "token_text": " was",
+      "pi_0": 0.05130041018128395,
+      "entropy_0": 3.1469345092773438
+    },
+    {
+      "seq_idx": 46,
+      "position": 184,
+      "token_id": 14733,
+      "token_text": " purchased",
+      "pi_0": 0.5653303861618042,
+      "entropy_0": 2.845325469970703
+    },
+    {
+      "seq_idx": 46,
+      "position": 187,
+      "token_id": 17767,
+      "token_text": " \\(",
+      "pi_0": 0.08058366179466248,
+      "entropy_0": 5.339021682739258
+    },
+    {
+      "seq_idx": 46,
+      "position": 196,
+      "token_id": 448,
+      "token_text": " with",
+      "pi_0": 0.10172750055789948,
+      "entropy_0": 4.235750198364258
+    },
+    {
+      "seq_idx": 46,
+      "position": 198,
+      "token_id": 897,
+      "token_text": " value",
+      "pi_0": 0.04197564348578453,
+      "entropy_0": 5.134626388549805
+    },
+    {
+      "seq_idx": 46,
+      "position": 208,
+      "token_id": 411,
+      "token_text": "out",
+      "pi_0": 0.030123518779873848,
+      "entropy_0": 6.385242938995361
+    },
+    {
+      "seq_idx": 46,
+      "position": 218,
+      "token_id": 1388,
+      "token_text": "ative",
+      "pi_0": 0.03164743259549141,
+      "entropy_0": 5.738868713378906
+    },
+    {
+      "seq_idx": 46,
+      "position": 224,
+      "token_id": 315,
+      "token_text": " of",
+      "pi_0": 0.034199588000774384,
+      "entropy_0": 6.0184478759765625
+    },
+    {
+      "seq_idx": 46,
+      "position": 245,
+      "token_id": 10699,
+      "token_text": ")\\",
+      "pi_0": 0.028200766071677208,
+      "entropy_0": 6.313065528869629
+    },
+    {
+      "seq_idx": 46,
+      "position": 267,
+      "token_id": 287,
+      "token_text": "ing",
+      "pi_0": 0.38734424114227295,
+      "entropy_0": 4.058342933654785
+    },
+    {
+      "seq_idx": 46,
+      "position": 290,
+      "token_id": 2011,
+      "token_text": "box",
+      "pi_0": 0.584105908870697,
+      "entropy_0": 2.8836669921875
+    },
+    {
+      "seq_idx": 46,
+      "position": 293,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.03480520471930504,
+      "entropy_0": 6.9121809005737305
+    },
+    {
+      "seq_idx": 46,
+      "position": 298,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.2504378855228424,
+      "entropy_0": 5.792464256286621
+    },
+    {
+      "seq_idx": 46,
+      "position": 305,
+      "token_id": 387,
+      "token_text": " be",
+      "pi_0": 0.32020559906959534,
+      "entropy_0": 5.2226762771606445
+    },
+    {
+      "seq_idx": 46,
+      "position": 309,
+      "token_id": 10061,
+      "token_text": "Let",
+      "pi_0": 0.07825005054473877,
+      "entropy_0": 5.23992919921875
+    },
+    {
+      "seq_idx": 46,
+      "position": 312,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.3967548906803131,
+      "entropy_0": 2.8312244415283203
+    },
+    {
+      "seq_idx": 46,
+      "position": 315,
+      "token_id": 323,
+      "token_text": " and",
+      "pi_0": 0.11372054368257523,
+      "entropy_0": 4.284237861633301
+    },
+    {
+      "seq_idx": 46,
+      "position": 316,
+      "token_id": 5978,
+      "token_text": " ensure",
+      "pi_0": 0.03466719761490822,
+      "entropy_0": 5.710420608520508
+    },
+    {
+      "seq_idx": 46,
+      "position": 317,
+      "token_id": 279,
+      "token_text": " the",
+      "pi_0": 0.3956078290939331,
+      "entropy_0": 3.3400535583496094
+    },
+    {
+      "seq_idx": 46,
+      "position": 318,
+      "token_id": 2550,
+      "token_text": " output",
+      "pi_0": 0.05774277448654175,
+      "entropy_0": 5.073616981506348
+    },
+    {
+      "seq_idx": 46,
+      "position": 321,
+      "token_id": 1852,
+      "token_text": " same",
+      "pi_0": 0.6478146314620972,
+      "entropy_0": 2.7557287216186523
+    },
+    {
+      "seq_idx": 46,
+      "position": 323,
+      "token_id": 10061,
+      "token_text": "Let",
+      "pi_0": 0.09147197008132935,
+      "entropy_0": 5.191740989685059
+    },
+    {
+      "seq_idx": 46,
+      "position": 325,
+      "token_id": 9026,
+      "token_text": " execute",
+      "pi_0": 0.09525750577449799,
+      "entropy_0": 4.432459831237793
+    },
+    {
+      "seq_idx": 46,
+      "position": 327,
+      "token_id": 13027,
+      "token_text": " Python",
+      "pi_0": 0.05386151745915413,
+      "entropy_0": 3.007547378540039
+    },
+    {
+      "seq_idx": 46,
+      "position": 331,
+      "token_id": 8253,
+      "token_text": " determine",
+      "pi_0": 0.07547874003648758,
+      "entropy_0": 2.285451889038086
+    },
+    {
+      "seq_idx": 46,
+      "position": 367,
+      "token_id": 23491,
+      "token_text": " purchases",
+      "pi_0": 0.04882456362247467,
+      "entropy_0": 3.3762969970703125
+    },
+    {
+      "seq_idx": 46,
+      "position": 377,
+      "token_id": 5624,
+      "token_text": " Number",
+      "pi_0": 0.1420765519142151,
+      "entropy_0": 2.718484878540039
+    },
+    {
+      "seq_idx": 46,
+      "position": 382,
+      "token_id": 3694,
+      "token_text": " added",
+      "pi_0": 0.32082974910736084,
+      "entropy_0": 2.3491907119750977
+    },
+    {
+      "seq_idx": 46,
+      "position": 386,
+      "token_id": 18286,
+      "token_text": "notes",
+      "pi_0": 0.23778009414672852,
+      "entropy_0": 2.7328624725341797
+    },
+    {
+      "seq_idx": 46,
+      "position": 395,
+      "token_id": 31359,
+      "token_text": " Calcul",
+      "pi_0": 0.16604886949062347,
+      "entropy_0": 2.5292530059814453
+    },
+    {
+      "seq_idx": 46,
+      "position": 427,
+      "token_id": 312,
+      "token_text": " re",
+      "pi_0": 0.03580806031823158,
+      "entropy_0": 4.47178840637207
+    },
+    {
+      "seq_idx": 46,
+      "position": 428,
+      "token_id": 10187,
+      "token_text": "-ex",
+      "pi_0": 0.1210722029209137,
+      "entropy_0": 3.308572769165039
+    },
+    {
+      "seq_idx": 46,
+      "position": 431,
+      "token_id": 2038,
+      "token_text": " code",
+      "pi_0": 0.3772677481174469,
+      "entropy_0": 2.6352672576904297
+    },
+    {
+      "seq_idx": 46,
+      "position": 432,
+      "token_id": 311,
+      "token_text": " to",
+      "pi_0": 0.33451879024505615,
+      "entropy_0": 3.1108131408691406
+    },
+    {
+      "seq_idx": 46,
+      "position": 433,
+      "token_id": 633,
+      "token_text": " get",
+      "pi_0": 0.09098050743341446,
+      "entropy_0": 2.7488651275634766
+    },
+    {
+      "seq_idx": 46,
+      "position": 435,
+      "token_id": 4396,
+      "token_text": " correct",
+      "pi_0": 0.21368731558322906,
+      "entropy_0": 2.3741531372070312
+    },
+    {
+      "seq_idx": 46,
+      "position": 437,
+      "token_id": 897,
+      "token_text": " value",
+      "pi_0": 0.04074180871248245,
+      "entropy_0": 3.3645858764648438
+    },
+    {
+      "seq_idx": 46,
+      "position": 460,
+      "token_id": 89630,
+      "token_text": " Remaining",
+      "pi_0": 0.07354263216257095,
+      "entropy_0": 4.446867942810059
+    },
+    {
+      "seq_idx": 46,
+      "position": 464,
+      "token_id": 1283,
+      "token_text": " after",
+      "pi_0": 0.4685716927051544,
+      "entropy_0": 2.675661087036133
+    },
+    {
+      "seq_idx": 46,
+      "position": 465,
+      "token_id": 7627,
+      "token_text": " purchase",
+      "pi_0": 0.09500075876712799,
+      "entropy_0": 4.06192684173584
+    },
+    {
+      "seq_idx": 46,
+      "position": 476,
+      "token_id": 1736,
+      "token_text": " post",
+      "pi_0": 0.5455593466758728,
+      "entropy_0": 2.3303909301757812
+    },
+    {
+      "seq_idx": 46,
+      "position": 494,
+      "token_id": 31359,
+      "token_text": " Calcul",
+      "pi_0": 0.5378280282020569,
+      "entropy_0": 2.6858434677124023
+    },
+    {
+      "seq_idx": 46,
+      "position": 498,
+      "token_id": 6328,
+      "token_text": " package",
+      "pi_0": 0.025602536275982857,
+      "entropy_0": 5.815605163574219
+    },
+    {
+      "seq_idx": 47,
+      "position": 51,
+      "token_id": 5338,
+      "token_text": "First",
+      "pi_0": 0.15940797328948975,
+      "entropy_0": 2.837993621826172
+    },
+    {
+      "seq_idx": 47,
+      "position": 66,
+      "token_id": 16246,
+      "token_text": " Given",
+      "pi_0": 0.023462995886802673,
+      "entropy_0": 2.722412109375
+    },
+    {
+      "seq_idx": 47,
+      "position": 124,
+      "token_id": 3757,
+      "token_text": " John",
+      "pi_0": 0.21883529424667358,
+      "entropy_0": 2.2728958129882812
+    },
+    {
+      "seq_idx": 47,
+      "position": 389,
+      "token_id": 990,
+      "token_text": " use",
+      "pi_0": 0.13573364913463593,
+      "entropy_0": 2.5956478118896484
+    },
+    {
+      "seq_idx": 47,
+      "position": 432,
+      "token_id": 2413,
+      "token_text": "num",
+      "pi_0": 0.39044439792633057,
+      "entropy_0": 2.531717300415039
+    },
+    {
+      "seq_idx": 47,
+      "position": 448,
+      "token_id": 3731,
+      "token_text": " Red",
+      "pi_0": 0.08706659078598022,
+      "entropy_0": 3.0034494400024414
+    },
+    {
+      "seq_idx": 47,
+      "position": 450,
+      "token_id": 28117,
+      "token_text": " calculations",
+      "pi_0": 0.31985947489738464,
+      "entropy_0": 2.567647933959961
+    },
+    {
+      "seq_idx": 48,
+      "position": 1,
+      "token_id": 3084,
+      "token_text": " length",
+      "pi_0": 0.15154722332954407,
+      "entropy_0": 3.182558059692383
+    },
+    {
+      "seq_idx": 49,
+      "position": 43,
+      "token_id": 5338,
+      "token_text": "First",
+      "pi_0": 0.18795286118984222,
+      "entropy_0": 2.471498489379883
+    },
+    {
+      "seq_idx": 49,
+      "position": 277,
+      "token_id": 641,
+      "token_text": "In",
+      "pi_0": 0.058999016880989075,
+      "entropy_0": 4.196916580200195
+    },
+    {
+      "seq_idx": 49,
+      "position": 289,
+      "token_id": 1128,
+      "token_text": " what",
+      "pi_0": 0.07691679149866104,
+      "entropy_0": 2.595590591430664
+    },
+    {
+      "seq_idx": 49,
+      "position": 294,
+      "token_id": 807,
+      "token_text": " they",
+      "pi_0": 0.2410813719034195,
+      "entropy_0": 2.7072696685791016
+    }
+  ],
+  "trajectory": [
+    {
+      "step": 0,
+      "sum_pi": 129.75063766166568,
+      "n_sparks": 657,
+      "n_sequences": 50,
+      "mean_pi": 0.19748955504058702,
+      "ratio": 1.0
+    },
+    {
+      "step": 10,
+      "sum_pi": 130.4629626236856,
+      "n_sparks": 657,
+      "mean_pi": 0.19857376350637077,
+      "ratio": 1.0054899534588597,
+      "mean_delta_pi": 0.0010842084657837448
+    },
+    {
+      "step": 20,
+      "sum_pi": 132.04062143340707,
+      "n_sparks": 657,
+      "mean_pi": 0.20097507067489662,
+      "ratio": 1.0176491138156307,
+      "mean_delta_pi": 0.0034855156343095743
+    },
+    {
+      "step": 30,
+      "sum_pi": 134.10339382756501,
+      "n_sparks": 657,
+      "mean_pi": 0.20411475468426943,
+      "ratio": 1.0335470888185496,
+      "mean_delta_pi": 0.006625199643682399
+    },
+    {
+      "step": 40,
+      "sum_pi": 136.2642151308246,
+      "n_sparks": 657,
+      "mean_pi": 0.20740367599821094,
+      "ratio": 1.0502007357077008,
+      "mean_delta_pi": 0.009914120957623923
+    },
+    {
+      "step": 50,
+      "sum_pi": 139.0547525184229,
+      "n_sparks": 657,
+      "mean_pi": 0.21165106928222663,
+      "ratio": 1.0717076619000392,
+      "mean_delta_pi": 0.01416151424163961
+    }
+  ]
+}

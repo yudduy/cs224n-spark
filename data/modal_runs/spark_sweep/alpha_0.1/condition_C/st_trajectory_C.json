@@ -1,0 +1,116 @@
+{
+  "condition": "C",
+  "st_trajectory": [
+    {
+      "step": 1,
+      "st/mean_candidates": 17.1875,
+      "st/std_candidates": 24.305911703739895,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 87.0,
+      "st/spark_fraction_fixed": 0.07857142857142857,
+      "st/total_sparks_fixed": 275,
+      "st/total_valid": 3500,
+      "st/mean_entropy": 1.136469129342761
+    },
+    {
+      "step": 2,
+      "st/mean_candidates": 5.625,
+      "st/std_candidates": 8.738385148298283,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 31.0,
+      "st/spark_fraction_fixed": 0.030758714969241284,
+      "st/total_sparks_fixed": 90,
+      "st/total_valid": 2926,
+      "st/mean_entropy": 1.2659169233842142
+    },
+    {
+      "step": 3,
+      "st/mean_candidates": 14.5,
+      "st/std_candidates": 19.8588771082355,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 71.0,
+      "st/spark_fraction_fixed": 0.08614927590048273,
+      "st/total_sparks_fixed": 232,
+      "st/total_valid": 2693,
+      "st/mean_entropy": 1.5404783712013883
+    },
+    {
+      "step": 4,
+      "st/mean_candidates": 17.75,
+      "st/std_candidates": 30.316043607304696,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 122.0,
+      "st/spark_fraction_fixed": 0.0856711915535445,
+      "st/total_sparks_fixed": 284,
+      "st/total_valid": 3315,
+      "st/mean_entropy": 1.0246587847055055
+    },
+    {
+      "step": 5,
+      "st/mean_candidates": 17.0625,
+      "st/std_candidates": 19.414777715698936,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 65.0,
+      "st/spark_fraction_fixed": 0.08826382153249272,
+      "st/total_sparks_fixed": 273,
+      "st/total_valid": 3093,
+      "st/mean_entropy": 1.1969319829038039
+    },
+    {
+      "step": 6,
+      "st/mean_candidates": 16.0,
+      "st/std_candidates": 16.545392107774298,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 46.0,
+      "st/spark_fraction_fixed": 0.07565011820330969,
+      "st/total_sparks_fixed": 256,
+      "st/total_valid": 3384,
+      "st/mean_entropy": 1.1433695319814499
+    },
+    {
+      "step": 7,
+      "st/mean_candidates": 21.4375,
+      "st/std_candidates": 30.665470708110774,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 108.0,
+      "st/spark_fraction_fixed": 0.1009120329508679,
+      "st/total_sparks_fixed": 343,
+      "st/total_valid": 3399,
+      "st/mean_entropy": 1.4045080811083248
+    },
+    {
+      "step": 8,
+      "st/mean_candidates": 8.8125,
+      "st/std_candidates": 12.63536084763708,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 41.0,
+      "st/spark_fraction_fixed": 0.042051893826424096,
+      "st/total_sparks_fixed": 141,
+      "st/total_valid": 3353,
+      "st/mean_entropy": 0.6337080706968165
+    },
+    {
+      "step": 9,
+      "st/mean_candidates": 18.0,
+      "st/std_candidates": 25.176874309572266,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 89.0,
+      "st/spark_fraction_fixed": 0.07592934352755075,
+      "st/total_sparks_fixed": 288,
+      "st/total_valid": 3793,
+      "st/mean_entropy": 1.1970005158103962
+    },
+    {
+      "step": 10,
+      "st/mean_candidates": 13.4375,
+      "st/std_candidates": 10.481941315901363,
+      "st/min_candidates": 0.0,
+      "st/max_candidates": 29.0,
+      "st/spark_fraction_fixed": 0.0652701882210079,
+      "st/total_sparks_fixed": 215,
+      "st/total_valid": 3294,
+      "st/mean_entropy": 1.0124647631100638
+    }
+  ],
+  "final_val_metrics": null
+}

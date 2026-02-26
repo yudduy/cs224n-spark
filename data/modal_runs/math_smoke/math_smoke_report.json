@@ -1,0 +1,289 @@
+{
+  "overall": "PASS",
+  "passed": 2,
+  "failed": 0,
+  "warned": 0,
+  "elapsed_seconds": 368.34247374534607,
+  "checks": [
+    [
+      "PASS",
+      "Loss finite across 5 steps (mean=-0.1028)"
+    ],
+    [
+      "INFO",
+      "V(R) gate: 67/80 aleatoric (84%)"
+    ],
+    [
+      "INFO",
+      "Spark position: mean_frac=0.419, late(>0.7)=22%"
+    ],
+    [
+      "PASS",
+      "NLL protection fires (mean=1.303, n=4)"
+    ],
+    [
+      "INFO",
+      "pass@1: 0.522 (from validation)"
+    ],
+    [
+      "INFO",
+      "Final val metric: val-core/HuggingFaceH4/MATH-500/reward/mean@1 = 0.5217391304347826"
+    ]
+  ],
+  "per_condition": {
+    "C": {
+      "condition": "C",
+      "steps": [
+        {
+          "step": 1,
+          "pg_loss": -0.17593695223331451,
+          "grad_norm": 0.6434140205383301,
+          "entropy": 0.35955584049224854,
+          "st_fixed_sparks": 146,
+          "st_fixed_fraction": 0.03338669105876972,
+          "spark_pos_frac_mean": 0.2822600064212329,
+          "spark_pos_frac_median": 0.24658203125,
+          "spark_pos_late_frac": 0.0958904109589041,
+          "vr_gate": {
+            "vr_zero_forks": 13,
+            "vr_total_forks": 16,
+            "vr_masked_responses": 52
+          },
+          "nll_protect_mean": 0.47917330265045166,
+          "grpo_only_loss": 0.17593695223331451,
+          "lpreg_loss_magnitude": 0.47917330265045166
+        },
+        {
+          "step": 2,
+          "pg_loss": 0.0031833439134061337,
+          "grad_norm": 0.4958740174770355,
+          "entropy": 0.41314202547073364,
+          "st_fixed_sparks": 347,
+          "st_fixed_fraction": 0.06271462136273269,
+          "spark_pos_frac_mean": 0.4600650666426513,
+          "spark_pos_frac_median": 0.505859375,
+          "spark_pos_late_frac": 0.2420749279538905,
+          "vr_gate": {
+            "vr_zero_forks": 13,
+            "vr_total_forks": 16,
+            "vr_masked_responses": 52
+          },
+          "nll_protect_mean": 1.7903679609298706,
+          "grpo_only_loss": 0.0031833439134061337,
+          "lpreg_loss_magnitude": 1.7903679609298706
+        },
+        {
+          "step": 3,
+          "pg_loss": -0.3228400945663452,
+          "grad_norm": 0.49707821011543274,
+          "entropy": 0.36609894037246704,
+          "st_fixed_sparks": 113,
+          "st_fixed_fraction": 0.024618736383442266,
+          "spark_pos_frac_mean": 0.43600490873893805,
+          "spark_pos_frac_median": 0.4375,
+          "spark_pos_late_frac": 0.23893805309734514,
+          "vr_gate": {
+            "vr_zero_forks": 12,
+            "vr_total_forks": 16,
+            "vr_masked_responses": 48
+          },
+          "nll_protect_mean": 2.1463370323181152,
+          "grpo_only_loss": 0.3228400945663452,
+          "lpreg_loss_magnitude": 2.1463370323181152
+        },
+        {
+          "step": 4,
+          "pg_loss": 0.145227313041687,
+          "grad_norm": 0.26372137665748596,
+          "entropy": 0.31220605969429016,
+          "st_fixed_sparks": 164,
+          "st_fixed_fraction": 0.029517638588912886,
+          "spark_pos_frac_mean": 0.5111411490091463,
+          "spark_pos_frac_median": 0.46435546875,
+          "spark_pos_late_frac": 0.34146341463414637,
+          "vr_gate": {
+            "vr_zero_forks": 14,
+            "vr_total_forks": 16,
+            "vr_masked_responses": 56
+          },
+          "nll_protect_mean": 0.7954142093658447,
+          "grpo_only_loss": 0.145227313041687,
+          "lpreg_loss_magnitude": 0.7954142093658447
+        },
+        {
+          "step": 5,
+          "pg_loss": -0.16366006433963776,
+          "grad_norm": 0.13484297692775726,
+          "entropy": 0.9342033267021179,
+          "st_fixed_sparks": 491,
+          "st_fixed_fraction": 0.11181963106353905,
+          "spark_pos_frac_mean": 0.4050526667515275,
+          "spark_pos_frac_median": 0.38671875,
+          "spark_pos_late_frac": 0.18533604887983707,
+          "vr_gate": {
+            "vr_zero_forks": 15,
+            "vr_total_forks": 16,
+            "vr_masked_responses": 60
+          },
+          "nll_protect_mean": 0.0,
+          "grpo_only_loss": 0.16366006433963776,
+          "lpreg_loss_magnitude": 0.0,
+          "pass_at_1": 0.5217391304347826
+        }
+      ],
+      "nan_detected": false,
+      "kl_magnitudes": [
+        0.47917330265045166,
+        1.7903679609298706,
+        2.1463370323181152,
+        0.7954142093658447
+      ],
+      "prefix_mask_checks": [
+        {
+          "prefix_zeros_applied": 0,
+          "prefix_total_positions": 6812
+        },
+        {
+          "prefix_zeros_applied": 0,
+          "prefix_total_positions": 3956
+        },
+        {
+          "prefix_zeros_applied": 893,
+          "prefix_total_positions": 5996
+        },
+        {
+          "prefix_zeros_applied": 0,
+          "prefix_total_positions": 5960
+        },
+        {
+          "prefix_zeros_applied": 1072,
+          "prefix_total_positions": 7328
+        }
+      ],
+      "spark_diagnostics": [
+        {
+          "fallback": false,
+          "tau_h_mean": 2.122976843267679,
+          "tau_h_std": 1.1922631254367484,
+          "tau_p_mean": 0.7276296420022845,
+          "kappa": 0.02,
+          "total_valid": 4373,
+          "total_sparks": 194,
+          "spark_fraction": 0.04436313743425566,
+          "sequences_with_sparks": 16,
+          "batch_size": 16
+        },
+        {
+          "fallback": false,
+          "tau_h_mean": 1.859609991312027,
+          "tau_h_std": 0.951490371408052,
+          "tau_p_mean": 0.7921935115009546,
+          "kappa": 0.02,
+          "total_valid": 5533,
+          "total_sparks": 220,
+          "spark_fraction": 0.039761431411530816,
+          "sequences_with_sparks": 16,
+          "batch_size": 16
+        },
+        {
+          "fallback": false,
+          "tau_h_mean": 2.183688201010227,
+          "tau_h_std": 1.3771522060795969,
+          "tau_p_mean": 0.7883872892707586,
+          "kappa": 0.02,
+          "total_valid": 4590,
+          "total_sparks": 195,
+          "spark_fraction": 0.042483660130718956,
+          "sequences_with_sparks": 15,
+          "batch_size": 16
+        },
+        {
+          "fallback": false,
+          "tau_h_mean": 1.686587605625391,
+          "tau_h_std": 0.5820492377848848,
+          "tau_p_mean": 0.8072966691106558,
+          "kappa": 0.02,
+          "total_valid": 5556,
+          "total_sparks": 237,
+          "spark_fraction": 0.04265658747300216,
+          "sequences_with_sparks": 16,
+          "batch_size": 16
+        },
+        {
+          "fallback": false,
+          "tau_h_mean": 3.3631901405751705,
+          "tau_h_std": 1.9528874333481134,
+          "tau_p_mean": 0.5802131872624159,
+          "kappa": 0.02,
+          "total_valid": 4391,
+          "total_sparks": 122,
+          "spark_fraction": 0.027784103848781598,
+          "sequences_with_sparks": 15,
+          "batch_size": 16
+        }
+      ],
+      "vr_gate_trajectory": [
+        {
+          "step": 1,
+          "vr_zero_forks": 13,
+          "vr_total_forks": 16,
+          "vr_masked_responses": 52
+        },
+        {
+          "step": 2,
+          "vr_zero_forks": 13,
+          "vr_total_forks": 16,
+          "vr_masked_responses": 52
+        },
+        {
+          "step": 3,
+          "vr_zero_forks": 12,
+          "vr_total_forks": 16,
+          "vr_masked_responses": 48
+        },
+        {
+          "step": 4,
+          "vr_zero_forks": 14,
+          "vr_total_forks": 16,
+          "vr_masked_responses": 56
+        },
+        {
+          "step": 5,
+          "vr_zero_forks": 15,
+          "vr_total_forks": 16,
+          "vr_masked_responses": 60
+        }
+      ],
+      "pass_at_1_trajectory": [
+        {
+          "step": 5,
+          "value": 0.5217391304347826,
+          "key": "val-core/HuggingFaceH4/MATH-500/reward/mean@1"
+        }
+      ],
+      "mass_balance": [
+        {
+          "step": 0,
+          "sum_pi": 116.58667583204806,
+          "n_sparks": 648,
+          "n_sequences": 46,
+          "mean_pi": 0.17991770961735812,
+          "ratio": 1.0
+        },
+        {
+          "step": 5,
+          "sum_pi": 116.60878627002239,
+          "n_sparks": 648,
+          "mean_pi": 0.1799518306636148,
+          "ratio": 1.0001896480692716,
+          "mean_delta_pi": 3.412104625668791e-05
+        }
+      ],
+      "final_val_metrics": {
+        "val-core/HuggingFaceH4/MATH-500/reward/mean@1": 0.5217391304347826
+      },
+      "exit_code": 0,
+      "elapsed_seconds": 345.19239711761475
+    }
+  }
+}
