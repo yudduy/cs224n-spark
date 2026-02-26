@@ -21,6 +21,3 @@ Standalone repo for the Spark pivot experiments (A/B/C/D) and downloaded Modal o
 - Diagnostics:
   - `data/modal_runs/trigger_diagnostic/trigger_diagnostic_report.json`
   - `data/modal_runs/spark_sweep/sweep_report.json`
-
-## Notes
-- `docs/` and `.claude/` are intentionally excluded from git.
