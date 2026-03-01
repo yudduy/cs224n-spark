@@ -1,0 +1,2331 @@
+{
+  "consensus": [
+    {
+      "problem_id": 0,
+      "tier": "easy",
+      "median_strat_count": 2,
+      "strat_count_range": [
+        2,
+        2
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": -0.7114,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.416667,
+          "eff_strats": 1.7143,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.428571,
+          "eff_strats": 1.75,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.428571,
+          "eff_strats": 1.75,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 1,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 2,
+      "tier": "easy",
+      "median_strat_count": 4,
+      "strat_count_range": [
+        2,
+        4
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": -0.5158,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.333333,
+          "eff_strats": 1.5,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.297619,
+          "eff_strats": 1.4237,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.321429,
+          "eff_strats": 1.4737,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.22619,
+          "eff_strats": 1.2923,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 3,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        2
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": -0.5319,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.083333,
+          "eff_strats": 1.0909,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 4,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 5,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 6,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 7,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 8,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 9,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        2
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": -0.7074,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.089286,
+          "eff_strats": 1.098,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 10,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 11,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 12,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 13,
+      "tier": "easy",
+      "median_strat_count": 3,
+      "strat_count_range": [
+        2,
+        3
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": 0.0756,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.464286,
+          "eff_strats": 1.8667,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.22619,
+          "eff_strats": 1.2923,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 14,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 15,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        0,
+        1
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": null,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        }
+      }
+    },
+    {
+      "problem_id": 16,
+      "tier": "easy",
+      "median_strat_count": 3,
+      "strat_count_range": [
+        1,
+        3
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": 0.4981,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.535714,
+          "eff_strats": 2.1538,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.5,
+          "eff_strats": 2.0,
+          "n_traces": 8,
+          "n_pairs": 6
+        },
+        "nemotron-v2": {
+          "pcd": 0.535714,
+          "eff_strats": 2.1538,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.25,
+          "eff_strats": 1.3333,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 17,
+      "tier": "easy",
+      "median_strat_count": 2,
+      "strat_count_range": [
+        2,
+        2
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": -0.3039,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.440476,
+          "eff_strats": 1.7872,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.357143,
+          "eff_strats": 1.5556,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.404762,
+          "eff_strats": 1.68,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.547619,
+          "eff_strats": 2.2105,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 18,
+      "tier": "easy",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 19,
+      "tier": "easy",
+      "median_strat_count": 3,
+      "strat_count_range": [
+        1,
+        3
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": -0.7415,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.202381,
+          "eff_strats": 1.2537,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.428571,
+          "eff_strats": 1.75,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.416667,
+          "eff_strats": 1.7143,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.369048,
+          "eff_strats": 1.5849,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 20,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 21,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 22,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 23,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 24,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 4,
+          "n_pairs": 6
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 6
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 1
+        }
+      }
+    },
+    {
+      "problem_id": 25,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        0,
+        1
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": null,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        }
+      }
+    },
+    {
+      "problem_id": 26,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 27,
+      "tier": "medium",
+      "median_strat_count": 2,
+      "strat_count_range": [
+        1,
+        3
+      ],
+      "strat_count_agreement": 0.33,
+      "pairwise_kappa": -0.419,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.404762,
+          "eff_strats": 1.68,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.083333,
+          "eff_strats": 1.0909,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.142857,
+          "eff_strats": 1.1667,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.166667,
+          "eff_strats": 1.2,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 28,
+      "tier": "medium",
+      "median_strat_count": 0,
+      "strat_count_range": [
+        0,
+        1
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": null,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        }
+      }
+    },
+    {
+      "problem_id": 29,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 30,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 31,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 32,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": null,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        }
+      }
+    },
+    {
+      "problem_id": 33,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 34,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        2
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": -0.7715,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 2,
+          "n_pairs": 1
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 21
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 10
+        }
+      }
+    },
+    {
+      "problem_id": 35,
+      "tier": "medium",
+      "median_strat_count": 3,
+      "strat_count_range": [
+        3,
+        4
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": -0.031,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 1.0,
+          "eff_strats": Infinity,
+          "n_traces": 2,
+          "n_pairs": 1
+        },
+        "nemotron-v1": {
+          "pcd": 0.222222,
+          "eff_strats": 1.2857,
+          "n_traces": 3,
+          "n_pairs": 3
+        },
+        "nemotron-v2": {
+          "pcd": 0.130952,
+          "eff_strats": 1.1507,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.071429,
+          "eff_strats": 1.0769,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 36,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 37,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 38,
+      "tier": "medium",
+      "median_strat_count": 2,
+      "strat_count_range": [
+        1,
+        2
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": -0.7181,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.083333,
+          "eff_strats": 1.0909,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.083333,
+          "eff_strats": 1.0909,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 39,
+      "tier": "medium",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 40,
+      "tier": "hard",
+      "median_strat_count": 2,
+      "strat_count_range": [
+        1,
+        2
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": -0.24,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 41,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        2
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": -0.1215,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 4,
+          "n_pairs": 6
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 1
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 0
+        }
+      }
+    },
+    {
+      "problem_id": 42,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 43,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 44,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 2,
+          "n_pairs": 1
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        }
+      }
+    },
+    {
+      "problem_id": 45,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 46,
+      "tier": "hard",
+      "median_strat_count": 4,
+      "strat_count_range": [
+        1,
+        4
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": -0.5792,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.488095,
+          "eff_strats": 1.9535,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.488095,
+          "eff_strats": 1.9535,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.47619,
+          "eff_strats": 1.9091,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.488095,
+          "eff_strats": 1.9535,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 47,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 6
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 48,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 6,
+          "n_pairs": 6
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 6,
+          "n_pairs": 15
+        }
+      }
+    },
+    {
+      "problem_id": 49,
+      "tier": "hard",
+      "median_strat_count": 2,
+      "strat_count_range": [
+        1,
+        2
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": -0.4137,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.166667,
+          "eff_strats": 1.2,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.083333,
+          "eff_strats": 1.0909,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.142857,
+          "eff_strats": 1.1667,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.083333,
+          "eff_strats": 1.0909,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 50,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 1
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 21
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 6,
+          "n_pairs": 0
+        }
+      }
+    },
+    {
+      "problem_id": 51,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 52,
+      "tier": "hard",
+      "median_strat_count": 2,
+      "strat_count_range": [
+        1,
+        3
+      ],
+      "strat_count_agreement": 0.33,
+      "pairwise_kappa": -0.0928,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.277778,
+          "eff_strats": 1.3846,
+          "n_traces": 4,
+          "n_pairs": 6
+        },
+        "nemotron-v1": {
+          "pcd": 0.333333,
+          "eff_strats": 1.5,
+          "n_traces": 3,
+          "n_pairs": 3
+        },
+        "nemotron-v2": {
+          "pcd": 0.071429,
+          "eff_strats": 1.0769,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 3,
+          "n_pairs": 3
+        }
+      }
+    },
+    {
+      "problem_id": 53,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 4,
+          "n_pairs": 6
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 54,
+      "tier": "hard",
+      "median_strat_count": 2,
+      "strat_count_range": [
+        1,
+        2
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": -0.5034,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.321429,
+          "eff_strats": 1.4737,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 1
+        },
+        "nemotron-v2": {
+          "pcd": 0.190476,
+          "eff_strats": 1.2353,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.083333,
+          "eff_strats": 1.0909,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 55,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": null,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        }
+      }
+    },
+    {
+      "problem_id": 56,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        2
+      ],
+      "strat_count_agreement": 0.67,
+      "pairwise_kappa": -0.6225,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.059524,
+          "eff_strats": 1.0633,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 57,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 2,
+          "n_pairs": 1
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 0
+        }
+      }
+    },
+    {
+      "problem_id": 58,
+      "tier": "hard",
+      "median_strat_count": 2,
+      "strat_count_range": [
+        2,
+        2
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": -0.4951,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.547619,
+          "eff_strats": 2.2105,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.25,
+          "eff_strats": 1.3333,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.142857,
+          "eff_strats": 1.1667,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.083333,
+          "eff_strats": 1.0909,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    },
+    {
+      "problem_id": 59,
+      "tier": "hard",
+      "median_strat_count": 1,
+      "strat_count_range": [
+        1,
+        1
+      ],
+      "strat_count_agreement": 1.0,
+      "pairwise_kappa": 1.0,
+      "per_model": {
+        "r1-distill": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v1": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-v2": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        },
+        "nemotron-brorl": {
+          "pcd": 0.0,
+          "eff_strats": 1.0,
+          "n_traces": 8,
+          "n_pairs": 28
+        }
+      }
+    }
+  ],
+  "judge_free": {
+    "r1-distill": {
+      "pass_at_k": {
+        "1": 0.5971,
+        "4": 0.7301,
+        "8": 0.7722,
+        "16": 0.8058,
+        "32": 0.8349,
+        "64": 0.85
+      },
+      "mean_correct": 38.22,
+      "mean_unique_answers": 1.53,
+      "mean_trace_length": 2987.0,
+      "answer_entropy_mean": 0.225,
+      "per_tier": {
+        "easy": {
+          "pass_at_1": 0.7992,
+          "mean_correct": 51.15
+        },
+        "medium": {
+          "pass_at_1": 0.5562,
+          "mean_correct": 35.6
+        },
+        "hard": {
+          "pass_at_1": 0.4359,
+          "mean_correct": 27.9
+        }
+      }
+    },
+    "nemotron-v1": {
+      "pass_at_k": {
+        "1": 0.6049,
+        "4": 0.6979,
+        "8": 0.7415,
+        "16": 0.7817,
+        "32": 0.8114,
+        "64": 0.8333
+      },
+      "mean_correct": 38.72,
+      "mean_unique_answers": 0.97,
+      "mean_trace_length": 3334.0,
+      "answer_entropy_mean": 0.0459,
+      "per_tier": {
+        "easy": {
+          "pass_at_1": 0.8953,
+          "mean_correct": 57.3
+        },
+        "medium": {
+          "pass_at_1": 0.5648,
+          "mean_correct": 36.15
+        },
+        "hard": {
+          "pass_at_1": 0.3547,
+          "mean_correct": 22.7
+        }
+      }
+    },
+    "nemotron-v2": {
+      "pass_at_k": {
+        "1": 0.7286,
+        "4": 0.8369,
+        "8": 0.8706,
+        "16": 0.888,
+        "32": 0.8959,
+        "64": 0.9
+      },
+      "mean_correct": 46.63,
+      "mean_unique_answers": 1.1,
+      "mean_trace_length": 2872.0,
+      "answer_entropy_mean": 0.0802,
+      "per_tier": {
+        "easy": {
+          "pass_at_1": 0.9266,
+          "mean_correct": 59.3
+        },
+        "medium": {
+          "pass_at_1": 0.7141,
+          "mean_correct": 45.7
+        },
+        "hard": {
+          "pass_at_1": 0.5453,
+          "mean_correct": 34.9
+        }
+      }
+    },
+    "nemotron-brorl": {
+      "pass_at_k": {
+        "1": 0.7021,
+        "4": 0.8058,
+        "8": 0.838,
+        "16": 0.8583,
+        "32": 0.8726,
+        "64": 0.8833
+      },
+      "mean_correct": 44.93,
+      "mean_unique_answers": 1.12,
+      "mean_trace_length": 2843.0,
+      "answer_entropy_mean": 0.0979,
+      "per_tier": {
+        "easy": {
+          "pass_at_1": 0.9203,
+          "mean_correct": 58.9
+        },
+        "medium": {
+          "pass_at_1": 0.6789,
+          "mean_correct": 43.45
+        },
+        "hard": {
+          "pass_at_1": 0.507,
+          "mean_correct": 32.45
+        }
+      }
+    }
+  },
+  "behavioral_distances": {
+    "r1-distill_vs_nemotron-v1": 0.1363,
+    "r1-distill_vs_nemotron-v2": 0.1174,
+    "r1-distill_vs_nemotron-brorl": 0.1279,
+    "nemotron-v1_vs_nemotron-v2": 0.0644,
+    "nemotron-v1_vs_nemotron-brorl": 0.078,
+    "nemotron-v2_vs_nemotron-brorl": 0.0246
+  },
+  "table1_summary": {
+    "r1-distill": {
+      "pcd": 0.097586,
+      "eff_strats": 1.1081
+    },
+    "nemotron-v1": {
+      "pcd": 0.053108,
+      "eff_strats": 1.0561
+    },
+    "nemotron-v2": {
+      "pcd": 0.060516,
+      "eff_strats": 1.0644
+    },
+    "nemotron-brorl": {
+      "pcd": 0.046627,
+      "eff_strats": 1.0489
+    }
+  },
+  "n_multi_strategy": 15,
+  "mean_pairwise_kappa": 0.4919
+}

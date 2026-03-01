@@ -1,0 +1,27 @@
+{
+  "students": [
+    "student-r1",
+    "student-v2"
+  ],
+  "teachers": [
+    "r1-distill",
+    "nemotron-v2"
+  ],
+  "n_problems": 60,
+  "student_summaries": {
+    "student-r1": {
+      "pass_at_1": 0.5409
+    },
+    "student-v2": {
+      "pass_at_1": 0.6292
+    }
+  },
+  "teacher_summaries": {
+    "r1-distill": {
+      "pass_at_1": 0.5971
+    },
+    "nemotron-v2": {
+      "pass_at_1": 0.7286
+    }
+  }
+}

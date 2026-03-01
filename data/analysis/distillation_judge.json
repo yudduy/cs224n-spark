@@ -1,0 +1,2999 @@
+[
+  {
+    "problem_id": 0,
+    "tier": "easy",
+    "subject": "Precalculus",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Sine-based hypotenuse then Pythagoras",
+          "description": "Use sin(D) = opposite/hypotenuse to determine the hypotenuse DF from EF, then apply the Pythagorean theorem DF^2 = DE^2 + EF^2 to solve for DE."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "Across all traces, the core approach is identical: derive DF from sin D using EF, then compute DE via Pythagoras. Some traces also reference coordinates, but the fundamental method remains the same."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 1,
+    "tier": "easy",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Equation-based linear solve",
+          "description": "Treat the percent as a decimal and set up a linear equation 0.02 * X = 40; solve for the total X (i.e., X = 40 / 0.02)."
+        },
+        {
+          "id": 2,
+          "name": "Proportion/percentage-scaling",
+          "description": "Use a ratio or percentage scaling: 2% corresponds to 40, so either compute 1% as 40/2 and then multiply by 100, or set up a proportion 2/100 = 40/X and solve for X."
+        }
+      ],
+      "classifications": {
+        "E1": 2,
+        "E2": 2,
+        "E3": 1,
+        "E4": 1,
+        "E5": 2,
+        "E6": 1,
+        "E7": 2,
+        "E8": 2,
+        "F1": 1,
+        "F2": 2,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1
+      },
+      "confidence": "high",
+      "notes": "Two distinct high-level mathematical approaches identified across traces: equation-based solving (0.02*X = 40) and a proportion/percentage-scaling method (2% corresponds to 40, either via 1% = 40/2 and times 100 or via 2/100 = 40/X). Most traces rely on one of these two core strategies."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1,
+        2
+      ],
+      "student-v2": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "problem_id": 2,
+    "tier": "easy",
+    "subject": "Prealgebra",
+    "llm_response": {
+      "n_strategies": 4,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Long division",
+          "description": "Compute 3 \u00f7 20 directly by long division to obtain the decimal representation, which yields 0.15."
+        },
+        {
+          "id": 2,
+          "name": "Convert to denominator 100",
+          "description": "Multiply numerator and denominator by 5 to get 15/100, then read off the decimal as 0.15."
+        },
+        {
+          "id": 3,
+          "name": "Use 1/20 = 0.05",
+          "description": "Use the known decimal for 1/20 (0.05) and multiply by 3 (or add 0.1 + 0.05) to obtain 0.15."
+        },
+        {
+          "id": 4,
+          "name": "Proportion to a power-of-10 denominator",
+          "description": "Set up 3/20 = x/100 and solve for x, giving x = 15, so the decimal is 0.15."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 2,
+        "E3": 1,
+        "E4": 2,
+        "E5": 1,
+        "E6": 2,
+        "E7": 1,
+        "E8": 2
+      },
+      "confidence": "high",
+      "notes": "Across traces, the main distinct high-level approaches are: (1) direct long division to get 0.15, (2) converting to an equivalent fraction with denominator 100 (15/100), (3) using the known decimal for 1/20 (0.05) and scaling to 0.15, and (4) solving a proportional relation to a denominator of 100 (3/20 = x/100). Most traces fall into either (1) or (2), with occasional use of (3) or (4) as alternative confirmations."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1,
+        2
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 3,
+    "tier": "easy",
+    "subject": "Precalculus",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Common-denominator combination after rewriting to sine/cosine",
+          "description": "Rewrite sec x as 1/cos x. Express both terms over a common denominator sin x cos x, then use the identity 1 - sin^2 x = cos^2 x and simplify to cot x."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same core mathematical approach; no alternative strategies observed."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 4,
+    "tier": "easy",
+    "subject": "Intermediate Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Domain from positivity of log argument",
+          "description": "Require the logarithm argument x^2 to be positive, which yields x \u2260 0; thus the domain is (-\u221e,0) \u222a (0,\u221e), i.e., x < 0 or x > 0, implying a = 0 and b = 0, so a + b = 0."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "Across all traces, the same core mathematical approach is used: determine the domain by requiring log(x^2) to be defined (x^2 > 0), leading to x \u2260 0 and the two-ray domain x < 0 or x > 0; all traces converge on a = 0 and b = 0, so a + b = 0."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 5,
+    "tier": "easy",
+    "subject": "Prealgebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Multiplication principle (product rule) for independent choices",
+          "description": "Count outfits by multiplying the number of options for each category (shirts, pants, hats). All traces reduce to 5 \u00d7 6 \u00d7 8 = 240; variations may show different decompositions but the core method is the product rule."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "Across all traces (E1\u2013E8 and F1\u2013F8), the high-level strategy is the same: use the multiplication principle to count independent choices. Some traces show alternative write-ups or minor detours but translate to the same core method."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 6,
+    "tier": "easy",
+    "subject": "Counting & Probability",
+    "llm_response": {
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Multiset permutation formula",
+          "description": "Count distinct arrangements of a word with repeated letters using the factorial of the total letters divided by the product of factorials of each letter's multiplicity (e.g., 7! / (2! \u00b7 2!) for E and L)."
+        },
+        {
+          "id": 2,
+          "name": "Position-based counting",
+          "description": "Count arrangements by explicitly choosing positions for the repeated letters (e.g., choose 2 positions for E from 7, then 2 of the remaining for L, then arrange the rest), effectively a constructive variant of the multiset count."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 2,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "Most traces use the standard multiset permutation approach (7! / (2! \u00b7 2!)). One trace (E2) explicitly described a position-based, constructive variant, which is a distinct but equivalent high-level strategy."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1,
+        2
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 7,
+    "tier": "easy",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Square both sides to remove radical; solve resulting linear equation; verify domain and original equation",
+          "description": "Eliminate the radical by squaring both sides, yielding a linear equation in x (3x - 5 = 4). Solve for x (x = 3) and then check the solution against the domain requirement (3x - 5 \u2265 0) and the original equation to rule out extraneous solutions."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same core mathematical method: eliminate the square root by squaring, reduce to a linear equation, solve, and verify within the domain; no alternative strategies detected."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 8,
+    "tier": "easy",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Direct exponent extraction (power recognition)",
+          "description": "Express the argument as a power of the base (64 = 2^6) and read off the exponent as the logarithm value."
+        },
+        {
+          "id": 2,
+          "name": "Change-of-base / logarithm properties",
+          "description": "Use the logarithm change-of-base formula (e.g., log_2 64 = ln 64 / ln 2) and apply log rules (ln(2^6) = 6 ln 2) to simplify to 6."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "medium",
+      "notes": "Two high-level mathematical approaches are present in the traces: (1) directly express 64 as a power of 2 (64 = 2^6) and conclude log_2 64 = 6; (2) use change-of-base/logarithm properties to compute the same value. The trace-level classifications favor the direct exponent extraction as the primary method, but many traces also demonstrate the change-of-base route, indicating surface-level diversity without introducing a fundamentally new strategy."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 9,
+    "tier": "easy",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Algebraic nth-term parameter solving",
+          "description": "Use the nth-term formula a_n = a_1 + (n-1)d to form two equations from a_4 = 200 and a_8 = 500, solve for a_1 and d, then compute a_6 = a_1 + 5d."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces rely on the same core algebraic approach; occasional mentions of alternative checks (e.g., symmetry/averaging) do not constitute a separate strategy."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 10,
+    "tier": "easy",
+    "subject": "Counting & Probability",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Combinations (choose 2 from 8, order does not matter)",
+          "description": "Count the number of ways to pick 2 distinct toppings from 8 without regard to order. Use C(8,2) = 8!/(2!6!) = 28 (equivalently 8\u00d77/2)."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ a combination-based approach (8C2 = 28) with minor variations in explanation (direct combination formula, or reasoning via 8\u00d77/2). One trace occasionally includes an extraneous consideration (2^8) but reaffirms the combination result; core strategy remains the same."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 11,
+    "tier": "easy",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Midpoint via coordinate averaging",
+          "description": "Compute the midpoint by averaging the x-coordinates and the y-coordinates of the endpoints: M = ((x1+x2)/2, (y1+y2)/2)."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces use the same core mathematical approach (midpoint formula). No distinct higher-level strategies (e.g., vector method, geometric interpretation) observed."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 12,
+    "tier": "easy",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Arithmetic progression nth-term formula",
+          "description": "Treat the odd-number sequence as an arithmetic progression with first term a1 = 1 and common difference d = 2, using a_n = a1 + (n - 1)d (equivalently a_n = 2n - 1) to obtain the 2003rd term."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces use the same core mathematical method; no distinct strategies observed beyond the arithmetic-progression approach."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 13,
+    "tier": "easy",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Direct substitution / step-by-step evaluation",
+          "description": "Compute f(5) using f(x) = 2x - 3, then substitute the result minus 1 into g with g(x) = x + 1, performing straightforward arithmetic in sequence."
+        },
+        {
+          "id": 2,
+          "name": "Algebraic simplification using inner-1 cancellation",
+          "description": "Use g(t) = t + 1 to simplify g(f(5) - 1) to (f(5) - 1) + 1 = f(5), i.e., exploit g(f(x) - 1) = f(x); then evaluate f(5)."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 2,
+        "E4": 1,
+        "E5": 2,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "Two distinct high-level approaches were used across traces: straightforward substitution (dominant) and an algebraic simplification leveraging the linear form of g."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1,
+        2
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 14,
+    "tier": "easy",
+    "subject": "Precalculus",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Inner-argument range and log monotonicity",
+          "description": "Analyze the range of the inner function sqrt(sin x) over 0\u00b0<x<180\u00b0, noting sin x \u2208 (0,1], hence sqrt(sin x) \u2208 (0,1]. Since log base 2 is increasing on positive inputs, log_2(sqrt(sin x)) ranges over (-\u221e,0], attaining 0 when x=90\u00b0 (sin x=1)."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces use the same core mathematical approach: determine the range of the inner argument and apply the monotonicity of the logarithm to obtain the final range. Minor presentation differences exist, but the underlying strategy is identical."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 15,
+    "skipped": true,
+    "reason": "no_correct"
+  },
+  {
+    "problem_id": 16,
+    "tier": "easy",
+    "subject": "Prealgebra",
+    "llm_response": {
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Decimal place-value addition (alignment and column-wise)",
+          "description": "Align the decimal points and add digits column by column from right to left, using carries as needed. This is the standard decimal arithmetic approach."
+        },
+        {
+          "id": 2,
+          "name": "Fractions-based addition",
+          "description": "Convert decimals to fractions (e.g., tenths), add the fractions, then convert the result back to a decimal."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 2,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "Two distinct high-level strategies detected: standard decimal addition (dominant in most traces) and a fractions-based approach (seen in E6)."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1,
+        2
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 17,
+    "tier": "easy",
+    "subject": "Prealgebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Constrained algebra with multiple-of-13",
+          "description": "Let G be the number of girls and B the number of boys. Since G + B = 35 and G must be a multiple of 13, G \u2208 {13, 26}. The condition G > B gives G > 35 \u2212 G, i.e., G > 17.5, so G can only be 26. Then B = 35 \u2212 26 = 9. This is the core algebraic approach used across traces."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same fundamental method: enforce the total with G+B=35, constrain G to multiples of 13, use the inequality G > B to isolate the valid G (26), yielding 9 boys. No distinct high-level strategies beyond this constrained algebraic case analysis were observed."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 18,
+    "tier": "easy",
+    "subject": "Number Theory",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Direct divisibility via multiples",
+          "description": "Show that 54 is a multiple of 6 (e.g., 54 = 6 \u00d7 9) so the remainder upon division by 6 is 0."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces use the same core mathematical approach: determine that 54 is divisible by 6 (via 54 = 6 \u00d7 9 or equivalent) and conclude the remainder is 0. No distinct high-level strategies beyond this direct divisibility method are observed."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 19,
+    "tier": "easy",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Direct distance = speed \u00d7 time",
+          "description": "Compute distance by multiplying the given speed by the given time (D = S \u00d7 T). When time is a mixed number, convert to an improper fraction or decimal for multiplication, then convert the result back to a mixed number."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same core mathematical approach (distance = speed \u00d7 time). Differences are in presentation (fractions vs decimals) but not in the underlying method."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 20,
+    "tier": "medium",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Distribute real scalar into complex number and collect like terms",
+          "description": "Multiply the complex number by the real scalar by distributing the scalar across the real and imaginary parts, then combine real and imaginary parts after subtraction."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same core algebraic approach: distribute the 6 into (1 + 2i) to get 6 + 12i, then subtract 3i to obtain 6 + 9i. No variation in mathematical strategy detected; differences are in wording/verbosity."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 21,
+    "tier": "medium",
+    "subject": "Geometry",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Rotational symmetry of regular polygons (360/n)",
+          "description": "Identify that a regular pentagon has rotational symmetry of order 5, so the smallest rotation that maps the figure onto itself is 360 degrees divided by the number of sides: 360/5 = 72 degrees."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same core mathematical approach: use the regular pentagon's rotational symmetry to state the minimal rotation as 360/n with n=5, yielding 72 degrees. No distinct alternative strategies (e.g., non-rotational arguments) are observed."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 22,
+    "tier": "medium",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Algebraic substitution/elimination",
+          "description": "Define T, S, G as weights; form linear equations 10T = 3S + G and 2T + G = S; eliminate G by substitution to obtain 12T = 4S, hence S = 3T; conclude that three treeks weigh the same as one squig."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same core algebraic approach (linear equations and substitution/elimination) to derive the ratio S = 3T; no alternative high-level strategies detected."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 23,
+    "tier": "medium",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Domain restriction from sqrt and division",
+          "description": "Apply the radicand nonnegativity from the square root (x - 1 >= 0 => x >= 1) and exclude a zero denominator (x != 2). The domain is [1, \u221e) minus {2}, so the smallest integer in the domain is 1; verify by evaluating f(1)."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces used the same core mathematical approach (domain analysis via radicand and denominator), with only superficial differences in phrasing."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 24,
+    "tier": "medium",
+    "subject": "Intermediate Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Symmetry-based circle through foci; circle centered at ellipse center; equate circle and ellipse on x-axis to enforce tangency",
+          "description": "Identify foci positions; deduce circle must be centered at the ellipse center (origin) and pass through the foci, giving circle x^2 + y^2 = c^2 with c^2 determined by ellipse parameters. For tangency at x-axis, require the circle and ellipse to intersect on y = 0, so their x^2 values match: 1/k (ellipse) = c^2 (circle). Solve for k."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same core mathematical approach; no fundamentally different strategies observed."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 25,
+    "skipped": true,
+    "reason": "no_correct"
+  },
+  {
+    "problem_id": 26,
+    "tier": "medium",
+    "subject": "Precalculus",
+    "llm_response": {
+      "n_strategies": 3,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Cross product area",
+          "description": "Area of triangle OAB computed as (1/2) * |OA \u00d7 OB|, i.e., half the magnitude of the cross product of the two side vectors OA and OB."
+        },
+        {
+          "id": 2,
+          "name": "Angle-based via dot product",
+          "description": "Compute cos(theta) from OA \u00b7 OB = |OA||OB|cos(theta), then sin(theta) from sqrt(1 - cos^2(theta)), and area = (1/2)|OA||OB|sin(theta)."
+        },
+        {
+          "id": 3,
+          "name": "Heron's formula with side lengths",
+          "description": "Compute lengths |OA|, |OB|, and |AB|, then use Heron's formula with sides a, b, c to get the area."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces converge on the same core result using cross product as the primary method. A subset of traces also mention or explore alternate approaches (dot-product angle method and Heron's formula) as potential routes, illustrating distinct high-level strategies beyond the dominant cross-product approach."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 27,
+    "tier": "medium",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Discriminant/Quadratic formula on 0 = y^2 - 4y - 1",
+          "description": "Set x = 0 to get a quadratic in y, then apply the quadratic formula and examine the discriminant to count real roots (two real roots \u2192 two y-intercepts)."
+        },
+        {
+          "id": 2,
+          "name": "Completing the square to vertex form",
+          "description": "Rewrite y^2 - 4y as (y-2)^2 - 4 to obtain x = (y-2)^2 - 5, set x = 0 to get (y-2)^2 = 5, giving two real y-values (two y-intercepts)."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 2,
+        "E4": 2,
+        "E5": 1,
+        "E6": 1,
+        "E7": 2,
+        "E8": 1,
+        "F1": 1,
+        "F2": 2,
+        "F3": 2,
+        "F4": 2,
+        "F5": 1,
+        "F6": 2,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "Two distinct high-level strategies are used across traces: discriminant/quadratic-formula approach and completing the square to obtain a vertex form. Most traces rely on the discriminant method; a subset uses completing the square as an alternative route."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1,
+        2
+      ],
+      "student-v2": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "problem_id": 28,
+    "skipped": true,
+    "reason": "no_correct"
+  },
+  {
+    "problem_id": 29,
+    "tier": "medium",
+    "subject": "Intermediate Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Rational Root Theorem candidate enumeration",
+          "description": "Use the Rational Root Theorem: any rational root p/q has p dividing the constant term and q dividing the leading coefficient. With constant term 1 and leading coefficient 2, possible rational roots are \u00b11 and \u00b11/2."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same core method (Rational Root Theorem) to identify the same set of candidate rational roots; no alternative high-level strategies are evident."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 30,
+    "tier": "medium",
+    "subject": "Number Theory",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Prime-factorization exponent completion to multiples of 3",
+          "description": "Factor 240 into primes, then choose k so that each prime's total exponent in 240\u00b7k becomes a multiple of 3 (i.e., add the minimal missing powers for 2, 3, and 5)."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1
+      },
+      "confidence": "high",
+      "notes": "All traces use the same core approach; no distinct high-level solution strategies identified. Resulting smallest k = 900, giving 240\u00b7900 = 60^3."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 31,
+    "tier": "medium",
+    "subject": "Prealgebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Convert to improper fractions and use reciprocal cancellation with a common exponent",
+          "description": "Rewrite 4 5/8 as 37/8, then multiply (37/8) and (8/37) which gives 1; raise 1 to the 55th power to obtain 1."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces use the same core approach: convert the mixed number to an improper fraction, recognize that the two bases are reciprocals, multiply to 1, and raise 1 to the given exponent, yielding 1. No alternative high-level strategies observed."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 32,
+    "skipped": true,
+    "reason": "no_correct"
+  },
+  {
+    "problem_id": 33,
+    "tier": "medium",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Substitution/Elimination to solve a system of linear equations",
+          "description": "Solve the three linear equations a+b=8, b+c=-3, a+c=-5 by eliminating variables (via substitution or addition) to find a, b, c, and then compute the product abc."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same core algebraic approach (solving a 3x3 linear system via substitution/elimination). No alternative strategies (e.g., geometric, boolean, or matrix methods) are observed."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 34,
+    "tier": "medium",
+    "subject": "Prealgebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Direct triangle area computation (base-height or coordinates)",
+          "description": "Identify the gray piece as a triangle and compute its area directly, either by base \u00d7 height / 2 or via coordinates (shoelace). The core method is a direct area calculation for a triangle."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1
+      },
+      "confidence": "high",
+      "notes": "All traces converge on the same high-level approach: treat the gray piece as a triangle and compute its area directly. Some traces use base-height reasoning (recognizing legs of length 2), others use coordinate geometry, but the underlying strategy is the same."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 35,
+    "tier": "medium",
+    "subject": "Precalculus",
+    "llm_response": {
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Direct evaluation using the known exact value of sin 18",
+          "description": "Use the closed-form sin(18\u00b0) = (\u221a5 \u2212 1)/4 (a standard exact value) and compute sin^3(18\u00b0) + sin^2(18\u00b0) directly from that value."
+        },
+        {
+          "id": 2,
+          "name": "Derivation via triple-angle identity",
+          "description": "Apply sin(3\u03b8) = 3 sin \u03b8 \u2212 4 sin^3 \u03b8 with \u03b8 = 18\u00b0, relate sin 54\u00b0 to known quantities (e.g., cos 36\u00b0) and use those exact values (such as cos 36\u00b0 = (\u221a5+1)/4) to determine sin 18\u00b0 and thus the target expression."
+        }
+      ],
+      "classifications": {
+        "E1": 2,
+        "E2": 2,
+        "F1": 1,
+        "F2": 2,
+        "F3": 1,
+        "F4": 2,
+        "F5": 1,
+        "F6": 2,
+        "F7": 2
+      },
+      "confidence": "medium",
+      "notes": "Across traces, two core mathematical approaches emerge: (1) direct evaluation using the known exact value of sin 18\u00b0, and (2) a derivation-based approach leveraging trig identities (notably the triple-angle relation) to deduce sin 18\u00b0 and compute the expression. Some traces wander or mix steps, but the fundamental strategies fall into these two categories."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+    ],
+    "student_strats": {
+      "student-r1": [
+        2
+      ],
+      "student-v2": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "problem_id": 36,
+    "tier": "medium",
+    "subject": "Intermediate Algebra",
+    "llm_response": {
+      "n_strategies": 3,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Remainder Theorem + difference-of-powers factoring",
+          "description": "Use f(1) to get the remainder when dividing by x-1, write f(x) = (x-1)Q(x) + f(1), deduce Q(x) = (x^9 - 1)/(x-1), and then factor x^9 - 1 as (x-1)(x^8 + x^7 + ... + x + 1) to obtain the quotient."
+        },
+        {
+          "id": 2,
+          "name": "Polynomial division (long or synthetic division)",
+          "description": "Perform polynomial division by x-1 (via long division or synthetic division) to obtain the quotient directly, which yields Q(x) = x^8 + x^7 + ... + x + 1."
+        },
+        {
+          "id": 3,
+          "name": "Coefficient matching for the quotient",
+          "description": "Assume Q(x) = a8 x^8 + a7 x^7 + ... + a0, expand (x-1)Q(x) (and account for the remainder if used), then equate coefficients with x^9 + 1 to solve for the ai."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 2,
+        "E4": 3,
+        "E5": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 2,
+        "F4": 1,
+        "F5": 1,
+        "F6": 3,
+        "F7": 1
+      },
+      "confidence": "medium",
+      "notes": "Three distinct high-level approaches observed: (1) remainder-based factoring to the (x^9 - 1)/(x - 1) form, (2) direct polynomial division (including synthetic), (3) coefficient-matching to determine the quotient."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1,
+        2,
+        3
+      ],
+      "student-v2": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "problem_id": 37,
+    "tier": "medium",
+    "subject": "Prealgebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Twin-prime reasoning (primality and twin primes)",
+          "description": "Treat the weekly count N as a prime between 30 and 50 (since it cannot be split into multiple equal groups). Then require N + 2 to also be prime (since adding Betty and Wilma still cannot form equal groups). Enumerate primes in 30\u201350 and find N such that N + 2 is also prime; N = 41 is the unique solution."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same core mathematical approach: primality (N and N+2 both prime) within the 30\u201350 range, i.e., twin-prime reasoning. Some traces include additional commentary or digressions, but the strategy class remains the same."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 38,
+    "tier": "medium",
+    "subject": "Geometry",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Inscribed sphere to cube edge relation",
+          "description": "Treat the sphere as inscribed in the cube; the sphere's diameter equals the cube's edge length. With radius r = 3, diameter d = 6, so edge a = 6. Compute volume as a^3 = 6^3 = 216."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces rely on the same core mathematical method: an inscribed sphere inside a cube implies the cube's edge length equals the sphere's diameter, then volume is edge^3. Some traces include extra or irrelevant steps but do not indicate a different strategy."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 39,
+    "tier": "medium",
+    "subject": "Precalculus",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Projection-based orthogonality (dot-product) method",
+          "description": "Use the projection formula proj_u v = ((v\u00b7u)/||u||^2) u with u = (2,1). Setting the projection to the zero vector forces the scalar ((v\u00b7u)/||u||^2) to be zero, so v\u00b7u = 0. If v = (x,y), then 2x + y = 0, i.e., y = -2x."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "Across all traces, the core method is the projection-orthogonality approach. All arrive at 2x + y = 0 and thus y = -2x; minor presentation differences do not constitute a separate strategy."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 40,
+    "tier": "hard",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Sum-of-future-values of individual deposits",
+          "description": "Compute the future value of each end-of-year deposit separately (two years, one year, zero years) and sum them; this yields a quadratic in (1 + r) which is solved for r."
+        },
+        {
+          "id": 2,
+          "name": "Annuity formula (FV of ordinary annuity)",
+          "description": "Use the future value of an ordinary annuity formula FV = PMT * ((1 + r)^n - 1) / r and solve for r."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 2,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "medium",
+      "notes": "Most traces apply the per-deposit future-value sum approach (Strategy 1); one trace uses the annuity formula (Strategy 2)."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "problem_id": 41,
+    "skipped": true,
+    "reason": "no_correct"
+  },
+  {
+    "problem_id": 42,
+    "tier": "hard",
+    "subject": "Counting & Probability",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Direct combinatorial counting of collinear triplets via lines in the grid",
+          "description": "Compute total number of 3-point subsets as C(9,3) = 84, then count the 3-point collinear subsets by counting lines that contain exactly 3 grid points (3 horizontals, 3 verticals, 2 diagonals), giving 8 favorable triplets. Probability = 8/84 = 2/21."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same core method; there is no variation in the high-level mathematical approach across traces."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 43,
+    "tier": "hard",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Completing the square / vertex form",
+          "description": "Rewrite the quadratic x^2 + 2.6x + 3.6 as (x + b)^2 + c by completing the square (equivalently converting to vertex form); then solve for b and c and compute b + c."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same underlying method: completing the square to express the quadratic in the form (x + b)^2 + c (vertex form). No distinct mathematical approaches observed across traces."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 44,
+    "tier": "hard",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Algebraic simplification to a difference of squares and boundary optimization",
+          "description": "Expand the product to reveal (1/b)^2 - a^2, then maximize by choosing a to minimize a^2 (closest to zero, i.e., a = -2) and b to maximize 1/b^2 (smallest b, i.e., b = 3), yielding the maximum value."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "F1": 1
+      },
+      "confidence": "high",
+      "notes": "All traces rely on the same core algebraic simplification and boundary-based optimization; no fundamentally distinct mathematical approaches observed."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 45,
+    "tier": "hard",
+    "subject": "Number Theory",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Exponent-divisibility / prime-factor-exponent argument",
+          "description": "For 2^24 to be a perfect n-th power, the exponent 24 must be divisible by n. Since any k^n equaling 2^24 forces k to be a power of 2 and mn = 24, n must be a divisor of 24. Count divisors of 24 greater than 1."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces converge on the same core mathematical method; differences are in wording/verbosity, not in strategy."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 46,
+    "tier": "hard",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Intercept-form reading with slope via conversion",
+          "description": "Identify a and b directly from intercept form x/a + y/b = 1 (a = 4, b = 12), then convert to slope-intercept form y = mx + c to obtain m = -3; finally compute a + b + m = 4 + 12 - 3 = 13."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces use the same core approach: read intercepts from intercept form and derive the slope by converting to slope-intercept form. No distinct alternative strategies (e.g., using a direct -b/a slope formula without conversion) are employed."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 47,
+    "tier": "hard",
+    "subject": "Prealgebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Direct unit-rate conversion",
+          "description": "From 1200 lire = $1.50, derive dollars per lire (either by dividing dollars by lire or by taking the reciprocal), then multiply that rate by 1,000,000 lire to obtain the equivalent dollars."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "Across all traces, the core approach is the same: use the given exchange rate to perform a unit-rate conversion ( lire -> dollars ) and scale to 1,000,000 lire. No alternative high-level mathematical strategies (e.g., a fundamentally different method) appear."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 48,
+    "tier": "hard",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Direct iterative computation",
+          "description": "Compute terms sequentially by applying the alternating add/multiply rule with successive integers starting from 1; list terms until one exceeds 125; the first such term is 129."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces use the same direct iterative approach; no traces employ alternative high-level mathematical strategies (e.g., closed-form formulas or geometric reasoning)."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 49,
+    "tier": "hard",
+    "subject": "Prealgebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Circumference-based revolutions method",
+          "description": "Compute the wheel circumference C = 2\u03c0r, then multiply by the number of revolutions per unit time (or revolutions per second) to get distance per second. The speed is this distance per second, which is equivalent to revolutions per second \u00d7 circumference."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "Across all traces, the core high-level approach is the circumference-times-revolutions method to obtain speed. Some traces discuss alternative viewpoints (e.g., angular velocity), but the fundamental mathematical strategy remains the same."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 50,
+    "tier": "hard",
+    "subject": "Geometry",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Coordinate geometry / vector angle reasoning",
+          "description": "Model the diagram with explicit coordinates, express vectors PR and PS, use the given sin(angle RPQ) to deduce the rotation angle's cosine, and relate angle RPS to angle RPQ via a linear angle difference (cos(\u03c0\u2212\u03b8) = \u2212cos\u03b8)."
+        }
+      ],
+      "classifications": {
+        "F1": 1
+      },
+      "confidence": "high",
+      "notes": "Only one trace (F1) is provided, so only a single high-level strategy is identifiable. The trace uses a direct coordinate-geometry approach."
+    },
+    "trace_labels": [
+      "F1"
+    ],
+    "student_strats": {
+      "student-r1": [],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 51,
+    "tier": "hard",
+    "subject": "Counting & Probability",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Interleaving order / alternating-arc criterion on circle",
+          "description": "Two chords AB and CD intersect iff the four points A,B,C,D appear in alternating order around the circle. Use circular order reasoning (often fixing A and counting relative positions of B, C, D) to compute the probability; among the circular orderings, a fraction (1/3) correspond to crossing chords."
+        }
+      ],
+      "classifications": {
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces use the same core mathematical approach (alternating/interleaving order around the circle with circular-order counting) and arrive at the same probability 1/3. No distinct high-level strategies observed."
+    },
+    "trace_labels": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [],
+      "student-v2": [
+        1
+      ]
+    }
+  },
+  {
+    "problem_id": 52,
+    "skipped": true,
+    "reason": "no_correct"
+  },
+  {
+    "problem_id": 53,
+    "tier": "hard",
+    "subject": "Prealgebra",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Direct comparison using 135% of female counts",
+          "description": "For each grade, compute the number of male riders and the number of female riders from the given percentages (with 300 males and 300 females per grade). Then compute 135% of the female count and determine which grade has the male count closest to that value (i.e., minimize |M - 1.35F|)."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces use the same core mathematical method; no distinct high-level strategies detected beyond differing implementations/details."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 54,
+    "tier": "hard",
+    "subject": "Algebra",
+    "llm_response": {
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Point-to-line distance via standard-form formula",
+          "description": "Rewrite the line as Ax + By + C = 0 and apply d = |A x0 + B y0 + C| / sqrt(A^2 + B^2)."
+        },
+        {
+          "id": 2,
+          "name": "Perpendicular-foot method",
+          "description": "Construct the line through the point perpendicular to the given line, find its intersection with the line, then compute the distance from the point to that intersection point."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 2,
+        "E3": 2,
+        "E4": 2,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 2,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 2,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 2
+      },
+      "confidence": "high",
+      "notes": "Two distinct high-level strategies identified: direct point-to-line distance formula (Strategy 1) and perpendicular projection (Strategy 2). Across all traces, every solution falls into one of these two methods; no additional strategies observed."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1,
+        2
+      ],
+      "student-v2": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "problem_id": 55,
+    "skipped": true,
+    "reason": "no_correct"
+  },
+  {
+    "problem_id": 56,
+    "tier": "hard",
+    "subject": "Counting & Probability",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Binomial probability with p = 5/6",
+          "description": "Model the event as exactly two non-1 results (successes) among n independent dice rolls and apply the binomial distribution: P = C(n,2)(5/6)^2(1/6)^(n-2). Cancel constants and compare powers of 6 to obtain n(n-1)/2 = 6^(n-3); check small n to get n = 4."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces use the same core mathematical approach (binomial model of independent dice outcomes); no alternative strategies detected."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": []
+    }
+  },
+  {
+    "problem_id": 57,
+    "skipped": true,
+    "reason": "no_correct"
+  },
+  {
+    "problem_id": 58,
+    "tier": "hard",
+    "subject": "Intermediate Algebra",
+    "llm_response": {
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Lagrange multipliers",
+          "description": "Maximize the product ab^2c^3d^4 subject to a + b + c + d = 10 by setting \u2207f = \u03bb\u2207g, solving for proportional relationships among variables (b = 2a, c = 3a, d = 4a), then using the constraint to find a, b, c, d."
+        },
+        {
+          "id": 2,
+          "name": "AM-GM (weighted AM-GM)",
+          "description": "Maximize ab^2c^3d^4 under a + b + c + d = 10 by applying AM-GM with weights corresponding to exponents (1,2,3,4), leading to a:b:c:d = 1:2:3:4 and the same solution a=1, b=2, c=3, d=4."
+        }
+      ],
+      "classifications": {
+        "F1": 1,
+        "F2": 2,
+        "F3": 1,
+        "F4": 2,
+        "F5": 1,
+        "F6": 1,
+        "F7": 2,
+        "F8": 2
+      },
+      "confidence": "high",
+      "notes": "Across traces F1\u2013F8, only two distinct high-level mathematical approaches are evident: Lagrange multipliers and AM-GM (weighted AM-GM). The other traces consistently converge to the same optimal values via one of these methods."
+    },
+    "trace_labels": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [],
+      "student-v2": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "problem_id": 59,
+    "tier": "hard",
+    "subject": "Number Theory",
+    "llm_response": {
+      "n_strategies": 1,
+      "strategies": [
+        {
+          "id": 1,
+          "name": "Terminating-decimal criterion with odd-denominator reduction",
+          "description": "Apply that 1/n terminates iff n has only prime factors 2 and 5. Since n is odd, n cannot have factor 2, so n must be a power of 5. Count odd n < 2010 that are powers of 5 (1,5,25,125,625). The total number of odd integers <2010 is 1005; probability = 5/1005 = 1/201; thus a+b = 202."
+        }
+      ],
+      "classifications": {
+        "E1": 1,
+        "E2": 1,
+        "E3": 1,
+        "E4": 1,
+        "E5": 1,
+        "E6": 1,
+        "E7": 1,
+        "E8": 1,
+        "F1": 1,
+        "F2": 1,
+        "F3": 1,
+        "F4": 1,
+        "F5": 1,
+        "F6": 1,
+        "F7": 1,
+        "F8": 1
+      },
+      "confidence": "high",
+      "notes": "All traces employ the same core strategy; no traces display a different high-level mathematical approach."
+    },
+    "trace_labels": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8"
+    ],
+    "student_strats": {
+      "student-r1": [
+        1
+      ],
+      "student-v2": [
+        1
+      ]
+    }
+  }
+]

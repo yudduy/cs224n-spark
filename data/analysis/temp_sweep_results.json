@@ -1,0 +1,137 @@
+{
+  "judge_results": {
+    "T_0.3": {
+      "temperature": 0.3
+    },
+    "T_0.6": {
+      "temperature": 0.6
+    },
+    "T_1.0": {
+      "temperature": 1.0
+    }
+  },
+  "temp_metrics": {
+    "T_0.3": {
+      "temperature": 0.3,
+      "gini_simpson": 0.253472,
+      "jaccard": 0.233565,
+      "gower": 0.109569,
+      "mean_strategies": 1.89,
+      "mean_pass_at_1": 0.6788,
+      "mean_correct": 43.4
+    },
+    "T_0.6": {
+      "temperature": 0.6,
+      "gini_simpson": 0.107639,
+      "jaccard": 0.085069,
+      "gower": 0.033167,
+      "mean_strategies": 1.78,
+      "mean_pass_at_1": 0.6667,
+      "mean_correct": 42.7
+    },
+    "T_1.0": {
+      "temperature": 1.0,
+      "gini_simpson": 0.170139,
+      "jaccard": 0.151042,
+      "gower": 0.051431,
+      "mean_strategies": 1.67,
+      "mean_pass_at_1": 0.6458,
+      "mean_correct": 41.3
+    }
+  },
+  "monotonicity": {
+    "gini_simpson": {
+      "values": [
+        [
+          0.3,
+          0.253472
+        ],
+        [
+          0.6,
+          0.107639
+        ],
+        [
+          1.0,
+          0.170139
+        ]
+      ],
+      "strictly_monotone": false,
+      "weakly_monotone": false
+    },
+    "jaccard": {
+      "values": [
+        [
+          0.3,
+          0.233565
+        ],
+        [
+          0.6,
+          0.085069
+        ],
+        [
+          1.0,
+          0.151042
+        ]
+      ],
+      "strictly_monotone": false,
+      "weakly_monotone": false
+    },
+    "gower": {
+      "values": [
+        [
+          0.3,
+          0.109569
+        ],
+        [
+          0.6,
+          0.033167
+        ],
+        [
+          1.0,
+          0.051431
+        ]
+      ],
+      "strictly_monotone": false,
+      "weakly_monotone": false
+    },
+    "pass_at_1": {
+      "values": [
+        [
+          0.3,
+          0.6788
+        ],
+        [
+          0.6,
+          0.6667
+        ],
+        [
+          1.0,
+          0.6458
+        ]
+      ],
+      "decreasing": true
+    },
+    "verdict": "FAIL"
+  },
+  "pareto": [
+    {
+      "temperature": 0.3,
+      "diversity_gower": 0.109569,
+      "diversity_gs": 0.253472,
+      "accuracy": 0.6788
+    },
+    {
+      "temperature": 0.6,
+      "diversity_gower": 0.033167,
+      "diversity_gs": 0.107639,
+      "accuracy": 0.6667
+    },
+    {
+      "temperature": 1.0,
+      "diversity_gower": 0.051431,
+      "diversity_gs": 0.170139,
+      "accuracy": 0.6458
+    }
+  ],
+  "total_judge_tokens": 264684
+}

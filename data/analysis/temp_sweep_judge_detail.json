@@ -1,0 +1,1095 @@
+{
+  "T_0.3": {
+    "temperature": 0.3,
+    "problems": [
+      {
+        "problem_id": 0,
+        "n_correct": 51,
+        "n_strategies": 1,
+        "judge_response": {
+          "n_strategies": 1,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Sine-hypotenuse then Pythagoras",
+              "description": "Use sin D = opposite/hypotenuse to determine the hypotenuse DF, then apply the Pythagorean theorem to find DE."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "All traces employ the same core approach: derive the hypotenuse from sin D, then compute DE via Pythagoras."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 2,
+        "n_correct": 64,
+        "n_strategies": 4,
+        "judge_response": {
+          "n_strategies": 4,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Long division to decimal",
+              "description": "Convert the fraction by performing direct division of the numerator by the denominator (long division) to obtain the decimal."
+            },
+            {
+              "id": 2,
+              "name": "Make denominator a power of 10",
+              "description": "Multiply numerator and denominator to obtain a denominator like 100 (10^2), then read off the decimal from the resulting fraction."
+            },
+            {
+              "id": 3,
+              "name": "Unit-fraction decimal method",
+              "description": "Use the known decimal value of a unit fraction (e.g., 1/20 = 0.05) and scale by the numerator to get the decimal."
+            },
+            {
+              "id": 4,
+              "name": "Sequential decomposition (divide by 10 then by 2)",
+              "description": "Rewrite 3/20 as (3/10)/2 and perform the calculation in two simpler steps (divide by 10, then divide by 2)."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 4,
+            "A4": 4,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 2
+          },
+          "confidence": "medium",
+          "notes": "Across traces, four core approaches to convert 3/20 to a decimal emerge: direct long division (most traces), turning the fraction into a denominator of 100 (multiplying by 5/5), using a known decimal for 1/20 (0.05) and scaling, and a sequential decomposition by dividing by 10 then by 2. Most traces rely on long division; a subset demonstrates the denominator-powers-of-10 or unit-fraction methods. A2 shows a misstep in the sequential breakdown but still relies on long division ultimately."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 13,
+        "n_correct": 64,
+        "n_strategies": 2,
+        "judge_response": {
+          "n_strategies": 2,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Direct substitution (inner-first evaluation)",
+              "description": "Evaluate the inner function f(5), subtract 1, then apply g to the result using straightforward substitution."
+            },
+            {
+              "id": 2,
+              "name": "Algebraic simplification via g(y) = y+1",
+              "description": "Use g(y) = y+1 to rewrite g(f(x) - 1) as (f(x) - 1) + 1 = f(x), then evaluate f(5)."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 2,
+            "A4": 1,
+            "A5": 1,
+            "A6": 2,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "Two distinct high-level mathematical approaches appear across traces: (1) straightforward inner-first substitution, and (2) algebraic simplification using the linear form of g to collapse g(f(x) - 1) to f(x). The majority of traces use the direct substitution approach, with a subset exploring the simplification route."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 17,
+        "n_correct": 63,
+        "n_strategies": 3,
+        "judge_response": {
+          "n_strategies": 3,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Casework on feasible G values",
+              "description": "List the possible numbers of girls that are multiples of 13 and \u2264 35 (e.g., 13 and 26) and check which satisfy G > B."
+            },
+            {
+              "id": 2,
+              "name": "Inequality bound with modular constraint",
+              "description": "Use G > B to get 2G > 35 (i.e., G > 17.5); then select the valid multiple of 13 (e.g., G = 26)."
+            },
+            {
+              "id": 3,
+              "name": "Substitution with parameterization",
+              "description": "Let G = 13k and B = 35 \u2212 13k; use G > B to solve for k (k \u2265 2), giving G = 26 and B = 9."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 2,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 3,
+            "A7": 1,
+            "A8": 2
+          },
+          "confidence": "medium",
+          "notes": "Across traces, three distinct high-level approaches emerge: (1) casework on feasible G values, (2) inequality-based deduction with modular constraint, and (3) substitution with a parameterization. The majority use the first approach, with occasional use of the second or third."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 19,
+        "n_correct": 2,
+        "n_strategies": 1,
+        "judge_response": {
+          "n_strategies": 1,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Direct multiplication using rate",
+              "description": "Distance is computed by multiplying speed by time (distance = speed \u00d7 time). The time given as a mixed number is converted to an improper fraction or decimal as needed, then multiplied by the speed and simplified to a mixed number."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1
+          },
+          "confidence": "high",
+          "notes": "Both traces employ the same core mathematical approach; no alternative strategies observed."
+        },
+        "trace_labels": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "problem_id": 27,
+        "n_correct": 61,
+        "n_strategies": 2,
+        "judge_response": {
+          "n_strategies": 2,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Quadratic-formula / discriminant on y-equation after x=0",
+              "description": "Set x = 0 to obtain a quadratic in y, then solve with the quadratic formula (analyze discriminant) to find y-intercepts."
+            },
+            {
+              "id": 2,
+              "name": "Complete the square / vertex form",
+              "description": "Rewrite the parabola in vertex form by completing the square (x = (y-2)^2 - 5), then set x = 0 to solve for y (leading to two intercepts)."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 2,
+            "A6": 1,
+            "A7": 2,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "Two distinct high-level mathematical approaches observed: direct quadratic-solving after setting x=0, and completing-the-square to obtain a vertex-form representation for intercepts."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 34,
+        "n_correct": 2,
+        "n_strategies": 1,
+        "judge_response": {
+          "n_strategies": 1,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Coordinate-geometry area calculation",
+              "description": "Compute the area of the gray triangle using coordinates of its vertices, either via base-height or the shoelace formula (analytic geometry within the square)."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1
+          },
+          "confidence": "high",
+          "notes": "Both traces employ the same high-level approach: analytic geometry with triangle coordinates to determine area. No distinct alternate strategies are identified."
+        },
+        "trace_labels": [
+          "A1",
+          "A2"
+        ]
+      },
+      {
+        "problem_id": 35,
+        "n_correct": 0,
+        "n_strategies": 0,
+        "judge_response": null
+      },
+      {
+        "problem_id": 38,
+        "n_correct": 30,
+        "n_strategies": 1,
+        "judge_response": {
+          "n_strategies": 1,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Inscribed sphere in cube: edge equals diameter",
+              "description": "Assume the sphere is inscribed in the cube, so it is tangent to the centers of the cube's faces. The diameter of the sphere equals the cube's edge length, so edge = 2r. Then volume = edge^3 = (2r)^3."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "Across all traces, the core mathematical method is the same: treat the sphere as inscribed in the cube and use edge length = diameter = 2r to compute volume. Some traces wander briefly into alternative geometric ideas, but they converge on the same strategy."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 40,
+        "n_correct": 54,
+        "n_strategies": 2,
+        "judge_response": {
+          "n_strategies": 2,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Explicit sum of separate deposits' future values (finite geometric sum)",
+              "description": "Compute the future value of each $20,000 deposited at year 1, 2, and 3, then sum; this yields a quadratic in (1+r)."
+            },
+            {
+              "id": 2,
+              "name": "Future value of an ordinary annuity formula",
+              "description": "Use FV = PMT[(1+r)^n - 1]/r for three end-of-year deposits; solve for r (often recognizing r = 0.1)."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 2,
+            "A5": 2,
+            "A6": 1,
+            "A7": 1,
+            "A8": 2
+          },
+          "confidence": "high",
+          "notes": "Two distinct mathematical approaches identified: explicit sum of future values vs annuity FV formula."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      }
+    ]
+  },
+  "T_0.6": {
+    "temperature": 0.6,
+    "problems": [
+      {
+        "problem_id": 0,
+        "n_correct": 52,
+        "n_strategies": 2,
+        "judge_response": {
+          "n_strategies": 2,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Trig-based hypotenuse-first approach",
+              "description": "Use the given sin of angle D to determine the hypotenuse DF, then apply the Pythagorean theorem to find DE."
+            },
+            {
+              "id": 2,
+              "name": "Coordinate/distance-based direct computation",
+              "description": "Use the coordinates of D and E (or the distance along a straight segment) to compute DE directly, often via distance formula or noting DE lies on a horizontal line."
+            }
+          ],
+          "classifications": {
+            "A1": 2,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "medium",
+          "notes": "Two high-level strategies identified: trig-based (to find the hypotenuse and then DE) and coordinate/distance-based (directly computing DE from coordinates). Some traces mix elements, but are categorized by their core method."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 2,
+        "n_correct": 64,
+        "n_strategies": 4,
+        "judge_response": {
+          "n_strategies": 4,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Long division to decimal",
+              "description": "Convert the fraction to a decimal by performing standard long division of the numerator by the denominator."
+            },
+            {
+              "id": 2,
+              "name": "Scale to a power of ten",
+              "description": "Multiply numerator and denominator by a factor to make the denominator a power of ten (e.g., 20 -> 100) and read the decimal from the resulting fraction."
+            },
+            {
+              "id": 3,
+              "name": "Use known decimal for 1/20",
+              "description": "Use the fact that 1/20 = 0.05 and multiply by 3 (or sum three 0.05 terms) to obtain 0.15."
+            },
+            {
+              "id": 4,
+              "name": "Percent method",
+              "description": "Convert the fraction to a percentage (3/20 = 15%) and then convert that percentage to a decimal (0.15)."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "Across all traces, the core mathematical approach is long division (Strategy 1). Several traces mention alternative but equivalent methods (Strategies 2\u20134) as cross-checks or demonstrations, but these do not introduce new high-level strategies beyond the four identified."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 13,
+        "n_correct": 64,
+        "n_strategies": 2,
+        "judge_response": {
+          "n_strategies": 2,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Direct evaluation (stepwise substitution)",
+              "description": "Evaluate f(5), subtract 1, then apply g to the result; perform calculations in sequence."
+            },
+            {
+              "id": 2,
+              "name": "Algebraic simplification of the composition",
+              "description": "Recognize and apply that g(t) = t + 1; with t = f(x) - 1, simplify to g(f(x) - 1) = f(x), then evaluate at x = 5."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 2,
+            "A6": 1,
+            "A7": 1,
+            "A8": 2
+          },
+          "confidence": "high",
+          "notes": "Two distinct high-level strategies detected: direct stepwise evaluation and algebraic simplification of the composition. Most traces use direct evaluation; a subset explicitly leverages the identity g(f(x) - 1) = f(x)."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 17,
+        "n_correct": 63,
+        "n_strategies": 1,
+        "judge_response": {
+          "n_strategies": 1,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Case analysis on G as multiples of 13",
+              "description": "Let G be the number of girls with G = 13k. Since G + B = 35 and G > B, only G \u2208 {13, 26} are feasible. The case G = 13 yields B = 22 (G not > B), while G = 26 yields B = 9 (G > B). Hence, B = 9."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "All traces share the same core method: constrain G to multiples of 13 within total 35, test feasible cases, and pick the one satisfying G > B."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 19,
+        "n_correct": 14,
+        "n_strategies": 1,
+        "judge_response": {
+          "n_strategies": 1,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Direct multiplication (distance = speed \u00d7 time)",
+              "description": "Compute distance by multiplying the given speed by the time duration; represent time as a fraction, mixed number, or decimal as needed, then express the result as a mixed number."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "All traces use the same core mathematical approach (distance = speed \u00d7 time). Variations are in how time is represented (mixed number, improper fraction, decimal) but not in the underlying strategy."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 27,
+        "n_correct": 63,
+        "n_strategies": 2,
+        "judge_response": {
+          "n_strategies": 2,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Quadratic solve for y after setting x=0",
+              "description": "Set x = 0 and solve the resulting quadratic y^2 - 4y - 1 = 0 using the quadratic formula / discriminant to count y-intercepts."
+            },
+            {
+              "id": 2,
+              "name": "Complete the square to vertex form",
+              "description": "Rewrite x = y^2 - 4y - 1 as x = (y - 2)^2 - 5 to identify the vertex and orientation, then determine y-intercepts."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 2,
+            "A4": 1,
+            "A5": 1,
+            "A6": 2,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "Two distinct high-level strategies detected: direct quadratic solution vs completing the square to analyze the parabola's position."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 34,
+        "n_correct": 1,
+        "n_strategies": 1,
+        "judge_response": {
+          "n_strategies": 1,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Coordinate-based area computation",
+              "description": "Use the given square area to deduce side length, interpret coordinates of the gray piece from the diagram, and compute its area directly via geometric coordinates."
+            }
+          ],
+          "classifications": {
+            "A1": 1
+          },
+          "confidence": "low",
+          "notes": "Only one trace (A1) is provided, so we infer a single strategy. Other traces (if present) could reveal additional approaches (e.g., area ratios within tangram, symmetry, or algebraic relations) that would add to distinct strategies."
+        },
+        "trace_labels": [
+          "A1"
+        ]
+      },
+      {
+        "problem_id": 35,
+        "n_correct": 0,
+        "n_strategies": 0,
+        "judge_response": null
+      },
+      {
+        "problem_id": 38,
+        "n_correct": 19,
+        "n_strategies": 2,
+        "judge_response": {
+          "n_strategies": 2,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Inscribed-sphere in cube",
+              "description": "The sphere is inscribed in the cube, so its diameter equals the cube's edge length. With radius r, edge length a = 2r, and volume = a^3."
+            },
+            {
+              "id": 2,
+              "name": "Sphere through vertices (space diagonal)",
+              "description": "Assume the sphere passes through the cube's vertices, so radius r equals distance from the center to a vertex, i.e., r = (a\u221a3)/2, giving a = 2r/\u221a3 and volume = a^3."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "Across all traces, the core method is the inscribed-sphere approach (edge = diameter). A secondary method using the space-diagonal relation is discussed but not adopted as the main solution in these traces."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 40,
+        "n_correct": 44,
+        "n_strategies": 1,
+        "judge_response": {
+          "n_strategies": 1,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Future value of ordinary annuity with end-of-year deposits",
+              "description": "Compute the total by summing each end-of-year deposit grown for the remaining years (e.g., 2, 1, and 0 years), then solve the resulting equation for the interest rate."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "All traces employ the same core approach: treat deposits as an ordinary annuity with end-of-year payments, sum their future values, and solve for the rate. No alternative strategies (e.g., geometric proofs or different formulations) were observed."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      }
+    ]
+  },
+  "T_1.0": {
+    "temperature": 1.0,
+    "problems": [
+      {
+        "problem_id": 0,
+        "n_correct": 52,
+        "n_strategies": 2,
+        "judge_response": {
+          "n_strategies": 2,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Trig-based hypotenuse then Pythagorean",
+              "description": "Use sin D = opposite/hypotenuse to determine the hypotenuse DF (with opposite side EF = 7), then apply the Pythagorean theorem to find DE from DF and EF."
+            },
+            {
+              "id": 2,
+              "name": "Coordinate/distance method",
+              "description": "Use the given coordinates (E = (0,7), D = (\u221a51,7)) to directly compute DE as the horizontal distance, DE = \u221a51, without invoking trigonometry."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 1,
+            "A7": 2,
+            "A8": 1
+          },
+          "confidence": "medium",
+          "notes": "Most traces employ the trig+Pythagorean route to recover DE; a subset (A7) uses a direct coordinate-distance approach."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 2,
+        "n_correct": 60,
+        "n_strategies": 4,
+        "judge_response": {
+          "n_strategies": 4,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Scale to a power-of-ten denominator",
+              "description": "Multiply numerator and denominator to obtain a denominator that is a power of 10 (e.g., 20 \u2192 100) and read off the decimal."
+            },
+            {
+              "id": 2,
+              "name": "Direct long division",
+              "description": "Compute the decimal by performing long division of 3 by 20."
+            },
+            {
+              "id": 3,
+              "name": "Denominator decomposition",
+              "description": "Break the denominator into factors (e.g., 20 = 2 \u00d7 10) and use simpler decimal steps or rearrangements."
+            },
+            {
+              "id": 4,
+              "name": "Unit-fraction method",
+              "description": "Use a known unit fraction (1/20 = 0.05) and scale by the numerator (3 \u00d7 0.05 = 0.15)."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 2,
+            "A3": 3,
+            "A4": 1,
+            "A5": 2,
+            "A6": 3,
+            "A7": 2,
+            "A8": 2
+          },
+          "confidence": "medium",
+          "notes": "Across traces, four distinct high-level approaches identified: scaling to denominator 100, long division, decomposition of the denominator, and unit-fraction-based calculation."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 13,
+        "n_correct": 58,
+        "n_strategies": 2,
+        "judge_response": {
+          "n_strategies": 2,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Direct substitution / step-by-step evaluation",
+              "description": "Compute f(5) = 2\u00b75\u22123 = 7, subtract 1 to get 6, then apply g to 6: g(6) = 7."
+            },
+            {
+              "id": 2,
+              "name": "Algebraic simplification using outer function form",
+              "description": "Use g(x) = x+1 to simplify g(f(5)\u22121) = (f(5)\u22121)+1 = f(5), then evaluate f(5)."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 2,
+            "A4": 2,
+            "A5": 1,
+            "A6": 2,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "Two distinct high-level approaches identified: direct substitution and algebraic simplification using g's linear form. Most traces rely on direct substitution; a subset exploit g's form to shorten the calculation."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 17,
+        "n_correct": 64,
+        "n_strategies": 1,
+        "judge_response": {
+          "n_strategies": 1,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Algebraic reasoning with linear equations and inequality",
+              "description": "Let G be girls and B be boys with G + B = 35 and G a multiple of 13 (G = 13k). Use G > B (equivalently 2G > 35) to bound k, yielding k \u2265 2; since 13k < 35, k = 2 is the only possibility, giving G = 26 and B = 9."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "All traces employ the same core algebraic approach; no fundamentally different strategies observed."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 19,
+        "n_correct": 21,
+        "n_strategies": 1,
+        "judge_response": {
+          "n_strategies": 1,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Direct rate-time multiplication",
+              "description": "Use the distance = speed \u00d7 time principle. Convert the mixed time 2 3/4 hours to an improper fraction or decimal, multiply by 50 mph, and then express the result as a mixed number."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "All traces rely on the same core mathematical approach (distance = speed \u00d7 time). Variations are in representation (fractions vs decimals) and minor calculation steps, not in the fundamental strategy."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 27,
+        "n_correct": 62,
+        "n_strategies": 2,
+        "judge_response": {
+          "n_strategies": 2,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Quadratic-discriminant method",
+              "description": "Set x = 0 to obtain a quadratic in y (y^2 - 4y - 1 = 0) and use the quadratic formula / discriminant to determine the number of real roots, which gives the number of y-intercepts."
+            },
+            {
+              "id": 2,
+              "name": "Completing the square (vertex form)",
+              "description": "Rewrite x as a completed-square in y, x = (y - 2)^2 - 5, then set x = 0 to get (y - 2)^2 = 5, which yields two y-values for the intercepts."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 2,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "Most traces employ the quadratic-discriminant approach to count y-intercepts; a subset explicitly uses completing the square to reach the same conclusion."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 34,
+        "n_correct": 5,
+        "n_strategies": 1,
+        "judge_response": {
+          "n_strategies": 1,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Coordinate-based area computation",
+              "description": "Identify the gray triangle's coordinates from the diagram and compute its area as base \u00d7 height / 2 (direct coordinate geometry)."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1
+          },
+          "confidence": "high",
+          "notes": "All traces use the same coordinate-geometry approach to compute the triangle's area; no alternative strategies observed."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5"
+        ]
+      },
+      {
+        "problem_id": 35,
+        "n_correct": 0,
+        "n_strategies": 0,
+        "judge_response": null
+      },
+      {
+        "problem_id": 38,
+        "n_correct": 14,
+        "n_strategies": 1,
+        "judge_response": {
+          "n_strategies": 1,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Inscribed sphere in cube; edge length equals sphere diameter; volume = s^3 with s = 2R",
+              "description": "Treat the sphere as inscribed in the cube, so the cube's edge length equals the sphere's diameter (2R). Compute volume as s^3 = (2R)^3."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "All traces rely on the same core method: the cube's edge length equals the diameter of the inscribed sphere, then volume is s^3. Some traces include extra reasoning or confusion, but do not introduce a distinct mathematical strategy."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      },
+      {
+        "problem_id": 40,
+        "n_correct": 36,
+        "n_strategies": 1,
+        "judge_response": {
+          "n_strategies": 1,
+          "strategies": [
+            {
+              "id": 1,
+              "name": "Future value of ordinary annuity",
+              "description": "Treat each yearly deposit as an equal payment in an ordinary annuity. Use FV = PMT * [(1 + r)^n - 1] / r, set equal to the target amount, and solve for r."
+            }
+          ],
+          "classifications": {
+            "A1": 1,
+            "A2": 1,
+            "A3": 1,
+            "A4": 1,
+            "A5": 1,
+            "A6": 1,
+            "A7": 1,
+            "A8": 1
+          },
+          "confidence": "high",
+          "notes": "All traces employ the same core approach (annuity-based future value) with only stylistic variations in algebra."
+        },
+        "trace_labels": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "A5",
+          "A6",
+          "A7",
+          "A8"
+        ]
+      }
+    ]
+  }
+}

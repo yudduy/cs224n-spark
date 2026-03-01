@@ -1,0 +1,186 @@
+{
+  "2a_prompt_sensitivity": {
+    "per_problem": {
+      "0": {
+        "counts": {
+          "original": 1,
+          "concise": 1,
+          "detailed": 2,
+          "adversarial": 2
+        },
+        "cv": 0.3333
+      },
+      "2": {
+        "counts": {
+          "original": 4,
+          "concise": 4,
+          "detailed": 3,
+          "adversarial": 2
+        },
+        "cv": 0.2551
+      },
+      "13": {
+        "counts": {
+          "original": 2,
+          "concise": 2,
+          "detailed": 2,
+          "adversarial": 2
+        },
+        "cv": 0.0
+      },
+      "17": {
+        "counts": {
+          "original": 1,
+          "concise": 1,
+          "detailed": 2,
+          "adversarial": 1
+        },
+        "cv": 0.3464
+      },
+      "19": {
+        "counts": {
+          "original": 1,
+          "concise": 3,
+          "detailed": 3,
+          "adversarial": 1
+        },
+        "cv": 0.5
+      },
+      "27": {
+        "counts": {
+          "original": 1,
+          "concise": 1,
+          "detailed": 2,
+          "adversarial": 1
+        },
+        "cv": 0.3464
+      },
+      "34": {
+        "counts": {
+          "original": 1,
+          "concise": 2,
+          "detailed": 1,
+          "adversarial": 1
+        },
+        "cv": 0.3464
+      },
+      "35": {
+        "counts": {
+          "original": 1,
+          "concise": 3,
+          "detailed": 3,
+          "adversarial": 1
+        },
+        "cv": 0.5
+      },
+      "38": {
+        "counts": {
+          "original": 2,
+          "concise": 2,
+          "detailed": 2,
+          "adversarial": 1
+        },
+        "cv": 0.2474
+      },
+      "40": {
+        "counts": {
+          "original": 2,
+          "concise": 1,
+          "detailed": 2,
+          "adversarial": 2
+        },
+        "cv": 0.2474
+      }
+    },
+    "mean_cv": 0.3122,
+    "total_tokens": 1300802,
+    "verdict": "FAIL"
+  },
+  "2b_self_consistency": {
+    "per_problem_kappas": [
+      -0.2,
+      0.3916,
+      0.0057,
+      -0.2,
+      0.1226,
+      0.1033,
+      1.0,
+      -0.1231,
+      0.3567,
+      -0.0476
+    ],
+    "mean_kappa": 0.1409,
+    "total_tokens": 988071,
+    "verdict": "FAIL"
+  },
+  "2c_soft_classification": {
+    "n_total_traces": 238,
+    "n_ambiguous": 17,
+    "ambiguity_rate": 0.0714,
+    "mean_confidence": 0.8381,
+    "per_problem": {
+      "0": {
+        "n_traces": 8,
+        "mean_confidence": 0.9,
+        "n_ambiguous": 0,
+        "n_strategies": 1
+      },
+      "2": {
+        "n_traces": 8,
+        "mean_confidence": 0.824,
+        "n_ambiguous": 1,
+        "n_strategies": 3
+      },
+      "13": {
+        "n_traces": 32,
+        "mean_confidence": 0.863,
+        "n_ambiguous": 2,
+        "n_strategies": 3
+      },
+      "17": {
+        "n_traces": 32,
+        "mean_confidence": 0.808,
+        "n_ambiguous": 0,
+        "n_strategies": 3
+      },
+      "19": {
+        "n_traces": 32,
+        "mean_confidence": 0.882,
+        "n_ambiguous": 0,
+        "n_strategies": 3
+      },
+      "27": {
+        "n_traces": 32,
+        "mean_confidence": 0.899,
+        "n_ambiguous": 0,
+        "n_strategies": 3
+      },
+      "34": {
+        "n_traces": 10,
+        "mean_confidence": 0.63,
+        "n_ambiguous": 6,
+        "n_strategies": 1
+      },
+      "35": {
+        "n_traces": 20,
+        "mean_confidence": 0.895,
+        "n_ambiguous": 2,
+        "n_strategies": 3
+      },
+      "38": {
+        "n_traces": 32,
+        "mean_confidence": 0.763,
+        "n_ambiguous": 6,
+        "n_strategies": 2
+      },
+      "40": {
+        "n_traces": 32,
+        "mean_confidence": 0.832,
+        "n_ambiguous": 0,
+        "n_strategies": 3
+      }
+    },
+    "total_tokens": 345260,
+    "verdict": "PASS"
+  }
+}

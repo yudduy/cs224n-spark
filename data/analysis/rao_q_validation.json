@@ -1,0 +1,196 @@
+{
+  "1a_rarefaction": {
+    "rarefaction_means": {
+      "r1-distill": {
+        "4": 1.8789,
+        "8": 2.1429,
+        "16": 2.1429,
+        "32": 2.1429,
+        "64": 2.1429
+      },
+      "nemotron-v1": {
+        "4": 1.5921,
+        "8": 1.75,
+        "16": 1.75,
+        "32": 1.75,
+        "64": 1.75
+      },
+      "nemotron-v2": {
+        "4": 1.5212,
+        "8": 1.6923,
+        "16": 1.6923,
+        "32": 1.6923,
+        "64": 1.6923
+      },
+      "nemotron-brorl": {
+        "4": 1.4669,
+        "8": 1.6154,
+        "16": 1.6154,
+        "32": 1.6154,
+        "64": 1.6154
+      }
+    },
+    "plateau_results": {
+      "r1-distill": {
+        "total_gain": 0.2011,
+        "last_gain": 0.0,
+        "plateau_ratio": 0.0,
+        "plateaued": "True"
+      },
+      "nemotron-v1": {
+        "total_gain": 0.1826,
+        "last_gain": 0.0,
+        "plateau_ratio": 0.0,
+        "plateaued": "True"
+      },
+      "nemotron-v2": {
+        "total_gain": 0.1712,
+        "last_gain": 0.0,
+        "plateau_ratio": 0.0,
+        "plateaued": "True"
+      },
+      "nemotron-brorl": {
+        "total_gain": 0.0641,
+        "last_gain": 0.0,
+        "plateau_ratio": 0.0,
+        "plateaued": "True"
+      }
+    },
+    "verdict": "PASS"
+  },
+  "1b_bootstrap_cis": {
+    "cis": {
+      "r1-distill": {
+        "mean": 0.114813,
+        "ci_lo": 0.063486,
+        "ci_hi": 0.172322,
+        "n_problems": 14
+      },
+      "nemotron-v1": {
+        "mean": 0.077571,
+        "ci_lo": 0.030479,
+        "ci_hi": 0.136262,
+        "n_problems": 14
+      },
+      "nemotron-v2": {
+        "mean": 0.070463,
+        "ci_lo": 0.025089,
+        "ci_hi": 0.136378,
+        "n_problems": 14
+      },
+      "nemotron-brorl": {
+        "mean": 0.082828,
+        "ci_lo": 0.034552,
+        "ci_hi": 0.146711,
+        "n_problems": 14
+      }
+    },
+    "r1_overlaps": {
+      "nemotron-v1": "True",
+      "nemotron-v2": "True",
+      "nemotron-brorl": "True"
+    },
+    "verdict": "FAIL"
+  },
+  "1c_convergent": {
+    "correlations": {
+      "Shannon": {
+        "rho": 0.8727,
+        "pval": 0.0
+      },
+      "Vendi": {
+        "rho": 0.9917,
+        "pval": 0.0
+      },
+      "AnswerDiv": {
+        "rho": NaN,
+        "pval": NaN
+      }
+    },
+    "n_points": 52,
+    "verdict": "PASS"
+  },
+  "1d_discriminant": {
+    "correlations": {
+      "TraceLength": {
+        "rho": -0.4041,
+        "pval": 0.002971
+      },
+      "Accuracy": {
+        "rho": 0.2705,
+        "pval": 0.052459
+      },
+      "Difficulty": {
+        "rho": -0.1068,
+        "pval": 0.451255
+      }
+    },
+    "n_points": 52,
+    "verdict": "PARTIAL"
+  },
+  "1e_predictive": {
+    "scaling_gap": {
+      "rho": -0.0054,
+      "pval": 0.934201
+    },
+    "coverage": {
+      "rho": 0.1533,
+      "pval": 0.017456
+    },
+    "reliability": {
+      "rho": 0.0623,
+      "pval": 0.371318
+    },
+    "n_points": 240,
+    "verdict": "FAIL"
+  },
+  "1f_replication": {
+    "n_cases": 6,
+    "violations": 3,
+    "detail": [
+      {
+        "problem_id": 2,
+        "q_r1": 0.1875,
+        "q_v2": 0.15,
+        "q_pooled": 0.196875,
+        "passed": "True"
+      },
+      {
+        "problem_id": 17,
+        "q_r1": 0.215625,
+        "q_v2": 0.100625,
+        "q_pooled": 0.215625,
+        "passed": "False"
+      },
+      {
+        "problem_id": 34,
+        "q_r1": 0.0,
+        "q_v2": 0.0,
+        "q_pooled": 0.108,
+        "passed": "True"
+      },
+      {
+        "problem_id": 35,
+        "q_r1": 0.108,
+        "q_v2": 0.30336,
+        "q_pooled": 0.27364,
+        "passed": "False"
+      },
+      {
+        "problem_id": 52,
+        "q_r1": 0.1935,
+        "q_v2": 0.0,
+        "q_pooled": 0.218875,
+        "passed": "True"
+      },
+      {
+        "problem_id": 58,
+        "q_r1": 0.031875,
+        "q_v2": 0.0,
+        "q_pooled": 0.029219,
+        "passed": "False"
+      }
+    ],
+    "verdict": "FAIL"
+  }
+}

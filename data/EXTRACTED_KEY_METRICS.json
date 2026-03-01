@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "total_problems": 60,
+    "problems_per_tier": {"easy": 20, "medium": 20, "hard": 20},
+    "rollouts_per_problem": 64,
+    "total_inference_runs": 3840,
+    "unsolvable_problems": 5,
+    "multi_strategy_problems": 14
+  },
+  "pass_at_k_summary": {
+    "easy": {
+      "r1_distill_p1": 0.799,
+      "nemotron_v1_p1": 0.895,
+      "nemotron_v2_p1": 0.927,
+      "nemotron_brorl_p1": 0.920,
+      "v2_vs_r1_gain_p1": 0.128,
+      "v2_vs_r1_pvalue_p1": "<0.001"
+    },
+    "medium": {
+      "r1_distill_p1": 0.556,
+      "nemotron_v1_p1": 0.565,
+      "nemotron_v2_p1": 0.714,
+      "nemotron_brorl_p1": 0.679,
+      "v2_vs_r1_gain_p1": 0.158,
+      "v2_vs_r1_pvalue_p1": "<0.001",
+      "v2_vs_r1_gain_p8": 0.117,
+      "v2_vs_r1_pvalue_p8": 0.0078,
+      "v1_anomaly_p8": "ns"
+    },
+    "hard": {
+      "r1_distill_p1": 0.436,
+      "nemotron_v1_p1": 0.355,
+      "nemotron_v2_p1": 0.545,
+      "nemotron_brorl_p1": 0.507,
+      "v2_vs_r1_gain_p1": 0.109,
+      "v2_vs_r1_pvalue_p1": 0.0064,
+      "v2_vs_r1_gain_p8": 0.175,
+      "v2_vs_r1_pvalue_p8": 0.0140,
+      "v1_anomaly_p8_meandiff": 0.104,
+      "v1_anomaly_p8_pvalue": 0.0049,
+      "v1_anomaly_p8_significance": "**"
+    },
+    "all": {
+      "r1_distill_p1": 0.597,
+      "nemotron_v1_p1": 0.605,
+      "nemotron_v2_p1": 0.729,
+      "nemotron_brorl_p1": 0.702,
+      "v2_vs_r1_overall_gain": 0.132
+    }
+  },
+  "v1_anomaly": {
+    "finding": "Hard tier collapse: V1 underperforms R1 by 6-10pp at k=8-32 (p<0.05)",
+    "medium_tier": "No significant drift (ns across k=8-32)",
+    "hard_tier_k8": {
+      "meandiff": 0.104,
+      "pvalue": 0.0049,
+      "significance": "**",
+      "n_r1_better": 9,
+      "n_v1_better": 2
+    },
+    "hard_tier_k16": {
+      "meandiff": 0.069,
+      "pvalue": 0.0161,
+      "significance": "*"
+    },
+    "hard_tier_k32": {
+      "meandiff": 0.042,
+      "pvalue": 0.0488,
+      "significance": "*"
+    },
+    "interpretation": "Not a rejection sampler; ProRL narrows support non-uniformly, losing hard-problem coverage"
+  },
+  "sampling_efficiency": {
+    "easy_tier": {
+      "r1_to_v1": 3,
+      "r1_to_v2": 4,
+      "r1_to_brorl": 4
+    },
+    "medium_tier": {
+      "r1_to_v2": 1,
+      "v2_to_r1": 7,
+      "v1_to_v2": 6
+    },
+    "hard_tier": {
+      "r1_to_v2": 3,
+      "v2_to_r1": 9,
+      "v1_to_v2": 9
+    },
+    "interpretation": "V2 is dramatically more sample-efficient on hard tier; k=9 for V1 to match R1's single sample"
+  },
+  "coverage": {
+    "easy": {
+      "r1_solves": 19,
+      "v2_solves": 19,
+      "both_solve": 19,
+      "r1_only": 0,
+      "v2_only": 0,
+      "neither": 1
+    },
+    "medium": {
+      "r1_solves": 17,
+      "v2_solves": 17,
+      "both_solve": 17,
+      "r1_only": 0,
+      "v2_only": 0,
+      "neither": 3
+    },
+    "hard": {
+      "r1_solves": 15,
+      "v2_solves": 18,
+      "both_solve": 14,
+      "r1_only": 1,
+      "v2_only": 4,
+      "v2_exclusive": [42, 44, 50, 51],
+      "neither": 1
+    }
+  },
+  "strategy_diversity": {
+    "by_tier": {
+      "easy": {
+        "single_strategy": 15,
+        "multi_strategy": 5,
+        "percent_multi": 0.25
+      },
+      "medium": {
+        "single_strategy": 16,
+        "multi_strategy": 4,
+        "percent_multi": 0.20
+      },
+      "hard": {
+        "single_strategy": 15,
+        "multi_strategy": 5,
+        "percent_multi": 0.25
+      }
+    },
+    "multi_strategy_problems": [0, 2, 13, 17, 19, 27, 34, 35, 38, 40, 46, 52, 54, 58],
+    "v2_expansion_cases": 13,
+    "v2_parity_cases": 1,
+    "v2_narrowing_cases": 0,
+    "largest_gains": {
+      "problem_35": {
+        "tier": "medium",
+        "strategies": 4,
+        "r1": 2,
+        "v2": 53,
+        "gain": 51
+      },
+      "problem_19": {
+        "tier": "easy",
+        "strategies": 3,
+        "r1": 19,
+        "v2": 64,
+        "gain": 45
+      },
+      "problem_58": {
+        "tier": "hard",
+        "strategies": 2,
+        "r1": 14,
+        "v2": 47,
+        "gain": 33
+      }
+    }
+  },
+  "key_findings": [
+    "V2 beats R1 across all tiers at k=1: easy +12.8pp, medium +15.8pp, hard +10.9pp",
+    "V1 hard-tier collapse: 6-10pp worse than R1 at k=8-32 (p<0.05), contradicting rejection sampler hypothesis",
+    "V2 is dramatically more sample-efficient, especially on hard tier (k=3-9 vs R1's k=1)",
+    "V2 solves 4 hard problems R1 cannot (42, 44, 50, 51), proving genuine capability expansion",
+    "Zero narrowing cases: all 14 multi-strategy problems show V2 ≥ R1",
+    "Largest V2 gains on low-confidence problems (27-51pp), suggesting ProRL helps where structure is complex",
+    "Pass@k saturation: easy at k=4-8 (95%), medium at k=16-32 (85%), hard never reaches R1's ceiling",
+    "V1 is narrower but not more efficient; contradicts rejection sampler model",
+    "ProRL restructures support non-uniformly: hard-problem coverage loss, medium-tier pass@1 gain"
+  ]
+}

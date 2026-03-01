@@ -1,0 +1,1067 @@
+{
+  "results": [
+    {
+      "problem_id": 2,
+      "tier": "easy",
+      "n_baseline_strategies": 4,
+      "n_novel": 0,
+      "novel_strategies": [],
+      "per_model": {
+        "r1-distill": {
+          "baseline_strategies_used": [
+            4
+          ],
+          "n_novel": 0
+        },
+        "nemotron-v2": {
+          "baseline_strategies_used": [
+            2,
+            4
+          ],
+          "n_novel": 0
+        }
+      },
+      "classifications": {
+        "R1_iter1_1": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "R1_iter1_2": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "R1_iter2_3": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "R1_iter2_4": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "R1_iter3_5": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "R1_iter3_6": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter1_1": {
+          "strategy_id": 2,
+          "strategy_name": "Scale denominator to 100 (multiply by 5)"
+        },
+        "Ne_iter1_2": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter1_3": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter1_4": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter1_5": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter1_6": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter2_9": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter2_11": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter2_12": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter2_13": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter2_14": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter2_15": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter2_16": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter3_17": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter3_18": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter3_19": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter3_21": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter3_22": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter3_23": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        },
+        "Ne_iter3_24": {
+          "strategy_id": 4,
+          "strategy_name": "Denominator factorization and sequential division (10 \u00d7 2)"
+        }
+      },
+      "notes": "All traces appear to use baseline strategies. No genuinely novel (fundamentally different) mathematical approaches were identified. Several traces employ variations of Strategy 4 (denominator factorization and sequential division, e.g., 20 = 10\u00d72 or 4\u00d75, or 3/20 = (3/4)/5, etc.), while others corroborate Strategy 2 (scaling to 100) or Strategy 3 (using 1/20 = 0.05)."
+    },
+    {
+      "problem_id": 13,
+      "tier": "easy",
+      "n_baseline_strategies": 3,
+      "n_novel": 0,
+      "novel_strategies": [],
+      "per_model": {
+        "r1-distill": {
+          "baseline_strategies_used": [
+            1,
+            2
+          ],
+          "n_novel": 0
+        },
+        "nemotron-v2": {
+          "baseline_strategies_used": [
+            1,
+            2
+          ],
+          "n_novel": 0
+        }
+      },
+      "classifications": {
+        "R1_iter1_1": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "R1_iter1_2": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "R1_iter1_3": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "R1_iter1_4": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "R1_iter1_5": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "R1_iter1_6": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "R1_iter1_7": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "R1_iter1_8": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "R1_iter2_9": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "R1_iter2_10": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "R1_iter2_11": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "R1_iter2_12": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "R1_iter2_13": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "R1_iter2_14": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "R1_iter2_15": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "R1_iter2_16": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "R1_iter3_17": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "R1_iter3_18": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "R1_iter3_19": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "R1_iter3_20": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "R1_iter3_21": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "R1_iter3_22": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "R1_iter3_23": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "R1_iter3_24": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter1_1": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "Ne_iter1_2": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "Ne_iter1_3": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter1_4": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "Ne_iter1_5": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "Ne_iter1_6": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "Ne_iter1_7": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "Ne_iter1_8": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter2_9": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "Ne_iter2_10": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter2_11": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter2_12": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter2_13": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter2_14": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter2_15": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter2_16": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter3_17": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter3_18": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "Ne_iter3_19": {
+          "strategy_id": 1,
+          "strategy_name": "Direct step-by-step evaluation"
+        },
+        "Ne_iter3_20": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter3_21": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter3_22": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter3_23": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        },
+        "Ne_iter3_24": {
+          "strategy_id": 2,
+          "strategy_name": "Algebraic simplification before evaluation"
+        }
+      },
+      "notes": "Across all NEW traces, there is no fundamentally new mathematical approach beyond the baseline strategies. The traces either follow direct step-by-step evaluation (Strategy 1) or employ algebraic simplification before evaluation (Strategy 2). Some traces discuss or illustrate misinterpretations (Strategy 3) but do not introduce a genuinely new mathematical method. Therefore, no novel strategy is observed in these traces."
+    },
+    {
+      "problem_id": 19,
+      "tier": "easy",
+      "n_baseline_strategies": 3,
+      "n_novel": 0,
+      "novel_strategies": [],
+      "per_model": {
+        "r1-distill": {
+          "baseline_strategies_used": [
+            1
+          ],
+          "n_novel": 0
+        },
+        "nemotron-v2": {
+          "baseline_strategies_used": [
+            1
+          ],
+          "n_novel": 0
+        }
+      },
+      "classifications": {
+        "R1_iter1_1": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Fraction-based time multiplication"
+        },
+        "R1_iter1_2": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Fraction-based time multiplication"
+        },
+        "R1_iter3_3": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Fraction-based time multiplication"
+        },
+        "R1_iter3_4": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Fraction-based time multiplication"
+        },
+        "Ne_iter1_1": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Fraction-based time multiplication"
+        },
+        "Ne_iter1_2": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Fraction-based time multiplication"
+        }
+      },
+      "notes": "All new archive traces converge on the baseline Strategy 1 (fraction-based time multiplication). None of the traces demonstrate a genuinely new fundamental mathematical approach beyond the three baseline strategies."
+    },
+    {
+      "problem_id": 35,
+      "tier": "medium",
+      "n_baseline_strategies": 4,
+      "n_novel": 0,
+      "novel_strategies": [],
+      "per_model": {
+        "r1-distill": {
+          "baseline_strategies_used": [],
+          "n_novel": 0
+        },
+        "nemotron-v2": {
+          "baseline_strategies_used": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "n_novel": 0
+        }
+      },
+      "classifications": {
+        "Ne_iter1_1": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter1_2": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter1_3": {
+          "strategy_id": 3,
+          "strategy_name": "Derive sin18\u00b0 from sin5\u03b8 = 1 ( quintuple-angle )"
+        },
+        "Ne_iter1_4": {
+          "strategy_id": 4,
+          "strategy_name": "Rewrite sin^3 \u03b8 via sin^3 \u03b8 = (3 sin \u03b8 \u2212 sin 3\u03b8)/4"
+        },
+        "Ne_iter1_5": {
+          "strategy_id": 3,
+          "strategy_name": "Derive sin18\u00b0 from sin5\u03b8 = 1 ( quintuple-angle )"
+        },
+        "Ne_iter1_6": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter1_7": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter2_9": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter2_10": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter2_11": {
+          "strategy_id": 2,
+          "strategy_name": "Factoring and double-angle route"
+        },
+        "Ne_iter2_12": {
+          "strategy_id": 2,
+          "strategy_name": "Factoring and double-angle route"
+        },
+        "Ne_iter2_13": {
+          "strategy_id": 2,
+          "strategy_name": "Factoring and double-angle route"
+        },
+        "Ne_iter2_14": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter2_15": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter3_17": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter3_18": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter3_19": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter3_20": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter3_21": {
+          "strategy_id": 3,
+          "strategy_name": "Derive sin18\u00b0 from sin5\u03b8 = 1 ( quintuple-angle )"
+        },
+        "Ne_iter3_22": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter3_23": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        },
+        "Ne_iter3_24": {
+          "strategy_id": 1,
+          "strategy_name": "Direct evaluation with known exact value"
+        }
+      },
+      "notes": "All traces align with baseline strategies. No trace uses a fundamentally new mathematical approach beyond the four listed baseline methods (direct evaluation with sin18\u00b0, factoring/double-angle, quintuple-angle extraction of sin18\u00b0, and sin^3 \u03b8 expressed via sin 3\u03b8). Some traces explored multiple avenues in passing, but the core method matches one of the existing strategies."
+    },
+    {
+      "problem_id": 38,
+      "tier": "medium",
+      "n_baseline_strategies": 2,
+      "n_novel": 0,
+      "novel_strategies": [],
+      "per_model": {
+        "r1-distill": {
+          "baseline_strategies_used": [
+            1
+          ],
+          "n_novel": 0
+        },
+        "nemotron-v2": {
+          "baseline_strategies_used": [
+            1
+          ],
+          "n_novel": 0
+        }
+      },
+      "classifications": {
+        "R1_iter1_1": {
+          "strategy_id": 1,
+          "strategy_name": "Inscribed-sphere in cube"
+        },
+        "R1_iter2_2": {
+          "strategy_id": 1,
+          "strategy_name": "Inscribed-sphere in cube"
+        },
+        "R1_iter3_3": {
+          "strategy_id": 1,
+          "strategy_name": "Inscribed-sphere in cube"
+        },
+        "R1_iter3_4": {
+          "strategy_id": 1,
+          "strategy_name": "Inscribed-sphere in cube"
+        },
+        "R1_iter3_5": {
+          "strategy_id": 1,
+          "strategy_name": "Inscribed-sphere in cube"
+        },
+        "Ne_iter1_1": {
+          "strategy_id": 1,
+          "strategy_name": "Inscribed-sphere in cube"
+        }
+      },
+      "notes": "All traces rely on the baseline inscribed-sphere approach (edge length equals sphere diameter) or briefly acknowledge the circumscribed option, but no trace employs a fundamentally different mathematical method. Therefore, no novel strategies are identified."
+    },
+    {
+      "problem_id": 42,
+      "tier": "hard",
+      "n_baseline_strategies": 1,
+      "n_novel": 0,
+      "novel_strategies": [],
+      "per_model": {
+        "r1-distill": {
+          "baseline_strategies_used": [],
+          "n_novel": 0
+        },
+        "nemotron-v2": {
+          "baseline_strategies_used": [
+            1
+          ],
+          "n_novel": 0
+        }
+      },
+      "classifications": {
+        "Ne_iter1_1": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter1_2": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter1_3": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter1_4": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter1_5": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter1_6": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter1_7": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter1_8": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter2_9": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter2_10": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter2_11": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter2_12": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter2_13": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter2_14": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter2_15": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter2_16": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter3_17": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter3_18": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter3_19": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter3_20": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter3_21": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter3_22": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter3_23": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        },
+        "Ne_iter3_24": {
+          "strategy_id": 1,
+          "strategy_name": "Strategy 1: Count total triplets and colinear triplets via grid lines (C(9,3) and 8 colinear triplets)"
+        }
+      },
+      "notes": "All traces reuse the baseline strategy (Strategy 1): count total triplets from 9 points (C(9,3)=84) and count colinear triplets via the grid lines (3 rows, 3 columns, 2 diagonals) to obtain 8 favorable triplets, yielding 8/84 = 2/21. No trace shows a fundamentally different mathematical approach."
+    },
+    {
+      "problem_id": 46,
+      "tier": "hard",
+      "n_baseline_strategies": 4,
+      "n_novel": 0,
+      "novel_strategies": [],
+      "per_model": {
+        "r1-distill": {
+          "baseline_strategies_used": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "n_novel": 0
+        },
+        "nemotron-v2": {
+          "baseline_strategies_used": [],
+          "n_novel": 0
+        }
+      },
+      "classifications": {
+        "R1_iter1_1": {
+          "strategy_id": 1,
+          "strategy_name": "Intercepts to slope via slope-intercept conversion"
+        },
+        "R1_iter1_2": {
+          "strategy_id": 4,
+          "strategy_name": "Two-point slope from intercept points"
+        },
+        "R1_iter1_3": {
+          "strategy_id": 3,
+          "strategy_name": "From standard-form Ax + By = C"
+        },
+        "R1_iter1_4": {
+          "strategy_id": 4,
+          "strategy_name": "Two-point slope from intercept points"
+        },
+        "R1_iter1_5": {
+          "strategy_id": 3,
+          "strategy_name": "From standard-form Ax + By = C"
+        },
+        "R1_iter1_6": {
+          "strategy_id": 3,
+          "strategy_name": "From standard-form Ax + By = C"
+        },
+        "R1_iter1_7": {
+          "strategy_id": 4,
+          "strategy_name": "Two-point slope from intercept points"
+        },
+        "R1_iter1_8": {
+          "strategy_id": 1,
+          "strategy_name": "Intercepts to slope via slope-intercept conversion"
+        },
+        "R1_iter2_9": {
+          "strategy_id": 1,
+          "strategy_name": "Intercepts to slope via slope-intercept conversion"
+        },
+        "R1_iter2_10": {
+          "strategy_id": 1,
+          "strategy_name": "Intercepts to slope via slope-intercept conversion"
+        },
+        "R1_iter2_11": {
+          "strategy_id": 2,
+          "strategy_name": "Slope from intercepts using m = -b/a"
+        },
+        "R1_iter2_12": {
+          "strategy_id": 3,
+          "strategy_name": "From standard-form Ax + By = C"
+        },
+        "R1_iter2_13": {
+          "strategy_id": 4,
+          "strategy_name": "Two-point slope from intercept points"
+        },
+        "R1_iter2_14": {
+          "strategy_id": 1,
+          "strategy_name": "Intercepts to slope via slope-intercept conversion"
+        },
+        "R1_iter2_15": {
+          "strategy_id": 1,
+          "strategy_name": "Intercepts to slope via slope-intercept conversion"
+        },
+        "R1_iter2_16": {
+          "strategy_id": 3,
+          "strategy_name": "From standard-form Ax + By = C"
+        },
+        "R1_iter3_17": {
+          "strategy_id": 1,
+          "strategy_name": "Intercepts to slope via slope-intercept conversion"
+        },
+        "R1_iter3_18": {
+          "strategy_id": 2,
+          "strategy_name": "Slope from intercepts using m = -b/a"
+        },
+        "R1_iter3_19": {
+          "strategy_id": 1,
+          "strategy_name": "Intercepts to slope via slope-intercept conversion"
+        },
+        "R1_iter3_20": {
+          "strategy_id": 1,
+          "strategy_name": "Intercepts to slope via slope-intercept conversion"
+        },
+        "R1_iter3_21": {
+          "strategy_id": 1,
+          "strategy_name": "Intercepts to slope via slope-intercept conversion"
+        },
+        "R1_iter3_22": {
+          "strategy_id": 2,
+          "strategy_name": "Slope from intercepts using m = -b/a"
+        },
+        "R1_iter3_23": {
+          "strategy_id": 1,
+          "strategy_name": "Intercepts to slope via slope-intercept conversion"
+        }
+      },
+      "notes": "All traces reuse baseline strategies 1\u20134. No traces employed a fundamentally new mathematical approach beyond the baseline set."
+    },
+    {
+      "problem_id": 52,
+      "tier": "hard",
+      "n_baseline_strategies": 3,
+      "n_novel": 0,
+      "novel_strategies": [],
+      "per_model": {
+        "r1-distill": {
+          "baseline_strategies_used": [
+            1
+          ],
+          "n_novel": 0
+        },
+        "nemotron-v2": {
+          "baseline_strategies_used": [
+            1
+          ],
+          "n_novel": 0
+        }
+      },
+      "classifications": {
+        "R1_iter1_1": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "R1_iter1_2": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "R1_iter1_3": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "R1_iter2_4": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "R1_iter2_5": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "R1_iter2_9": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "R1_iter2_11": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "R1_iter3_6": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "R1_iter3_17": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "R1_iter3_18": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "R1_iter3_19": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "Ne_iter1_1": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "Ne_iter1_2": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "Ne_iter1_3": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "Ne_iter2_10": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "Ne_iter2_12": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "Ne_iter2_14": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        },
+        "Ne_iter3_20": {
+          "strategy_id": 1,
+          "strategy_name": "Single-variable reduction via substitution and AM-GM"
+        }
+      },
+      "notes": "All NEW traces employ the baseline approach of reducing to a single-variable form via substitution using the constraint, yielding an expression of the form t + 1/t that is minimized by AM-GM. No traces exhibit a fundamentally different mathematical method (e.g., a new inequality or a non-AM-GM optimization framework)."
+    },
+    {
+      "problem_id": 54,
+      "tier": "hard",
+      "n_baseline_strategies": 2,
+      "n_novel": 2,
+      "novel_strategies": [
+        {
+          "name": "Calculus-based distance minimization",
+          "description": "Minimize the distance by treating distance as a function of a line-parameter and applying differentiation."
+        },
+        {
+          "name": "Vector-projection distance method",
+          "description": "Use vector projections onto the line\u2019s perpendicular direction to compute distance without relying on the standard distance formula."
+        }
+      ],
+      "per_model": {
+        "r1-distill": {
+          "baseline_strategies_used": [
+            1,
+            2
+          ],
+          "n_novel": 12
+        },
+        "nemotron-v2": {
+          "baseline_strategies_used": [],
+          "n_novel": 0
+        }
+      },
+      "classifications": {
+        "R1_iter1_1": {
+          "strategy_id": 1,
+          "strategy_name": "Point-to-line distance via standard form"
+        },
+        "R1_iter1_2": {
+          "strategy_id": 1,
+          "strategy_name": "Point-to-line distance via standard form"
+        },
+        "R1_iter1_3": {
+          "strategy_id": 2,
+          "strategy_name": "Perpendicular foot method"
+        },
+        "R1_iter1_4": {
+          "strategy_id": 2,
+          "strategy_name": "Perpendicular foot method"
+        },
+        "R1_iter1_5": {
+          "strategy_id": 2,
+          "strategy_name": "Perpendicular foot method"
+        },
+        "R1_iter1_6": {
+          "strategy_id": 2,
+          "strategy_name": "Perpendicular foot method"
+        },
+        "R1_iter1_7": {
+          "strategy_id": "novel",
+          "strategy_name": "Vector-projection distance method"
+        },
+        "R1_iter1_8": {
+          "strategy_id": 1,
+          "strategy_name": "Point-to-line distance via standard form"
+        },
+        "R1_iter2_9": {
+          "strategy_id": "novel",
+          "strategy_name": "Calculus-based distance minimization"
+        },
+        "R1_iter2_10": {
+          "strategy_id": 1,
+          "strategy_name": "Point-to-line distance via standard form"
+        },
+        "R1_iter2_11": {
+          "strategy_id": 1,
+          "strategy_name": "Point-to-line distance via standard form"
+        },
+        "R1_iter3_12": {
+          "strategy_id": "novel",
+          "strategy_name": "Calculus-based distance minimization"
+        },
+        "R1_iter3_13": {
+          "strategy_id": "novel",
+          "strategy_name": "Calculus-based distance minimization"
+        },
+        "R1_iter3_14": {
+          "strategy_id": "novel",
+          "strategy_name": "Vector-projection distance method"
+        },
+        "R1_iter3_15": {
+          "strategy_id": "novel",
+          "strategy_name": "Calculus-based distance minimization"
+        },
+        "R1_iter3_16": {
+          "strategy_id": 1,
+          "strategy_name": "Point-to-line distance via standard form"
+        },
+        "R1_iter3_17": {
+          "strategy_id": "novel",
+          "strategy_name": "Calculus-based distance minimization"
+        },
+        "R1_iter3_18": {
+          "strategy_id": "novel",
+          "strategy_name": "Vector-projection distance method"
+        },
+        "R1_iter3_19": {
+          "strategy_id": "novel",
+          "strategy_name": "Calculus-based distance minimization"
+        },
+        "R1_iter3_20": {
+          "strategy_id": 1,
+          "strategy_name": "Point-to-line distance via standard form"
+        },
+        "R1_iter3_21": {
+          "strategy_id": "novel",
+          "strategy_name": "Vector-projection distance method"
+        },
+        "R1_iter3_22": {
+          "strategy_id": "novel",
+          "strategy_name": "Calculus-based distance minimization"
+        },
+        "R1_iter3_23": {
+          "strategy_id": "novel",
+          "strategy_name": "Calculus-based distance minimization"
+        }
+      },
+      "notes": "The archive includes genuinely novel approaches beyond the two baseline strategies: calculus-based distance minimization and vector-projection distance methods appear in several traces."
+    },
+    {
+      "problem_id": 58,
+      "tier": "hard",
+      "n_baseline_strategies": 2,
+      "n_novel": 0,
+      "novel_strategies": [],
+      "per_model": {
+        "r1-distill": {
+          "baseline_strategies_used": [
+            1
+          ],
+          "n_novel": 0
+        },
+        "nemotron-v2": {
+          "baseline_strategies_used": [
+            2
+          ],
+          "n_novel": 0
+        }
+      },
+      "classifications": {
+        "R1_iter1_1": {
+          "strategy_id": 1,
+          "strategy_name": "Weighted AM-GM (split into 10 parts with weights 1:2:3:4)"
+        },
+        "R1_iter3_2": {
+          "strategy_id": 1,
+          "strategy_name": "Weighted AM-GM (split into 10 parts with weights 1:2:3:4)"
+        },
+        "Ne_iter1_1": {
+          "strategy_id": 2,
+          "strategy_name": "Lagrange multipliers"
+        }
+      },
+      "notes": "None of the new traces employ a fundamentally different mathematical approach from the baseline. The R1 traces effectively reiterate the weighted AM-GM route (yielding a:b:c:d = 1:2:3:4), and the Nemotron trace uses the standard Lagrange multiplier method. No novel mathematical techniques were identified in the new traces."
+    }
+  ],
+  "summary": {
+    "total_novel_problems": 1,
+    "model_diff_problems": 2,
+    "any_novel_over_baseline": 1,
+    "criteria": {
+      "c1": false,
+      "c2": true,
+      "c3": true
+    },
+    "verdict": "NO-GO"
+  },
+  "api_usage": {
+    "input_tokens": 300536,
+    "output_tokens": 46098,
+    "cost_usd": 0.0335
+  }
+}

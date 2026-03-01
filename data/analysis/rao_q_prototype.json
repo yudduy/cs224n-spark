@@ -1,0 +1,338 @@
+{
+  "summary": {
+    "r1-distill": {
+      "gini_simpson": 0.379464,
+      "jaccard": 0.280208,
+      "embedding": 0.133138,
+      "gower": 0.114813
+    },
+    "nemotron-v1": {
+      "gini_simpson": 0.228671,
+      "jaccard": 0.161665,
+      "embedding": 0.078771,
+      "gower": 0.077571
+    },
+    "nemotron-v2": {
+      "gini_simpson": 0.205179,
+      "jaccard": 0.161832,
+      "embedding": 0.069889,
+      "gower": 0.070463
+    },
+    "nemotron-brorl": {
+      "gini_simpson": 0.197232,
+      "jaccard": 0.151003,
+      "embedding": 0.078239,
+      "gower": 0.082828
+    }
+  },
+  "problem_details": [
+    {
+      "problem_id": 0,
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 0.75,
+          "embedding": 0.3167,
+          "gower": 0.228
+        }
+      ]
+    },
+    {
+      "problem_id": 2,
+      "n_strategies": 4,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 0.8,
+          "embedding": 0.5418,
+          "gower": 0.4
+        },
+        {
+          "pair": "S1-S3",
+          "jaccard": 0.8,
+          "embedding": 0.4121,
+          "gower": 0.208
+        },
+        {
+          "pair": "S1-S4",
+          "jaccard": 0.6,
+          "embedding": 0.2716,
+          "gower": 0.22
+        },
+        {
+          "pair": "S2-S3",
+          "jaccard": 0.0,
+          "embedding": 0.3928,
+          "gower": 0.208
+        },
+        {
+          "pair": "S2-S4",
+          "jaccard": 0.75,
+          "embedding": 0.5338,
+          "gower": 0.42
+        },
+        {
+          "pair": "S3-S4",
+          "jaccard": 0.75,
+          "embedding": 0.4978,
+          "gower": 0.228
+        }
+      ]
+    },
+    {
+      "problem_id": 13,
+      "n_strategies": 3,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 0.3333,
+          "embedding": 0.2064,
+          "gower": 0.212
+        },
+        {
+          "pair": "S1-S3",
+          "jaccard": 1.0,
+          "embedding": 0.4221,
+          "gower": 0.032
+        },
+        {
+          "pair": "S2-S3",
+          "jaccard": 0.6667,
+          "embedding": 0.4947,
+          "gower": 0.22
+        }
+      ]
+    },
+    {
+      "problem_id": 17,
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 0.75,
+          "embedding": 0.4067,
+          "gower": 0.46
+        }
+      ]
+    },
+    {
+      "problem_id": 19,
+      "n_strategies": 3,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 0.6667,
+          "embedding": 0.3304,
+          "gower": 0.032
+        },
+        {
+          "pair": "S1-S3",
+          "jaccard": 0.6667,
+          "embedding": 0.2356,
+          "gower": 0.016
+        },
+        {
+          "pair": "S2-S3",
+          "jaccard": 0.5,
+          "embedding": 0.2938,
+          "gower": 0.048
+        }
+      ]
+    },
+    {
+      "problem_id": 27,
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 1.0,
+          "embedding": 0.3304,
+          "gower": 0.416
+        }
+      ]
+    },
+    {
+      "problem_id": 34,
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 0.6,
+          "embedding": 0.314,
+          "gower": 0.216
+        }
+      ]
+    },
+    {
+      "problem_id": 35,
+      "n_strategies": 4,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 0.5,
+          "embedding": 0.3295,
+          "gower": 0.44
+        },
+        {
+          "pair": "S1-S3",
+          "jaccard": 0.4,
+          "embedding": 0.35,
+          "gower": 0.256
+        },
+        {
+          "pair": "S1-S4",
+          "jaccard": 0.6,
+          "embedding": 0.3593,
+          "gower": 0.608
+        },
+        {
+          "pair": "S2-S3",
+          "jaccard": 0.6667,
+          "embedding": 0.2912,
+          "gower": 0.216
+        },
+        {
+          "pair": "S2-S4",
+          "jaccard": 0.6,
+          "embedding": 0.2907,
+          "gower": 0.648
+        },
+        {
+          "pair": "S3-S4",
+          "jaccard": 0.7143,
+          "embedding": 0.247,
+          "gower": 0.464
+        }
+      ]
+    },
+    {
+      "problem_id": 38,
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 1.0,
+          "embedding": 0.2043,
+          "gower": 0.0
+        }
+      ]
+    },
+    {
+      "problem_id": 40,
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 1.0,
+          "embedding": 0.3768,
+          "gower": 0.428
+        }
+      ]
+    },
+    {
+      "problem_id": 46,
+      "n_strategies": 4,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 0.75,
+          "embedding": 0.2332,
+          "gower": 0.22
+        },
+        {
+          "pair": "S1-S3",
+          "jaccard": 0.6667,
+          "embedding": 0.3227,
+          "gower": 0.212
+        },
+        {
+          "pair": "S1-S4",
+          "jaccard": 1.0,
+          "embedding": 0.3156,
+          "gower": 0.624
+        },
+        {
+          "pair": "S2-S3",
+          "jaccard": 0.75,
+          "embedding": 0.365,
+          "gower": 0.432
+        },
+        {
+          "pair": "S2-S4",
+          "jaccard": 1.0,
+          "embedding": 0.2117,
+          "gower": 0.404
+        },
+        {
+          "pair": "S3-S4",
+          "jaccard": 1.0,
+          "embedding": 0.4182,
+          "gower": 0.436
+        }
+      ]
+    },
+    {
+      "problem_id": 52,
+      "n_strategies": 3,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 0.6667,
+          "embedding": 0.2691,
+          "gower": 0.424
+        },
+        {
+          "pair": "S1-S3",
+          "jaccard": 0.8,
+          "embedding": 0.3272,
+          "gower": 0.516
+        },
+        {
+          "pair": "S2-S3",
+          "jaccard": 0.6667,
+          "embedding": 0.3535,
+          "gower": 0.092
+        }
+      ]
+    },
+    {
+      "problem_id": 54,
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 0.75,
+          "embedding": 0.5532,
+          "gower": 0.62
+        }
+      ]
+    },
+    {
+      "problem_id": 58,
+      "n_strategies": 2,
+      "strategies": [
+        {
+          "pair": "S1-S2",
+          "jaccard": 0.5,
+          "embedding": 0.3436,
+          "gower": 0.068
+        }
+      ]
+    }
+  ],
+  "distance_stats": {
+    "jaccard": {
+      "mean": 0.7047,
+      "std": 0.2111
+    },
+    "embedding": {
+      "mean": 0.3475,
+      "std": 0.0928
+    },
+    "gower": {
+      "mean": 0.3049,
+      "std": 0.186
+    }
+  }
+}
